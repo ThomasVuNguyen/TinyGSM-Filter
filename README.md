@@ -37,10 +37,33 @@ The TinyGSM dataset contains synthetically generated mathematical problems where
 
 ## Installation
 
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/TinyGSM-Filter.git
 cd TinyGSM-Filter
+```
+
+### 2. Create and Activate Virtual Environment
+```bash
+# Create virtual environment
+python -m venv myenv
+
+# Activate virtual environment
+# On Windows:
+myenv\Scripts\activate
+# On macOS/Linux:
+source myenv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
+
+### 4. Verify Installation
+```bash
+python --version
+pip list
 ```
 
 ### Requirements
@@ -53,10 +76,18 @@ pip install -r requirements.txt
 
 ## Usage
 
+**Important**: Make sure your virtual environment is activated before running any scripts:
+```bash
+# Activate virtual environment
+source myenv/bin/activate  # macOS/Linux
+# or
+myenv\Scripts\activate     # Windows
+```
+
 ### 1. Download and Sample Datasets
 
 ```bash
-python3 sample.py
+python sample.py
 ```
 
 This will:
@@ -68,7 +99,7 @@ This will:
 ### 2. Extract and Execute Code
 
 ```bash
-python3 decipher.py
+python decipher.py
 ```
 
 This will:
@@ -80,8 +111,8 @@ This will:
 ### 3. Filter and Judge Responses
 
 ```bash
-python3 filter.py
-python3 judge.py
+python filter.py
+python judge.py
 ```
 
 ## File Structure
@@ -182,10 +213,11 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- TinyGSM dataset creators
-- Hugging Face for dataset hosting
-- OpenAI for API access
-- Community contributors
+<div align="center">
+  <img src="assets/rift.webp" alt="CloudRift Logo" width="150" height="50">
+  <p><strong>CloudRift</strong> for providing compute infrastructure and LLM inference services - <a href="https://www.cloudrift.ai/">cloudrift.ai</a></p>
+</div>
+
 
 ## Citation
 
@@ -194,8 +226,8 @@ If you use this tool in your research, please cite:
 ```bibtex
 @software{tinygsm_filter,
   title={TinyGSM-Filter: A Tool for Analyzing Mathematical Reasoning in Language Models},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/yourusername/TinyGSM-Filter}
+  author={Thomas Nguyen},
+  year={2025},
+  url={https://github.com/ThomasVuNguyen/TinyGSM-Filter}
 }
 ```
