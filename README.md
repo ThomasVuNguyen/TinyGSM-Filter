@@ -166,11 +166,6 @@ Create `secretkey.py` with your API key:
 RIFT_API_KEY = "your-api-key-here"
 ```
 
-Or set environment variable:
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-```
-
 ## Analysis Results
 
 The tool provides comprehensive analysis including:
