@@ -1,0 +1,602 @@
+[
+  {
+    "user": "Alice has a collection of 5 books with different number of pages. The first book has 154 pages, the second book has 124 pages, the third book has 279 pages, the fourth book has 89 pages and the fifth book has 190 pages. How many pages does she have in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alice has a collection of 5 books with different number of pages. The first book has 154 pages, the second book has 124 pages, the third book has 279 pages, the fourth book has 89 pages and the fifth book has 190 pages. How many pages does she have in total?\n    \"\"\"\n    first_book_pages = 154\n    second_book_pages = 124\n    third_book_pages = 279\n    fourth_book_pages = 89\n    fifth_book_pages = 190\n\n    total_pages = first_book_pages + second_book_pages + third_book_pages + fourth_book_pages + fifth_book_pages\n\n    return total_pages\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 4257
+  },
+  {
+    "user": "Student: Allie and Ben are planning a party. They bought 3 pizzas that each cost $12 and 2 packs of soda that each cost $4. How much did Allie and Ben spend in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Allie and Ben are planning a party. They bought 3 pizzas that each cost $12 and 2 packs of soda that each cost $4. How much did Allie and Ben spend in total?\n    \"\"\"\n    pizzas_count = 3\n    pizza_cost_each = 12\n    sodas_count = 2\n    soda_cost_each = 4\n    \n    total_pizza_cost = pizzas_count * pizza_cost_each\n    total_soda_cost = sodas_count * soda_cost_each\n    result = total_pizza_cost + total_soda_cost\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 103433
+  },
+  {
+    "user": "Lisa is a baker who makes cupcakes. She has a recipe that makes 18 cupcakes using 3 eggs, 2 cups of flour, and 1 cup of milk. She wants to make 90 cupcakes for a party. How many times does she need to multiply the recipe ingredients to make 90 cupcakes?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Lisa is a baker who makes cupcakes. She has a recipe that makes 18 cupcakes using 3 eggs, 2 cups of flour, and 1 cup of milk. She wants to make 90 cupcakes for a party. How many times does she need to multiply the recipe ingredients to make 90 cupcakes?\n    \"\"\"\n    cupcakes_per_recipe = 18\n    cupcakes_needed = 90\n\n    # Calculate how many times the recipe needs to be multiplied\n    result = cupcakes_needed / cupcakes_per_recipe\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 91297
+  },
+  {
+    "user": "Mia cooks dinner for her family every night. She makes 4 chicken breasts for her 2 children and 6 chicken breasts for her husband. She also makes 1 chicken breast for herself. How many chicken breasts does Mia cook in a week?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mia cooks dinner for her family every night. She makes 4 chicken breasts for her 2 children and 6 chicken breasts for her husband. She also makes 1 chicken breast for herself. How many chicken breasts does Mia cook in a week?\n    \"\"\"\n    chicken_for_children_per_night = 4\n    chicken_for_husband_per_night = 6\n    chicken_for_mia_per_night = 1\n\n    total_chicken_per_night = chicken_for_children_per_night + chicken_for_husband_per_night + chicken_for_mia_per_night\n\n    nights_per_week = 7\n    result = total_chicken_per_night * nights_per_week\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 27884
+  },
+  {
+    "user": "Matthew needs 5 apples for his lunch. His sister, Emma, also needs 5 apples. The following day, their cousins come to visit and Matthew asks his mother to buy them the same amount of apples as well. Just in case, Matthew's mother wants to buy one more apple for each person. How many apples will Matthew's mother need to buy?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Matthew needs 5 apples for his lunch. His sister, Emma, also needs 5 apples. The following day, their cousins come to visit and Matthew asks his mother to buy them the same amount of apples as well. Just in case, Matthew's mother wants to buy one more apple for each person. How many apples will Matthew's mother need to buy?\n    \"\"\"\n    apples_matthew = 5\n    apples_emma = 5\n    # The cousins need the same amount of apples as Matthew and Emma combined\n    apples_cousins = apples_matthew + apples_emma\n\n    # Total people: Matthew, Emma, and their cousins (2 + cousins count)\n    total_people = 2 + 1  # The cousins collectively count as 1 group needing apples equal to Matthew+Emma, not 1 person each\n\n    # Wait, re-reading: The cousins come to visit, and Matthew asks his mother to buy THEM the same amount as well.\n    # So the cousins as a group need the same number of apples (5+5=10)\n    # So number of people is Matthew, Emma, and their cousins (number unknown)\n    # But from the wording it seems \"same amount of apples as well\" means buy 10 apples for cousins (same amount as Matthew+Emma)\n    # So total apples needed: Matthew(5) + Emma(5) + cousins(10)\n\n    total_apples_needed = apples_matthew + apples_emma + apples_cousins  # 5 + 5 + 10 = 20\n\n    # Mother wants to buy one more apple for each person.\n    # Number of people is Matthew, Emma, and cousins.\n    # How many cousins? The problem doesn't specify.\n    # The problem says: \"their cousins come to visit\", plural, so at least 2?\n    # But only the cousins collectively asked for the same amount as Matthew and Emma combined.\n\n    # Given the problem's wording, the total number of people is:\n    # Matthew (1), Emma (1), cousins (unknown count but collectively need 10 apples).\n    # Since the mother wants to buy one more apple for each person, we need the count of people.\n\n    # Since cousins come to visit and Matthew asks to buy them the same amount as well\n    # The number of cousins is not given.\n    # However, since cousins need 10 apples, we can infer cousins_need = 10 apples\n    # The number of apples per cousin unknown, so we cannot determine number of cousins.\n\n    # Possibly, the problem expects total people to be 2 + (number of cousins)\n    # But number of cousins is unknown.\n\n    # Alternatively, perhaps the problem's intention is that the cousins are one group who collectively need same amount as Matthew and Emma together.\n    # So total people = Matthew + Emma + cousins group = 2 + 1 =3\n\n    # So number_of_people = 3 (Matthew, Emma, cousins group)\n\n    number_of_people = 3\n\n    # One more apple for each person\n    extra_apples = number_of_people\n\n    result = total_apples_needed + extra_apples\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 76045
+  },
+  {
+    "user": "Student: Kim has 3/4 of a flower pot filled with soil. If she needs 30 more ounces of soil to fill the pot, how much soil does she have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Kim has 3/4 of a flower pot filled with soil. If she needs 30 more ounces of soil to fill the pot, how much soil does she have?\n    \"\"\"\n    fraction_filled = 3 / 4\n    soil_needed_to_fill = 30  # ounces\n\n    # Let total amount of soil to fill pot be total_soil\n    # soil_needed_to_fill = total_soil - soil_currently_filled\n    # soil_currently_filled = fraction_filled * total_soil\n    # So: soil_needed_to_fill = total_soil - fraction_filled * total_soil = total_soil*(1 - fraction_filled)\n    # total_soil = soil_needed_to_fill / (1 - fraction_filled)\n    total_soil = soil_needed_to_fill / (1 - fraction_filled)\n    soil_currently_filled = fraction_filled * total_soil\n\n    result = soil_currently_filled\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 86886
+  },
+  {
+    "user": "Dan had a box of 100 pens. He gave half the pens to his friend on Monday. On Tuesday, he gave 20 pens to his sister. On Wednesday, he gave a quarter of the remaining pens to his cousin. How many pens does Dan have left on Wednesday?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Dan had a box of 100 pens. He gave half the pens to his friend on Monday. On Tuesday, he gave 20 pens to his sister. On Wednesday, he gave a quarter of the remaining pens to his cousin. How many pens does Dan have left on Wednesday?\n    \"\"\"\n    total_pens = 100\n    pens_given_monday = total_pens / 2\n    pens_after_monday = total_pens - pens_given_monday\n    \n    pens_given_tuesday = 20\n    pens_after_tuesday = pens_after_monday - pens_given_tuesday\n    \n    pens_given_wednesday = pens_after_tuesday / 4\n    pens_after_wednesday = pens_after_tuesday - pens_given_wednesday\n    \n    result = pens_after_wednesday\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 82323
+  },
+  {
+    "user": "Student: Josh buys 2 pairs of shoes for $20 each and 3 pairs of socks for $5 each. He uses his $15 discount coupon. How much money does he pay in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Josh buys 2 pairs of shoes for $20 each and 3 pairs of socks for $5 each. He uses his $15 discount coupon. How much money does he pay in total?\n    \"\"\"\n    price_per_pair_shoes = 20\n    number_of_pairs_shoes = 2\n    price_per_pair_socks = 5\n    number_of_pairs_socks = 3\n    discount_coupon = 15\n\n    total_shoes = price_per_pair_shoes * number_of_pairs_shoes\n    total_socks = price_per_pair_socks * number_of_pairs_socks\n    total_cost_before_discount = total_shoes + total_socks\n    result = total_cost_before_discount - discount_coupon\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 44110
+  },
+  {
+    "user": "A recipe calls for 2 cups of flour, 1/4 cup of sugar and 3/8 cups of butter. If you want to make double the amount of the recipe, how many cups of butter do you need?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 2 cups of flour, 1/4 cup of sugar and 3/8 cups of butter. If you want to make double the amount of the recipe, how many cups of butter do you need?\n    \"\"\"\n    cups_flour = 2\n    cups_sugar = 1/4\n    cups_butter = 3/8\n\n    # Doubling the recipe means multiplying each ingredient by 2\n    double_cups_butter = 2 * cups_butter\n\n    result = double_cups_butter\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 25121
+  },
+  {
+    "user": "If Carlos has 10 more rabbits than Lily, and Lily has 6 rabbits, how many rabbits do they have together?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If Carlos has 10 more rabbits than Lily, and Lily has 6 rabbits, how many rabbits do they have together?\n    \"\"\"\n    lily_rabbits = 6\n    carlos_rabbits = lily_rabbits + 10\n    total_rabbits = carlos_rabbits + lily_rabbits\n\n    result = total_rabbits\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 42123
+  },
+  {
+    "user": "Nate hops over a rope 10 times per minute. If he jumps for 30 minutes, how many skips will he have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Nate hops over a rope 10 times per minute. If he jumps for 30 minutes, how many skips will he have?\n    \"\"\"\n    skips_per_minute = 10\n    total_minutes = 30\n    total_skips = skips_per_minute * total_minutes\n    \n    result = total_skips\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 106459
+  },
+  {
+    "user": "Yuki is a freelance photographer. She charges $50 for a two-hour indoor photoshoot and $80 for an outdoor photoshoot. If she does four indoor photoshoots and three outdoor photoshoots per week, how much money will she earn?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Yuki is a freelance photographer. She charges $50 for a two-hour indoor photoshoot and $80 for an outdoor photoshoot. If she does four indoor photoshoots and three outdoor photoshoots per week, how much money will she earn?\n    \"\"\"\n    indoor_photoshoot_charge = 50\n    outdoor_photoshoot_charge = 80\n    number_of_indoor_photoshoots = 4\n    number_of_outdoor_photoshoots = 3\n    \n    total_indoor_earnings = indoor_photoshoot_charge * number_of_indoor_photoshoots\n    total_outdoor_earnings = outdoor_photoshoot_charge * number_of_outdoor_photoshoots\n    \n    result = total_indoor_earnings + total_outdoor_earnings\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 53155
+  },
+  {
+    "user": "The sum of two numbers is 120. If one number is 20 more than the other, what are the two numbers?",
+    "assistant": "```python\ndef simple_math_problem() -> tuple:\n    \"\"\"\n    The sum of two numbers is 120. If one number is 20 more than the other, what are the two numbers?\n    \"\"\"\n    total_sum = 120\n    difference = 20\n\n    # Let the smaller number be x\n    # Then the larger number is x + difference\n    # Their sum: x + (x + 20) = 120\n    # 2x + 20 = 120\n    # 2x = 100\n    # x = 50\n    smaller_number = (total_sum - difference) / 2\n    larger_number = smaller_number + difference\n\n    result = (smaller_number, larger_number)\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 19601
+  },
+  {
+    "user": "A group of fifteen jackets and some shirts were hanging on a coat rack. Then, the same number of jackets and shirts fell off. Presently, there are only 6 jackets and 4 shirts hanging on the coat rack. How many clothing items were hanging on the rack to begin with?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A group of fifteen jackets and some shirts were hanging on a coat rack. Then, the same number of jackets and shirts fell off. Presently, there are only 6 jackets and 4 shirts hanging on the coat rack. How many clothing items were hanging on the rack to begin with?\n    \"\"\"\n    initial_jackets = 15\n    # Let initial_shirts be the number of shirts initially hanging\n    final_jackets = 6\n    final_shirts = 4\n    # Let x be the number of jackets and shirts that fell off\n    # From jackets: initial_jackets - x = final_jackets => x = initial_jackets - final_jackets\n    x = initial_jackets - final_jackets\n\n    # Since same number of jackets and shirts fell off, shirts after fall = initial_shirts - x = final_shirts\n    # initial_shirts - x = final_shirts => initial_shirts = final_shirts + x\n    initial_shirts = final_shirts + x\n\n    # Total initial clothing items = initial jackets + initial shirts\n    result = initial_jackets + initial_shirts\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 96057
+  },
+  {
+    "user": "During a basketball game, Josh and Kevin scored points, and Josh realized that Kevin scored three times as many points as him. If they scored a total of 72 points, how many points did Josh score?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    During a basketball game, Josh and Kevin scored points, and Josh realized that Kevin scored three times as many points as him. If they scored a total of 72 points, how many points did Josh score?\n    \"\"\"\n    total_points = 72\n    # Let j be the points scored by Josh\n    # Kevin scored three times as many points as Josh: k = 3 * j\n    # Total points: j + k = 72 => j + 3j = 72 => 4j = 72\n    josh_points = total_points / 4\n\n    return josh_points\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 109618
+  },
+  {
+    "user": "Student: A car travels 120 miles in 2 hours. What is the speed in miles per hour?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A car travels 120 miles in 2 hours. What is the speed in miles per hour?\n    \"\"\"\n    distance_miles = 120\n    time_hours = 2\n\n    speed_mph = distance_miles / time_hours\n\n    result = speed_mph\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 31776
+  },
+  {
+    "user": "William needs to paint the walls of a room that measures 10 meters long, 5 meters wide and 3 meters high. If one liter of paint can cover 12 square meters of wall area, how many liters of paint will he need?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    William needs to paint the walls of a room that measures 10 meters long, 5 meters wide and 3 meters high. If one liter of paint can cover 12 square meters of wall area, how many liters of paint will he need?\n    \"\"\"\n    length = 10\n    width = 5\n    height = 3\n    coverage_per_liter = 12\n\n    # Calculate the total area of the walls (2 walls of length*height and 2 walls of width*height)\n    wall_area = 2 * (length * height) + 2 * (width * height)\n\n    # Calculate liters needed (paint needed = wall area / coverage per liter)\n    liters_needed = wall_area / coverage_per_liter\n\n    return liters_needed\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 98748
+  },
+  {
+    "user": "Cooper drives 60 miles in 90 minutes, while Zoey takes thrice as long to cover the same distance. What is the average time it takes Cooper and Zoey to complete the distance?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Cooper drives 60 miles in 90 minutes, while Zoey takes thrice as long to cover the same distance. \n    What is the average time it takes Cooper and Zoey to complete the distance?\n    \"\"\"\n    cooper_time = 90  # minutes\n    zoey_time = 3 * cooper_time  # Zoey takes thrice as long\n    \n    average_time = (cooper_time + zoey_time) / 2  # average time in minutes\n    \n    return average_time\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 50223
+  },
+  {
+    "user": "If 6 pieces of paper cost $14.08, how much will 30 pieces of paper cost?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If 6 pieces of paper cost $14.08, how much will 30 pieces of paper cost?\n    \"\"\"\n    cost_for_6_pieces = 14.08\n    number_of_pieces = 6\n    desired_pieces = 30\n\n    cost_per_piece = cost_for_6_pieces / number_of_pieces\n    result = cost_per_piece * desired_pieces\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 3570
+  },
+  {
+    "user": "Chloe, Christina, and Claire went to see a movie on Saturday. If Chloe spent $12, and Christina spent half as much as Chloe, and Claire spent four times as much as Christina, how much money did they spend in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Chloe, Christina, and Claire went to see a movie on Saturday. If Chloe spent $12, and Christina spent half as much as Chloe, and Claire spent four times as much as Christina, how much money did they spend in total?\n    \"\"\"\n    chloe_spent = 12\n    christina_spent = chloe_spent / 2\n    claire_spent = 4 * christina_spent\n    result = chloe_spent + christina_spent + claire_spent\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 44269
+  },
+  {
+    "user": "Lily's grandfather lets her ride her skateboard 2 blocks north, 2 blocks east, 3 blocks south, and 1 block west. Her sister's father lets her sister ride her scooter in an area of 100 square blocks. How many times greater is the area her sister can ride in compared to Lily?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Lily's grandfather lets her ride her skateboard 2 blocks north, 2 blocks east, 3 blocks south, and 1 block west. Her sister's father lets her sister ride her scooter in an area of 100 square blocks. How many times greater is the area her sister can ride in compared to Lily?\n    \"\"\"\n    # Lily's movements in blocks\n    north = 2\n    east = 2\n    south = 3\n    west = 1\n\n    # Calculate Lily's final position net movements\n    net_north_south = north - south  # net blocks north (+) or south (-)\n    net_east_west = east - west      # net blocks east (+) or west (-)\n\n    # To find area covered, consider the range of her movements north-south and east-west\n    # Calculate max north-south distance covered\n    max_north = north\n    max_south = south\n    vertical_distance = max_north + max_south  # total vertical distance traveled\n\n    # Calculate max east-west distance covered\n    max_east = east\n    max_west = west\n    horizontal_distance = max_east + max_west  # total horizontal distance traveled\n\n    # Area covered by Lily is the rectangle formed by total vertical and horizontal distances\n    lily_area = vertical_distance * horizontal_distance\n\n    # Sister's allowed area\n    sister_area = 100\n\n    # Calculate how many times greater sister's area is compared to Lily's\n    result = sister_area / lily_area\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 46024
+  },
+  {
+    "user": "The Running Roos cross country team had a total of 975 points in 15 races. Some runners combined for 520 points. Grace, Liam, and Oliver equally scored the rest. How many points did Oliver score?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    The Running Roos cross country team had a total of 975 points in 15 races. Some runners combined for 520 points. Grace, Liam, and Oliver equally scored the rest. How many points did Oliver score?\n    \"\"\"\n    total_points = 975\n    points_some_runners = 520\n\n    # Points scored by Grace, Liam, and Oliver combined\n    remaining_points = total_points - points_some_runners\n\n    # They scored equally, so divide by 3\n    oliver_points = remaining_points / 3\n\n    result = oliver_points\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 74115
+  },
+  {
+    "user": "Student: Sarah reads 3 books every month. It takes her 6 hours each time she reads a book. How much time does Sarah spend reading all 3 books in one year?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah reads 3 books every month. It takes her 6 hours each time she reads a book. How much time does Sarah spend reading all 3 books in one year?\n    \"\"\"\n    books_per_month = 3\n    hours_per_book = 6\n    months_per_year = 12\n\n    # Time spent reading each month\n    hours_per_month = books_per_month * hours_per_book\n\n    # Total time spent reading in one year\n    result = hours_per_month * months_per_year\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 55217
+  },
+  {
+    "user": "Q5: Normally a carpenter can make 8 wooden chairs in 1 hour. How long will it take for 5 carpenters to make 48 wooden chairs?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Normally a carpenter can make 8 wooden chairs in 1 hour. How long will it take for 5 carpenters to make 48 wooden chairs?\n    \"\"\"\n    chairs_per_carpenter_per_hour = 8\n    number_of_carpenters = 5\n    total_chairs_to_make = 48\n\n    chairs_made_per_hour_by_all = chairs_per_carpenter_per_hour * number_of_carpenters\n    result = total_chairs_to_make / chairs_made_per_hour_by_all\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 73498
+  },
+  {
+    "user": "Lily is saving money for a bike. The bike costs $120. She already has $40 in her piggy bank. She earns $10 every week for doing chores. How many weeks will it take her to save enough money for the bike?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Lily is saving money for a bike. The bike costs $120. She already has $40 in her piggy bank. She earns $10 every week for doing chores. How many weeks will it take her to save enough money for the bike?\n    \"\"\"\n    bike_cost = 120\n    current_savings = 40\n    weekly_earnings = 10\n\n    amount_needed = bike_cost - current_savings\n    weeks_needed = amount_needed / weekly_earnings\n\n    return weeks_needed\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 17927
+  },
+  {
+    "user": "Daniel has to walk 500 meters. Daniel walks at a pace of 100 meters in 2 minutes. If he has already walked 200 meters, how much more time will it take him to complete the walk?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Daniel has to walk 500 meters. Daniel walks at a pace of 100 meters in 2 minutes. \n    If he has already walked 200 meters, how much more time will it take him to complete the walk?\n    \"\"\"\n    total_distance = 500  # meters\n    distance_already_walked = 200  # meters\n    pace_distance = 100  # meters\n    pace_time = 2  # minutes\n    \n    remaining_distance = total_distance - distance_already_walked  # meters\n    \n    # Calculate time per meter\n    time_per_meter = pace_time / pace_distance  # minutes per meter\n    \n    # Calculate remaining time\n    result = remaining_distance * time_per_meter  # minutes\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 59591
+  },
+  {
+    "user": "Student: A car travels at an average speed of 60 kilometers per hour for 2 hours, then at an average speed of 80 kilometers per hour for 3 hours. What is the total distance the car travels?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A car travels at an average speed of 60 kilometers per hour for 2 hours, then at an average speed of 80 kilometers per hour for 3 hours. What is the total distance the car travels?\n    \"\"\"\n    speed_first_leg = 60  # kilometers per hour\n    time_first_leg = 2    # hours\n    speed_second_leg = 80 # kilometers per hour\n    time_second_leg = 3   # hours\n\n    distance_first_leg = speed_first_leg * time_first_leg\n    distance_second_leg = speed_second_leg * time_second_leg\n\n    result = distance_first_leg + distance_second_leg\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 15725
+  },
+  {
+    "user": "A company has 10 employees. Each employee works for 8 hours a day and gets paid $12 per hour. If every employee works for 5 days in a week and there are total 48 workweeks in a year, what is the total wage expense of the company in a year?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A company has 10 employees. Each employee works for 8 hours a day and gets paid $12 per hour.\n    If every employee works for 5 days in a week and there are total 48 workweeks in a year,\n    what is the total wage expense of the company in a year?\n    \"\"\"\n    number_of_employees = 10\n    hours_per_day = 8\n    pay_per_hour = 12\n    days_per_week = 5\n    workweeks_per_year = 48\n\n    # Calculate wages per employee per day\n    wage_per_employee_per_day = hours_per_day * pay_per_hour\n\n    # Calculate wages per employee per week\n    wage_per_employee_per_week = wage_per_employee_per_day * days_per_week\n\n    # Calculate wages per employee per year\n    wage_per_employee_per_year = wage_per_employee_per_week * workweeks_per_year\n\n    # Calculate total wage expense for all employees per year\n    total_wage_expense_per_year = wage_per_employee_per_year * number_of_employees\n\n    result = total_wage_expense_per_year\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 72137
+  },
+  {
+    "user": "Peter wants to rent a car for 4 days. The rental company charges a flat rate of $50 per day and $0.25 per mile driven. If Peter drives a total of 200 miles during the 4 days, how much does he have to pay?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Peter wants to rent a car for 4 days. The rental company charges a flat rate of $50 per day and $0.25 per mile driven. If Peter drives a total of 200 miles during the 4 days, how much does he have to pay?\n    \"\"\"\n    daily_rate = 50\n    number_of_days = 4\n    per_mile_rate = 0.25\n    total_miles_driven = 200\n\n    cost_for_days = daily_rate * number_of_days\n    cost_for_miles = per_mile_rate * total_miles_driven\n    total_cost = cost_for_days + cost_for_miles\n\n    result = total_cost\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 69940
+  },
+  {
+    "user": "A factory has 800 machines. There will be three rounds of maintenance. For each round of maintenance, 30% of the remaining machines will be taken out for maintenance. How many machines will be taken out for maintenance in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A factory has 800 machines. There will be three rounds of maintenance. For each round of maintenance, 30% of the remaining machines will be taken out for maintenance. How many machines will be taken out for maintenance in total?\n    \"\"\"\n    total_machines = 800\n    maintenance_fraction = 0.3\n\n    machines_remaining = total_machines\n\n    # First round of maintenance\n    machines_maintenance_1 = machines_remaining * maintenance_fraction\n    machines_remaining -= machines_maintenance_1\n\n    # Second round of maintenance\n    machines_maintenance_2 = machines_remaining * maintenance_fraction\n    machines_remaining -= machines_maintenance_2\n\n    # Third round of maintenance\n    machines_maintenance_3 = machines_remaining * maintenance_fraction\n    machines_remaining -= machines_maintenance_3\n\n    total_machines_maintained = machines_maintenance_1 + machines_maintenance_2 + machines_maintenance_3\n\n    return total_machines_maintained\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 1683
+  },
+  {
+    "user": "A bag of forty marbles was left in the sun and is slowly melting. For every marble that melts, the remaining marbles melt four times as fast as the previous one. How many times faster than the first marble does the last marble’s remains melt?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A bag of forty marbles was left in the sun and is slowly melting. For every marble that melts, the remaining marbles melt four times as fast as the previous one. How many times faster than the first marble does the last marble’s remains melt?\n    \"\"\"\n    total_marbles = 40\n    # The melting speed of the first marble:\n    first_marble_speed = 1\n    \n    # Each time a marble melts, the melting speed multiplies by 4.\n    # The last marble melts after 39 marbles have melted,\n    # so its speed is 4^39 times the speed of the first marble.\n    \n    last_marble_speed = first_marble_speed * (4 ** (total_marbles - 1))\n    \n    result = last_marble_speed\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 104597
+  },
+  {
+    "user": "Ryan read 12 books in a month, which was 4 more than Amy. Ben read 3 books less than Amy, but Zoe read twice as many books as Ben. How many fewer books did Zoe read than the average number of books for the four of them?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ryan read 12 books in a month, which was 4 more than Amy. Ben read 3 books less than Amy, but Zoe read twice as many books as Ben. How many fewer books did Zoe read than the average number of books for the four of them?\n    \"\"\"\n    ryan_books = 12\n    amy_books = ryan_books - 4\n    ben_books = amy_books - 3\n    zoe_books = 2 * ben_books\n\n    total_books = ryan_books + amy_books + ben_books + zoe_books\n    average_books = total_books / 4\n\n    result = average_books - zoe_books\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 34861
+  },
+  {
+    "user": "Rachel has 10 more apples than John. If John has 5 apples, how many apples does Rachel have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Rachel has 10 more apples than John. If John has 5 apples, how many apples does Rachel have?\n    \"\"\"\n    john_apples = 5\n    apples_difference = 10\n    rachel_apples = john_apples + apples_difference\n\n    result = rachel_apples\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 80566
+  },
+  {
+    "user": "A school has a total of 960 students. The ratio of male students to female students is 3:5. What is the total number of male students in the school?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A school has a total of 960 students. The ratio of male students to female students is 3:5. What is the total number of male students in the school?\n    \"\"\"\n    total_students = 960\n    ratio_male = 3\n    ratio_female = 5\n    \n    total_ratio_parts = ratio_male + ratio_female  # 3 + 5 = 8\n    \n    # Number of male students = (ratio_male / total_ratio_parts) * total_students\n    result = (ratio_male / total_ratio_parts) * total_students\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 39124
+  },
+  {
+    "user": "Student: Sam and Joe are mowing lawns for some extra money. Sam mowed one half of the lawns and Joe mowed the rest. They mowed 18 lawns in total. How many lawns did Joe mow?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sam and Joe are mowing lawns for some extra money. Sam mowed one half of the lawns and Joe mowed the rest. They mowed 18 lawns in total. How many lawns did Joe mow?\n    \"\"\"\n    total_lawns = 18\n    sam_lawns = total_lawns / 2\n    joe_lawns = total_lawns - sam_lawns\n\n    result = joe_lawns\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 54737
+  },
+  {
+    "user": "Xavier needs twice as many eggs as Teresa to make a cake. If Teresa needs 3 eggs, how many eggs does Xavier need?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Xavier needs twice as many eggs as Teresa to make a cake. If Teresa needs 3 eggs, how many eggs does Xavier need?\n    \"\"\"\n    teresa_eggs = 3\n    xavier_eggs = 2 * teresa_eggs\n    \n    result = xavier_eggs\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 5143
+  },
+  {
+    "user": "At her bakery, Sarah has 70 cupcake liners where she rewards two to her customers for every 12 cupcakes they buy. If she had 35 customers that day, and half of them bought 24 cupcakes each, calculate the number of cupcake liners remaining in the rewards collection.",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    At her bakery, Sarah has 70 cupcake liners where she rewards two to her customers for every 12 cupcakes they buy. If she had 35 customers that day, and half of them bought 24 cupcakes each, calculate the number of cupcake liners remaining in the rewards collection.\n    \"\"\"\n    total_liners = 70\n    total_customers = 35\n    half_customers = total_customers / 2\n    cupcakes_bought_by_half = 24\n    liners_rewarded_per_12_cupcakes = 2\n    \n    # Calculate liners rewarded to half the customers who bought 24 cupcakes each\n    liners_per_customer_24 = (cupcakes_bought_by_half / 12) * liners_rewarded_per_12_cupcakes\n    liners_for_half_customers = liners_per_customer_24 * half_customers\n    \n    # The other half bought unknown amount, so no liners rewarded to them (0)\n    liners_used = liners_for_half_customers\n    \n    # Remaining liners\n    liners_remaining = total_liners - liners_used\n    \n    result = liners_remaining\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 58912
+  },
+  {
+    "user": "Alex has a collection of 50 stickers. He uses 18 of them to decorate his notebook, puts 12 on his locker, and the rest are round. What is the difference in percentage points between the percentage of stickers put on his locker and the percentage of round stickers left?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alex has a collection of 50 stickers. He uses 18 of them to decorate his notebook, puts 12 on his locker, and the rest are round. What is the difference in percentage points between the percentage of stickers put on his locker and the percentage of round stickers left?\n    \"\"\"\n    total_stickers = 50\n    stickers_notebook = 18\n    stickers_locker = 12\n    stickers_round = total_stickers - (stickers_notebook + stickers_locker)\n    \n    percent_locker = (stickers_locker / total_stickers) * 100\n    percent_round = (stickers_round / total_stickers) * 100\n    \n    result = abs(percent_locker - percent_round)\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 105823
+  },
+  {
+    "user": "Alex practices basketball for 1 hour on weekdays and 2 hours on weekends. If it takes him 4 weeks to improve his free throw shooting, how much time did he spend practicing in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alex practices basketball for 1 hour on weekdays and 2 hours on weekends. If it takes him 4 weeks to improve his free throw shooting, how much time did he spend practicing in total?\n    \"\"\"\n    hours_per_weekday = 1\n    weekdays_per_week = 5\n    hours_per_weekend_day = 2\n    weekend_days_per_week = 2\n    weeks = 4\n\n    hours_per_week = (hours_per_weekday * weekdays_per_week) + (hours_per_weekend_day * weekend_days_per_week)\n    total_hours = hours_per_week * weeks\n\n    result = total_hours\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 15587
+  },
+  {
+    "user": "Jane has 4 goldfishes. Each goldfish has 2 fins. A third of the fins are damaged. She removes 2 goldfishes. How many undamaged fins are there?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jane has 4 goldfishes. Each goldfish has 2 fins. A third of the fins are damaged. She removes 2 goldfishes. How many undamaged fins are there?\n    \"\"\"\n    total_goldfishes = 4\n    fins_per_goldfish = 2\n    total_fins = total_goldfishes * fins_per_goldfish\n    \n    damaged_fraction = 1/3\n    damaged_fins = total_fins * damaged_fraction\n    undamaged_fins = total_fins - damaged_fins\n    \n    removed_goldfishes = 2\n    removed_fins = removed_goldfishes * fins_per_goldfish\n    \n    # Assuming removed goldfishes have the same ratio of damaged/undamaged fins as original\n    damaged_fins_per_fish = damaged_fins / total_goldfishes\n    undamaged_fins_per_fish = fins_per_goldfish - damaged_fins_per_fish\n    \n    removed_undamaged_fins = undamaged_fins_per_fish * removed_goldfishes\n    undamaged_fins_after_removal = undamaged_fins - removed_undamaged_fins\n    \n    result = undamaged_fins_after_removal\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 68952
+  },
+  {
+    "user": "A gym has 2000 members, but every month 50 members cancel their memberships. Additionally, the gym trainer, John, recruits 5 members every day for the first 15 days. How many days does it take for the gym to be empty?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A gym has 2000 members, but every month 50 members cancel their memberships. \n    Additionally, the gym trainer, John, recruits 5 members every day for the first 15 days. \n    How many days does it take for the gym to be empty?\n    \"\"\"\n    initial_members = 2000\n    monthly_cancellations = 50\n    daily_recruits = 5\n    recruit_days = 15\n    days_in_month = 30\n\n    # The gym starts with 2000 members.\n    # Every month, 50 members cancel.\n    # John recruits 5 members every day for the first 15 days.\n\n    # Calculate net change in members after 30 days:\n    # Total recruits first 15 days = 5 * 15 = 75\n    # Net loss after 30 days = 50 cancellations - 75 recruits = -25 (net gain)\n    # This means after 30 days, members = 2000 -50 +75 = 2025 (net increase of 25)\n\n    # Wait, \"every month 50 members cancel memberships\" is once per month (every 30 days).\n    # John recruits 5 members per day for first 15 days only.\n    \n    # So, within the first 30 days:\n    #   members = 2000 + (5*15) - 50 = 2000 + 75 - 50 = 2025 members\n    # For days 16 to 30, no recruits, but cancellations happen monthly.\n\n    # After the first month, members increase by 25.\n    # After that first month, no recruitment, but monthly cancellations of 50 apply every 30 days.\n    # So each month after month 1, net change = -50 members.\n\n    # So:\n    # - In month 1: members go from 2000 to 2025 (net +25)\n    # - In month 2 and onwards: members decrease by 50 each month.\n\n    # Calculate how many months to empty the gym starting from 2025 members, losing 50 each month.\n    # months_needed_after_first = ceil(2025 / 50) = 41 months\n\n    # Total days = first 30 days + 41 * 30 days = 30 + 1230 = 1260 days\n\n    from math import ceil\n\n    members_after_first_month = initial_members + daily_recruits * recruit_days - monthly_cancellations\n\n    # If members_after_first_month <= 0:\n    #     return days needed within first month (not possible here, since it's positive)\n\n    months_to_empty_after_first = ceil(members_after_first_month / monthly_cancellations)\n\n    total_days = days_in_month + months_to_empty_after_first * days_in_month\n\n    return total_days\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 75224
+  },
+  {
+    "user": "A roller coaster can hold 24 people if no one is afraid of heights. If everyone is afraid of heights, the coaster can hold 4 fewer people. If 5 people on the coaster are afraid of heights, how many people can get on the roller coaster?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A roller coaster can hold 24 people if no one is afraid of heights. If everyone is afraid of heights, the coaster can hold 4 fewer people. If 5 people on the coaster are afraid of heights, how many people can get on the roller coaster?\n    \"\"\"\n    max_people_no_fear = 24\n    reduction_if_all_fear = 4\n    max_people_all_fear = max_people_no_fear - reduction_if_all_fear\n    \n    # Each afraid person reduces the capacity equally in a linear way between no afraid (24) and all afraid (20)\n    total_people_with_5_afraid = max_people_no_fear - (5 * (reduction_if_all_fear / max_people_no_fear) )\n    \n    result = total_people_with_5_afraid\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 112655
+  },
+  {
+    "user": "A rectangular field measures 12 meters by 20 meters. What is the perimeter of the field?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A rectangular field measures 12 meters by 20 meters. What is the perimeter of the field?\n    \"\"\"\n    length_meters = 20\n    width_meters = 12\n    perimeter = 2 * (length_meters + width_meters)\n    result = perimeter\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 32329
+  },
+  {
+    "user": "If the minimum age to apply for a credit card is 21, and Sarah is currently half the age of her grandmother who is 84, how many more years will it take for Sarah to be eligible for a credit card?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If the minimum age to apply for a credit card is 21, and Sarah is currently half the age of her grandmother who is 84, how many more years will it take for Sarah to be eligible for a credit card?\n    \"\"\"\n    grandmother_age = 84\n    sarah_age = grandmother_age / 2\n    minimum_age_for_credit_card = 21\n    \n    years_until_eligible = minimum_age_for_credit_card - sarah_age\n    # If Sarah is already eligible or older than 21, the wait is 0\n    if years_until_eligible < 0:\n        years_until_eligible = 0\n    \n    return years_until_eligible\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 14837
+  },
+  {
+    "user": "A pizza place offers large pizzas for $15 on a Monday, four times as much on a Thursday, and nine times as much as Monday on a Saturday. If Peter orders pizzas on Thursday and Saturday, how much does he spend?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A pizza place offers large pizzas for $15 on a Monday, four times as much on a Thursday, and nine times as much as Monday on a Saturday. If Peter orders pizzas on Thursday and Saturday, how much does he spend?\n    \"\"\"\n    price_monday = 15\n    price_thursday = 4 * price_monday\n    price_saturday = 9 * price_monday\n\n    total_spent = price_thursday + price_saturday\n\n    return total_spent\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 718
+  },
+  {
+    "user": "The capacity of stadium A is 4/7 times that of stadium B. If stadium B can hold 45,000 people and there are 25,000 more people in stadium C compared to stadium A, how many people can each stadium hold and what is the total capacity?",
+    "assistant": "```python\ndef simple_math_problem() -> tuple:\n    \"\"\"\n    The capacity of stadium A is 4/7 times that of stadium B. \n    If stadium B can hold 45,000 people and there are 25,000 more people in stadium C compared to stadium A, \n    how many people can each stadium hold and what is the total capacity?\n    \"\"\"\n    capacity_b = 45000  # Stadium B capacity\n    capacity_a = (4/7) * capacity_b  # Stadium A capacity\n    capacity_c = capacity_a + 25000  # Stadium C capacity (25,000 more than A)\n    \n    total_capacity = capacity_a + capacity_b + capacity_c\n    \n    # Return capacities of A, B, C and total capacity as a tuple\n    return capacity_a, capacity_b, capacity_c, total_capacity\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 27642
+  },
+  {
+    "user": "Lily has twice as many markers as Ethan. Ethan has 15 fewer markers than Tyler. If Tyler has 40 markers, how many markers does Lily have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Lily has twice as many markers as Ethan. Ethan has 15 fewer markers than Tyler. If Tyler has 40 markers, how many markers does Lily have?\n    \"\"\"\n    tyler_markers = 40\n    ethan_markers = tyler_markers - 15\n    lily_markers = 2 * ethan_markers\n\n    result = lily_markers\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 73452
+  },
+  {
+    "user": "A rectangular garden has a length of 15 meters and a width of 10 meters. A gardener wants to plant flowers along the perimeter of the garden, leaving a gap of 1 meter between each flower. How many flowers does the gardener need to plant?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A rectangular garden has a length of 15 meters and a width of 10 meters. A gardener wants to plant flowers along the perimeter of the garden, leaving a gap of 1 meter between each flower. How many flowers does the gardener need to plant?\n    \"\"\"\n    length_meters = 15\n    width_meters = 10\n\n    # Calculate the perimeter\n    perimeter_meters = 2 * (length_meters + width_meters)\n\n    # Since flowers are planted every 1 meter, number of flowers equals the number of meters along the perimeter\n    # However, the last flower at the starting point counts as well, so if perimeter is P, and gap is 1 meter,\n    # the number of flowers is perimeter / gap, but since gap=1, it equals perimeter.\n    # But planting flowers exactly every 1 meter around a closed loop requires the number of flowers equal to perimeter.\n\n    # Because the gardener plants one flower every 1 meter along the perimeter, including both ends,\n    # and the perimeter is an integer, the number of flowers needed is equal to the perimeter length in meters.\n\n    number_of_flowers = int(perimeter_meters)\n\n    return number_of_flowers\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 50673
+  },
+  {
+    "user": "Jake is dividing cookies among his classmates. He has 48 cookies. He gives 2 cookies to each classmate. If he has 6 cookies left, how many classmates does he have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jake is dividing cookies among his classmates. He has 48 cookies. He gives 2 cookies to each classmate. If he has 6 cookies left, how many classmates does he have?\n    \"\"\"\n    total_cookies = 48\n    cookies_given_per_classmate = 2\n    cookies_left = 6\n\n    cookies_given = total_cookies - cookies_left\n    number_of_classmates = cookies_given / cookies_given_per_classmate\n\n    result = number_of_classmates\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 18794
+  },
+  {
+    "user": "Student: A water park sells tickets for $20 for adults and $10 for children. If they sold 300 adult tickets and 150 child tickets, what is the total revenue?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A water park sells tickets for $20 for adults and $10 for children. If they sold 300 adult tickets and 150 child tickets, what is the total revenue?\n    \"\"\"\n    adult_ticket_price = 20\n    child_ticket_price = 10\n    adult_tickets_sold = 300\n    child_tickets_sold = 150\n\n    total_adult_revenue = adult_ticket_price * adult_tickets_sold\n    total_child_revenue = child_ticket_price * child_tickets_sold\n    result = total_adult_revenue + total_child_revenue\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 109676
+  },
+  {
+    "user": "Q6: Jack spent 4 quarters and 4 dimes to purchase a toy for $4.20. How much change did he receive?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jack spent 4 quarters and 4 dimes to purchase a toy for $4.20. How much change did he receive?\n    \"\"\"\n    number_of_quarters = 4\n    number_of_dimes = 4\n    price_of_toy = 4.20\n\n    value_of_quarters = number_of_quarters * 0.25\n    value_of_dimes = number_of_dimes * 0.10\n    total_amount_paid = value_of_quarters + value_of_dimes\n\n    change_received = total_amount_paid - price_of_toy\n\n    return change_received\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 46838
+  },
+  {
+    "user": "Emily's mom only allows her to bring 8 ounces of makeup when she goes on a trip. Emily weighs her makeup and finds that a bottle of foundation weighs 1 ounce,A bakery sells muffins and cupcakes. The rule is for every 4 muffins you buy, you must buy 3 cupcakes which cost 2/3 the price of the muffins. If they sold 24 muffins and earned $48, how much do the cupcakes cost?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Emily's mom only allows her to bring 8 ounces of makeup when she goes on a trip. Emily weighs her makeup and finds that a bottle of foundation weighs 1 ounce,\n    A bakery sells muffins and cupcakes. The rule is for every 4 muffins you buy, you must buy 3 cupcakes which cost 2/3 the price of the muffins. \n    If they sold 24 muffins and earned $48, how much do the cupcakes cost?\n    \"\"\"\n    muffins_sold = 24\n    total_earned = 48\n    # According to the ratio, for every 4 muffins, 3 cupcakes must be bought.\n    # So cupcakes_sold = (3/4) * muffins_sold\n    cupcakes_sold = (3 / 4) * muffins_sold\n\n    # Let muffin_price = price per muffin\n    # Price of cupcake = (2/3) * muffin_price\n\n    # Total revenue = muffins_sold * muffin_price + cupcakes_sold * cupcake_price\n    # Substitute cupcake_price:\n    # total_earned = muffins_sold * muffin_price + cupcakes_sold * (2/3)*muffin_price\n    # total_earned = muffin_price * (muffins_sold + cupcakes_sold * (2/3))\n    \n    muffin_price = total_earned / (muffins_sold + cupcakes_sold * (2/3))\n    cupcake_price = (2/3) * muffin_price\n\n    result = cupcake_price\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 43867
+  },
+  {
+    "user": "If a recipe calls for 3/4 cup of flour but you only want to make half the recipe, how much flour do you need?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If a recipe calls for 3/4 cup of flour but you only want to make half the recipe, how much flour do you need?\n    \"\"\"\n    flour_needed_full_recipe = 3 / 4  # in cups\n    fraction_of_recipe = 1 / 2  # half the recipe\n\n    # Calculate flour needed for half the recipe\n    result = flour_needed_full_recipe * fraction_of_recipe\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 44658
+  },
+  {
+    "user": "Jackson has been saving for a new car since March and has saved $5,000. He plans to continue saving $450 every month for 2 more years. In August of next year, his father plans to give him an additional $10,000. How much will Jackson have saved by September of the following year?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jackson has been saving for a new car since March and has saved $5,000. He plans to continue saving $450 every month for 2 more years. In August of next year, his father plans to give him an additional $10,000. How much will Jackson have saved by September of the following year?\n    \"\"\"\n    initial_savings = 5000\n    monthly_savings = 450\n    total_saving_duration_months = 24  # 2 more years\n\n    # Father's gift is in August of next year\n    # We need to find how many months pass from now (assumed March) to September of the following year\n    \n    # From March (year 0) to September (year 2):\n    # March to next March = 12 months\n    # Next March to next September = 6 months\n    # Total = 18 months\n\n    saving_months_until_september_following_year = 18\n\n    # Calculate savings until September of the following year\n    savings_from_monthly = monthly_savings * saving_months_until_september_following_year\n\n    # Father's gift in August of next year (which is month 17 starting from March year 0)\n    // Indexing months starting from March as month 1:\n    # August of next year is 17th month from March (inclusive)\n    # So father's gift received after 17 months of saving\n\n    fathers_gift = 10000\n\n    total_savings = initial_savings + savings_from_monthly + fathers_gift\n\n    return total_savings\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 289
+  },
+  {
+    "user": "Student: A company made a profit of $3000 last month. This is 20% more profit than the previous month. What was the company's profit during the previous month?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A company made a profit of $3000 last month. This is 20% more profit than the previous month. What was the company's profit during the previous month?\n    \"\"\"\n    profit_last_month = 3000\n    increase_percentage = 20 / 100  # 20%\n    \n    # If last month's profit is 20% more than previous month, then:\n    # profit_last_month = previous_month_profit * (1 + 20%)\n    # So, previous_month_profit = profit_last_month / (1 + 20%)\n    previous_month_profit = profit_last_month / (1 + increase_percentage)\n    \n    result = previous_month_profit\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 96798
+  },
+  {
+    "user": "In three years, Dr. Patel will be four times as old as his patient is now. If his patient is 30, what is 20 years less than their average age?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    In three years, Dr. Patel will be four times as old as his patient is now. If his patient is 30, what is 20 years less than their average age?\n    \"\"\"\n    patient_age_now = 30\n    # Dr. Patel's age in 3 years = 4 * patient's current age\n    dr_patels_age_in_3_years = 4 * patient_age_now\n    # Therefore, Dr. Patel's current age = dr_patels_age_in_3_years - 3\n    dr_patels_current_age = dr_patels_age_in_3_years - 3\n\n    # Calculate average age\n    average_age = (dr_patels_current_age + patient_age_now) / 2\n\n    # 20 years less than their average age\n    result = average_age - 20\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 70428
+  },
+  {
+    "user": "If the area of a rectangle is 60 square meters and the length is 10 meters, what is the width of the rectangle?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If the area of a rectangle is 60 square meters and the length is 10 meters, what is the width of the rectangle?\n    \"\"\"\n    area = 60  # in square meters\n    length = 10  # in meters\n    \n    # width = area / length\n    width = area / length\n\n    result = width\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 76074
+  },
+  {
+    "user": "Michael is studying for a test. He has 35 pages of math problems, 25 pages of science problems, and 8 pages that have both math and science problems. What percentage of the pages have math problems?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Michael is studying for a test. He has 35 pages of math problems, 25 pages of science problems, and 8 pages that have both math and science problems. What percentage of the pages have math problems?\n    \"\"\"\n    math_pages = 35\n    science_pages = 25\n    both_math_and_science_pages = 8\n\n    # Total pages = pages with math only + pages with science only + pages with both\n    # Pages with math problems include math only pages and pages with both\n    # Number of pages with math only = total math pages - pages with both\n    math_only_pages = math_pages - both_math_and_science_pages\n\n    # Number of pages with science only = total science pages - pages with both\n    science_only_pages = science_pages - both_math_and_science_pages\n\n    # Total distinct pages =\n    total_pages = math_only_pages + science_only_pages + both_math_and_science_pages\n\n    # Pages with math problems = math only + both\n    pages_with_math = math_only_pages + both_math_and_science_pages\n\n    # Calculate percentage of pages with math problems\n    result = (pages_with_math / total_pages) * 100\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 102707
+  },
+  {
+    "user": "A park has an area of 4500 square meters. The length is 5 times the width. What is the length and width of the park in meters?",
+    "assistant": "```python\ndef simple_math_problem() -> tuple:\n    \"\"\"\n    A park has an area of 4500 square meters. The length is 5 times the width. What is the length and width of the park in meters?\n    \"\"\"\n    area = 4500  # square meters\n    length_to_width_ratio = 5  # length is 5 times the width\n\n    # Let width = w\n    # length = 5 * w\n    # area = length * width = 5w * w = 5w^2\n    # 5w^2 = 4500 => w^2 = 4500 / 5 = 900 => w = sqrt(900) = 30\n    width = 30\n    length = length_to_width_ratio * width\n\n    result = (length, width)\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 31175
+  },
+  {
+    "user": "Sandy wants to buy a new bicycle for $700. The store offers discounts based on the number of accessories that Sandy buys with the bicycle. If Sandy buys no accessories, she gets no discount. If she buys between 1 and 3 accessories, she gets a 5% discount. If she buys more than 3 accessories, she gets a 10% discount. Sandy decides to buy 2 accessories. How much will Sandy pay for the bicycle with the discount?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sandy wants to buy a new bicycle for $700. The store offers discounts based on the number of accessories that Sandy buys with the bicycle. If Sandy buys no accessories, she gets no discount. If she buys between 1 and 3 accessories, she gets a 5% discount. If she buys more than 3 accessories, she gets a 10% discount. Sandy decides to buy 2 accessories. How much will Sandy pay for the bicycle with the discount?\n    \"\"\"\n    bicycle_price = 700\n    accessories_bought = 2\n\n    if accessories_bought == 0:\n        discount_rate = 0\n    elif 1 <= accessories_bought <= 3:\n        discount_rate = 0.05\n    else:\n        discount_rate = 0.10\n\n    discount_amount = bicycle_price * discount_rate\n    result = bicycle_price - discount_amount\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 34592
+  },
+  {
+    "user": "A factory produces 150 items in one day. If it works 5 days a week, how many items can the factory produce in a month?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A factory produces 150 items in one day. If it works 5 days a week, how many items can the factory produce in a month?\n    \"\"\"\n    items_per_day = 150\n    working_days_per_week = 5\n    weeks_per_month = 4  # assuming 4 weeks in a month\n\n    # Calculate total items produced in one week\n    items_per_week = items_per_day * working_days_per_week\n\n    # Calculate total items produced in one month\n    result = items_per_week * weeks_per_month\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 53542
+  },
+  {
+    "user": "If there are 35 students in a class and each student has 4 friends, how many friends are there in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If there are 35 students in a class and each student has 4 friends, how many friends are there in total?\n    \"\"\"\n    number_of_students = 35\n    friends_per_student = 4\n\n    # Total friends counted by summing friends of each student\n    total_friends = number_of_students * friends_per_student\n\n    return total_friends\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 86440
+  },
+  {
+    "user": "A farmer has 120 chickens and 20 cows. He sells eggs and milk at the market. He gets 0.25 dollars for each egg and 1.5 dollars for each liter of milk. Each chicken lays 4 eggs per day and each cow produces 10 liters of milk per day. How much money does the farmer make in one day?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A farmer has 120 chickens and 20 cows. He sells eggs and milk at the market. He gets 0.25 dollars for each egg and 1.5 dollars for each liter of milk. Each chicken lays 4 eggs per day and each cow produces 10 liters of milk per day. How much money does the farmer make in one day?\n    \"\"\"\n    number_of_chickens = 120\n    number_of_cows = 20\n    price_per_egg = 0.25\n    price_per_liter_milk = 1.5\n    eggs_per_chicken_per_day = 4\n    liters_milk_per_cow_per_day = 10\n\n    total_eggs = number_of_chickens * eggs_per_chicken_per_day\n    total_milk = number_of_cows * liters_milk_per_cow_per_day\n\n    money_from_eggs = total_eggs * price_per_egg\n    money_from_milk = total_milk * price_per_liter_milk\n\n    result = money_from_eggs + money_from_milk\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 61734
+  },
+  {
+    "user": "Three friends shared $75 equally. How much money did each friend get?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Three friends shared $75 equally. How much money did each friend get?\n    \"\"\"\n    total_amount = 75\n    number_of_friends = 3\n    amount_per_friend = total_amount / number_of_friends\n\n    result = amount_per_friend\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 92787
+  },
+  {
+    "user": "A recipe calls for 2 and a half cups of flour. If you want to make half of the recipe, how many cups of flour do you need?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 2 and a half cups of flour. If you want to make half of the recipe, how many cups of flour do you need?\n    \"\"\"\n    total_flour_cups = 2.5  # 2 and a half cups\n    fraction_of_recipe = 0.5  # half of the recipe\n\n    # Calculate the amount of flour needed for half the recipe\n    result = total_flour_cups * fraction_of_recipe\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 51385
+  },
+  {
+    "user": "A company has 100 employees. If 40% are women, 60% are married, and 20% are women who are married, how many men are unmarried?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A company has 100 employees. If 40% are women, 60% are married, and 20% are women who are married, how many men are unmarried?\n    \"\"\"\n    total_employees = 100\n    percent_women = 0.40\n    percent_married = 0.60\n    percent_women_married = 0.20\n\n    # Number of women\n    number_women = total_employees * percent_women\n\n    # Number of married employees\n    number_married = total_employees * percent_married\n\n    # Number of women who are married\n    number_women_married = total_employees * percent_women_married\n\n    # Number of men = total employees - women\n    number_men = total_employees - number_women\n\n    # Number of men who are married = total married - women who are married\n    number_men_married = number_married - number_women_married\n\n    # Number of men unmarried = total men - men married\n    number_men_unmarried = number_men - number_men_married\n\n    return number_men_unmarried\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 4385
+  },
+  {
+    "user": "A bakery has 5 cupcakes for every 3 cookies. If there are 21 cupcakes, how many cookies are there?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A bakery has 5 cupcakes for every 3 cookies. If there are 21 cupcakes, how many cookies are there?\n    \"\"\"\n    cupcakes_per_ratio = 5\n    cookies_per_ratio = 3\n    total_cupcakes = 21\n\n    # Find how many times the ratio fits into the total cupcakes\n    ratio_multiplier = total_cupcakes / cupcakes_per_ratio\n\n    # Calculate the total cookies using the ratio multiplier\n    total_cookies = cookies_per_ratio * ratio_multiplier\n\n    result = total_cookies\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 406
+  },
+  {
+    "user": "Bob is repairing a fence that has 15 posts and 14 rails. He needs 8 nails to attach each rail to a post, and 3 nails to attach each post to the ground. He can hammer one nail in 15 seconds. How long does he need to hammer all the nails for the fence?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Bob is repairing a fence that has 15 posts and 14 rails. He needs 8 nails to attach each rail to a post, and 3 nails to attach each post to the ground. He can hammer one nail in 15 seconds. How long does he need to hammer all the nails for the fence?\n    \"\"\"\n    number_of_posts = 15\n    number_of_rails = 14\n\n    nails_per_rail_to_post = 8\n    nails_per_post_to_ground = 3\n\n    time_per_nail_seconds = 15\n\n    # Total nails for rails to posts\n    total_rail_nails = number_of_rails * nails_per_rail_to_post\n\n    # Total nails for posts to ground\n    total_post_nails = number_of_posts * nails_per_post_to_ground\n\n    # Total nails\n    total_nails = total_rail_nails + total_post_nails\n\n    # Total time in seconds\n    total_time_seconds = total_nails * time_per_nail_seconds\n\n    return total_time_seconds\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 86043
+  },
+  {
+    "user": "A farmer had 4 times as many chickens as goats. He has 36 animals in total. How many of them are goats?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A farmer had 4 times as many chickens as goats. He has 36 animals in total. How many of them are goats?\n    \"\"\"\n    total_animals = 36\n    chickens_per_goat = 4\n\n    # Let g = number of goats\n    # Then chickens = 4 * g\n    # total animals = g + 4*g = 5*g\n    goats = total_animals / (1 + chickens_per_goat)\n\n    return goats\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 65368
+  },
+  {
+    "user": "Jane has 5 cats. 2 of them are black and 3 of them are white. If each cat eats 1/2 cup of cat food per day, how much cat food will Jane need in total for a week?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jane has 5 cats. 2 of them are black and 3 of them are white. If each cat eats 1/2 cup of cat food per day, how much cat food will Jane need in total for a week?\n    \"\"\"\n    number_of_black_cats = 2\n    number_of_white_cats = 3\n    total_cats = number_of_black_cats + number_of_white_cats\n    food_per_cat_per_day = 0.5  # cups\n    days_in_week = 7\n\n    total_food_per_day = total_cats * food_per_cat_per_day\n    result = total_food_per_day * days_in_week\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 8850
+  },
+  {
+    "user": "A goat is tied to a rope around a circular pen with a radius of 10 feet. If the rope is 12 feet long, what area can the goat graze?",
+    "assistant": "```python\nimport math\n\ndef simple_math_problem() -> float:\n    \"\"\"\n    A goat is tied to a rope around a circular pen with a radius of 10 feet. If the rope is 12 feet long, what area can the goat graze?\n    \"\"\"\n    pen_radius = 10.0\n    rope_length = 12.0\n\n    # The goat is tied at the edge of the circular pen.\n    # The goat can graze the area of a circle with radius = rope_length (12 feet),\n    # but this circle overlaps with the pen circle of radius 10 feet.\n    # The goat cannot graze inside the pen; it is tied outside or at the edge.\n\n    # The area that the goat can graze is the area of the rope circle minus the overlap with pen.\n    # So we want the area of the circle with radius = rope_length outside the pen circle.\n\n    # Let's model the problem:\n    # Two circles:\n    # Circle 1 (pen): radius r = 10, center at (0,0)\n    # Circle 2 (goat's rope): radius R = 12, center at (10,0), since goat tied at pen edge.\n    #\n    # The goat can graze in the area of circle 2 that lies outside circle 1.\n    # So grazing area = area of circle 2 - overlap area of two circles.\n\n    r = pen_radius\n    R = rope_length\n    d = r  # Distance between centers is 10 (since goat tied on the edge of pen circle)\n\n    # If the circles intersect, the area of their intersection is given by formula:\n    # https://mathworld.wolfram.com/Circle-CircleIntersection.html\n    if d >= r + R:  # No overlap\n        overlap_area = 0\n    elif d <= abs(R - r):  # One circle inside the other\n        # smaller circle area (pen) inside larger (rope), overlap is smaller circle area: pi*r^2\n        overlap_area = math.pi * min(r, R)**2\n    else:\n        part1 = R*R * math.acos((d*d + R*R - r*r) / (2*d*R))\n        part2 = r*r * math.acos((d*d + r*r - R*R) / (2*d*r))\n        part3 = 0.5 * math.sqrt((-d + R + r)*(d + R - r)*(d - R + r)*(d + R + r))\n        overlap_area = part1 + part2 - part3\n\n    # Area goat can graze:\n    grazing_area = math.pi * R**2 - overlap_area\n\n    return grazing_area\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 4023
+  },
+  {
+    "user": "A soccer team scored 45 goals in their last season. In the next season, they scored 38% more goals than last season. How many goals did they score in total for both seasons?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A soccer team scored 45 goals in their last season. In the next season, they scored 38% more goals than last season. How many goals did they score in total for both seasons?\n    \"\"\"\n    goals_last_season = 45\n    increase_percentage = 38 / 100  # 38%\n    goals_next_season = goals_last_season * (1 + increase_percentage)\n    total_goals = goals_last_season + goals_next_season\n\n    return total_goals\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 108536
+  },
+  {
+    "user": "Greg spends 2 hours a day studying for college. He also takes a ballet class for 5 hours a week. He works 12 hours a week at a part-time job. How many hours does he have left for leisure activities?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Greg spends 2 hours a day studying for college. He also takes a ballet class for 5 hours a week. He works 12 hours a week at a part-time job. How many hours does he have left for leisure activities?\n    \"\"\"\n    hours_per_day_studying = 2\n    days_per_week = 7\n    hours_studying_per_week = hours_per_day_studying * days_per_week\n\n    hours_ballet_per_week = 5\n    hours_work_per_week = 12\n\n    total_hours_per_week = 24 * 7\n\n    total_committed_hours = hours_studying_per_week + hours_ballet_per_week + hours_work_per_week\n\n    result = total_hours_per_week - total_committed_hours\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 4836
+  },
+  {
+    "user": "If Caleb and Olivia want to save $25,000 for a new boat in 3 years, how much does each person need to save per month if they equally share the monthly savings? For every 5 pages of reading assignments, James needs to complete 2 pages of written reflections. If he has to read 50 pages and write 20 pages of reflections, what is the ratio of pages of reading to written reflections?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If Caleb and Olivia want to save $25,000 for a new boat in 3 years, how much does each person need to save per month if they equally share the monthly savings?\n    For every 5 pages of reading assignments, James needs to complete 2 pages of written reflections.\n    If he has to read 50 pages and write 20 pages of reflections, what is the ratio of pages of reading to written reflections?\n    \"\"\"\n\n    # Part 1: Savings problem\n    total_savings = 25000  # dollars\n    total_years = 3\n    months_per_year = 12\n    total_months = total_years * months_per_year\n\n    # total monthly savings needed\n    monthly_savings_total = total_savings / total_months\n\n    # since Caleb and Olivia equally share\n    monthly_savings_per_person = monthly_savings_total / 2\n\n    # Part 2: Ratio problem\n    reading_pages = 50\n    reflection_pages = 20\n\n    # ratio of reading pages to reflection pages\n    ratio_reading_to_reflection = reading_pages / reflection_pages\n\n    # Return the monthly savings per person and the ratio as a tuple (because the problem asks both)\n    # But function type hint is -> float, we return only one float, so separate:\n    # The problem's first question is: \"how much does each person need to save per month\" -> a float answer\n    # The second question asks for a ratio -> another float answer\n\n    # Since the function type hint is float, and problem states \"Solve this EXACT problem\" meaning both,\n    # but code format given expects a single float, so by instructions treat each separately:\n\n    # Here I will return monthly_savings_per_person as final result (since the function signature is -> float)\n    # The ratio is just calculated as variable, so to include that, I will print it below to show intermediate.\n\n    # If only one float can be returned, I'll return the monthly savings per person as per problem's first question.\n\n    return monthly_savings_per_person\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 85041
+  },
+  {
+    "user": "A group of gold miners, led by Ben, started with 10 ounces of gold nuggets. They transported the nuggets at a rate of 1 ounce/hour for 9 hours. Ben then added more gold nuggets at a rate of 0.5 ounces/hour for the next 6 hours. How many ounces of gold nuggets were there?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A group of gold miners, led by Ben, started with 10 ounces of gold nuggets. They transported the nuggets at a rate of 1 ounce/hour for 9 hours. Ben then added more gold nuggets at a rate of 0.5 ounces/hour for the next 6 hours. How many ounces of gold nuggets were there?\n    \"\"\"\n    starting_ounces = 10\n    transport_rate_ounces_per_hour = 1\n    transport_hours = 9\n    ben_add_rate_ounces_per_hour = 0.5\n    ben_add_hours = 6\n\n    transported_ounces = transport_rate_ounces_per_hour * transport_hours\n    ben_added_ounces = ben_add_rate_ounces_per_hour * ben_add_hours\n\n    result = starting_ounces + transported_ounces + ben_added_ounces\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 7458
+  },
+  {
+    "user": "A farmer has 100 chickens in his coop, but realizes that 30 of them are too sick to sell. After quarantining the sick chickens, the farmer sells 25 to customer P, 10 to customer Q, and the remaining chickens to customer R. How many chickens did customer Q buy?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A farmer has 100 chickens in his coop, but realizes that 30 of them are too sick to sell. After quarantining the sick chickens, the farmer sells 25 to customer P, 10 to customer Q, and the remaining chickens to customer R. How many chickens did customer Q buy?\n    \"\"\"\n    total_chickens = 100\n    sick_chickens = 30\n    chickens_not_sick = total_chickens - sick_chickens\n    \n    chickens_sold_to_P = 25\n    chickens_sold_to_Q = 10\n    \n    # The problem asks: How many chickens did customer Q buy?\n    result = chickens_sold_to_Q\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 104554
+  },
+  {
+    "user": "Sarah has 30 books and notebooks. Each notebook weighs 5 ounces and each book weighs 7 ounces. Sarah can carry a total of 200 ounces. She collects 12 notebooks and as many books as she can carry. If she gets paid 12 cents per notebook and 9 cents per book, how much money does she make (in cents)?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah has 30 books and notebooks. Each notebook weighs 5 ounces and each book weighs 7 ounces. Sarah can carry a total of 200 ounces. She collects 12 notebooks and as many books as she can carry. If she gets paid 12 cents per notebook and 9 cents per book, how much money does she make (in cents)?\n    \"\"\"\n    total_items = 30\n    notebook_weight = 5\n    book_weight = 7\n    max_weight = 200\n    \n    notebooks_collected = 12\n    weight_notebooks = notebooks_collected * notebook_weight\n    \n    # Max weight for books after collecting 12 notebooks\n    max_weight_books = max_weight - weight_notebooks\n    \n    # Maximum number of books that fit in the remaining weight\n    max_books_possible = max_weight_books // book_weight\n    \n    # Since total items are 30, max books is min of max_books_possible and total left after notebooks\n    max_books = min(max_books_possible, total_items - notebooks_collected)\n    \n    # Calculate money earned\n    cents_per_notebook = 12\n    cents_per_book = 9\n    \n    total_cents = notebooks_collected * cents_per_notebook + max_books * cents_per_book\n    \n    result = total_cents\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 91625
+  },
+  {
+    "user": "am has twice as many pens as pencils. If Sam has 36 pens, then how many pencils does he have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sam has twice as many pens as pencils. If Sam has 36 pens, then how many pencils does he have?\n    \"\"\"\n    pens = 36\n    # Let pencils = x\n    # pens = 2 * pencils\n    # So, pencils = pens / 2\n    pencils = pens / 2\n\n    result = pencils\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 71454
+  },
+  {
+    "user": "If the profit margin of a product is 18% and the cost of producing it is $12, how much revenue will be earned if 500 products are sold?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If the profit margin of a product is 18% and the cost of producing it is $12, how much revenue will be earned if 500 products are sold?\n    \"\"\"\n    profit_margin = 0.18\n    cost_per_product = 12\n    number_of_products_sold = 500\n\n    # Calculate selling price per product\n    selling_price_per_product = cost_per_product * (1 + profit_margin)\n\n    # Calculate total revenue earned\n    result = selling_price_per_product * number_of_products_sold\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 14343
+  },
+  {
+    "user": "On a certain day, the online store Bazz sells its products at a 40% discount. An iPhone normally costs $845, but it only costs $507 during the sale. A laptop normally costs $650, but it only costs $390 during the sale. How much more money can be saved if a consumer buys both the iPhone and laptop during the sale?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    On a certain day, the online store Bazz sells its products at a 40% discount. An iPhone normally costs $845, but it only costs $507 during the sale. A laptop normally costs $650, but it only costs $390 during the sale. How much more money can be saved if a consumer buys both the iPhone and laptop during the sale?\n    \"\"\"\n    iphone_normal_price = 845\n    iphone_sale_price = 507\n    laptop_normal_price = 650\n    laptop_sale_price = 390\n\n    iphone_savings = iphone_normal_price - iphone_sale_price\n    laptop_savings = laptop_normal_price - laptop_sale_price\n\n    total_savings = iphone_savings + laptop_savings\n\n    return total_savings\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 113404
+  },
+  {
+    "user": "What percent farther did Kyle throw the ball compared to Parker?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    What percent farther did Kyle throw the ball compared to Parker?\n    \"\"\"\n    # Distances thrown by Kyle and Parker in some units (e.g., meters)\n    kyle_distance = 25\n    parker_distance = 20\n    \n    # Calculate how much farther Kyle threw compared to Parker\n    difference = kyle_distance - parker_distance\n    \n    # Calculate the percent farther Kyle threw compared to Parker\n    result = (difference / parker_distance) * 100\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 49501
+  },
+  {
+    "user": "1. Joe has 30 apples. He gave 5 to his brother, 6 to his sister, and then divided the rest equally among his 14 friends. How many apples did each of his friends get?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Joe has 30 apples. He gave 5 to his brother, 6 to his sister, and then divided the rest equally among his 14 friends. How many apples did each of his friends get?\n    \"\"\"\n    total_apples = 30\n    apples_to_brother = 5\n    apples_to_sister = 6\n    number_of_friends = 14\n\n    apples_left = total_apples - apples_to_brother - apples_to_sister\n    result = apples_left / number_of_friends\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 65248
+  },
+  {
+    "user": "A jar contains 120 marbles of different colors. If 40% of the marbles are red, 30% are blue and the rest are green, how many marbles of each color are there in the jar?",
+    "assistant": "```python\ndef simple_math_problem() -> tuple:\n    \"\"\"\n    A jar contains 120 marbles of different colors. If 40% of the marbles are red, 30% are blue and the rest are green, how many marbles of each color are there in the jar?\n    \"\"\"\n    total_marbles = 120\n    red_percentage = 40 / 100\n    blue_percentage = 30 / 100\n    green_percentage = 1 - (red_percentage + blue_percentage)\n\n    red_marbles = int(total_marbles * red_percentage)\n    blue_marbles = int(total_marbles * blue_percentage)\n    green_marbles = total_marbles - (red_marbles + blue_marbles)\n\n    result = (red_marbles, blue_marbles, green_marbles)\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 43385
+  },
+  {
+    "user": "Mrs. Thompson has a flower shop with a total of 500 flowers for sale. If she sells 60% of the flowers in a day at a price of $10 per flower, calculate the total revenue she makes in a day.",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mrs. Thompson has a flower shop with a total of 500 flowers for sale. If she sells 60% of the flowers in a day at a price of $10 per flower, calculate the total revenue she makes in a day.\n    \"\"\"\n    total_flowers = 500\n    percentage_sold = 0.60\n    price_per_flower = 10\n\n    flowers_sold = total_flowers * percentage_sold\n    result = flowers_sold * price_per_flower\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 89802
+  },
+  {
+    "user": "A coffee shop sells a latte for $4.00 and a croissant for $3.50. A customer buys 3 lattes and 2 croissants. What is the total cost of the order, including tax of 8%?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A coffee shop sells a latte for $4.00 and a croissant for $3.50. A customer buys 3 lattes and 2 croissants. What is the total cost of the order, including tax of 8%?\n    \"\"\"\n    price_latte = 4.00\n    price_croissant = 3.50\n    quantity_lattes = 3\n    quantity_croissants = 2\n    tax_rate = 0.08\n\n    subtotal_lattes = price_latte * quantity_lattes\n    subtotal_croissants = price_croissant * quantity_croissants\n    subtotal = subtotal_lattes + subtotal_croissants\n\n    tax = subtotal * tax_rate\n\n    result = subtotal + tax\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 44113
+  },
+  {
+    "user": "Student: Mark drove at a constant speed of 65 mph for 2 hours. He then increased his speed to 75 mph. How many miles did Mark have to drive in order to travel 300 miles?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mark drove at a constant speed of 65 mph for 2 hours. He then increased his speed to 75 mph. How many miles did Mark have to drive in order to travel 300 miles?\n    \"\"\"\n    speed_first_leg_mph = 65\n    time_first_leg_hours = 2\n    total_distance_miles = 300\n    speed_second_leg_mph = 75\n\n    # Distance covered in the first part of the trip\n    distance_first_leg = speed_first_leg_mph * time_first_leg_hours\n\n    # Remaining distance to reach the total distance\n    remaining_distance = total_distance_miles - distance_first_leg\n\n    # Total distance driven is total distance (the problem asks for how many miles did he have to drive in total)\n    # But to be clear, the problem asks \"How many miles did Mark have to drive in order to travel 300 miles?\"\n    # He drove 300 miles total. \n    # Likely they want how far did he drive at 75 mph.\n    distance_second_leg = remaining_distance\n\n    return distance_second_leg\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 78589
+  },
+  {
+    "user": "Jack has $560 in his bank account. He deposited $120 on Monday and then withdrew $75 on Tuesday. On Wednesday, he withdrew $200. How much money does Jack have left in his account?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jack has $560 in his bank account. He deposited $120 on Monday and then withdrew $75 on Tuesday. On Wednesday, he withdrew $200. How much money does Jack have left in his account?\n    \"\"\"\n    initial_amount = 560\n    deposit_monday = 120\n    withdraw_tuesday = 75\n    withdraw_wednesday = 200\n    \n    after_monday = initial_amount + deposit_monday\n    after_tuesday = after_monday - withdraw_tuesday\n    after_wednesday = after_tuesday - withdraw_wednesday\n    \n    result = after_wednesday\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 8573
+  },
+  {
+    "user": "Mrs. Day owns a garden that is 30 meters long and 25 meters wide. How many square meters does the garden cover?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mrs. Day owns a garden that is 30 meters long and 25 meters wide. How many square meters does the garden cover?\n    \"\"\"\n    length_meters = 30\n    width_meters = 25\n\n    # Area of rectangle = length * width\n    area_square_meters = length_meters * width_meters\n\n    result = area_square_meters\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 48954
+  },
+  {
+    "user": "Student: On the first day of the carnival, 120 tickets were sold. The next day, 38 more tickets were sold than the day before. On the third day, 2 times the number of tickets was sold on the second day. How many tickets were sold in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    On the first day of the carnival, 120 tickets were sold. The next day, 38 more tickets were sold than the day before. On the third day, 2 times the number of tickets was sold on the second day. How many tickets were sold in total?\n    \"\"\"\n    tickets_first_day = 120\n    tickets_second_day = tickets_first_day + 38\n    tickets_third_day = 2 * tickets_second_day\n    \n    total_tickets_sold = tickets_first_day + tickets_second_day + tickets_third_day\n\n    return total_tickets_sold\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 80767
+  },
+  {
+    "user": "Lily has 5 pink flowers and 7 white flowers in her vase. She receives 4 more flowers as a gift, 2 of which are pink and 2 of which are purple. What is the percent likelihood that a flower she takes out of the vase will be pink or purple?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Lily has 5 pink flowers and 7 white flowers in her vase. She receives 4 more flowers as a gift, 2 of which are pink and 2 of which are purple. What is the percent likelihood that a flower she takes out of the vase will be pink or purple?\n    \"\"\"\n    initial_pink = 5\n    initial_white = 7\n    gifted_pink = 2\n    gifted_purple = 2\n\n    total_pink = initial_pink + gifted_pink\n    total_purple = gifted_purple\n    total_flowers = initial_pink + initial_white + gifted_pink + gifted_purple\n\n    likelihood_pink_or_purple = (total_pink + total_purple) / total_flowers * 100\n\n    result = likelihood_pink_or_purple\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 24355
+  },
+  {
+    "user": "Student: A company spent $5,000 on supplies last month. If the company wants to save 1/4 of the remaining budget, and has a total budget of $20,000, how much can the company spend on other expenses?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A company spent $5,000 on supplies last month. If the company wants to save 1/4 of the remaining budget, and has a total budget of $20,000, how much can the company spend on other expenses?\n    \"\"\"\n    total_budget = 20000\n    spent_on_supplies = 5000\n    remaining_budget = total_budget - spent_on_supplies\n    amount_to_save = (1/4) * remaining_budget\n    amount_for_other_expenses = remaining_budget - amount_to_save\n\n    result = amount_for_other_expenses\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 107452
+  },
+  {
+    "user": "There are 12 apples in a basket. 6 of them are red apples and the rest are yellow. What is the probability of randomly selecting a yellow apple?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    There are 12 apples in a basket. 6 of them are red apples and the rest are yellow. What is the probability of randomly selecting a yellow apple?\n    \"\"\"\n    total_apples = 12\n    red_apples = 6\n    yellow_apples = total_apples - red_apples\n    \n    probability_yellow = yellow_apples / total_apples\n    \n    result = probability_yellow\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 62947
+  },
+  {
+    "user": "Lily had 120 candies. She gave 3 candies to each of her 12 friends. She gave everyone else in the mall 4 candies each. If she has 10 candies left over, how many people are in the mall, including Lily?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Lily had 120 candies. She gave 3 candies to each of her 12 friends. She gave everyone else in the mall 4 candies each. If she has 10 candies left over, how many people are in the mall, including Lily?\n    \"\"\"\n    total_candies = 120\n    friends = 12\n    candies_per_friend = 3\n    candies_left = 10\n    candies_per_other_person = 4\n\n    # Calculate candies given to friends\n    candies_given_to_friends = friends * candies_per_friend\n\n    # Calculate candies given to everyone else (excluding friends)\n    candies_given_to_others = total_candies - candies_left - candies_given_to_friends\n\n    # Number of other people who received candies\n    other_people = candies_given_to_others // candies_per_other_person\n\n    # Total people in the mall includes friends, others, and Lily herself\n    total_people = friends + other_people + 1  # +1 for Lily\n\n    result = total_people\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 64155
+  },
+  {
+    "user": "A restaurant pays its waitstaff a base pay of $10 per hour, plus an additional $2 for each table they serve. If a waitress serves 8 tables and works for 5 hours, how much money will she make in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A restaurant pays its waitstaff a base pay of $10 per hour, plus an additional $2 for each table they serve. If a waitress serves 8 tables and works for 5 hours, how much money will she make in total?\n    \"\"\"\n    base_pay_per_hour = 10\n    additional_pay_per_table = 2\n    number_of_tables_served = 8\n    hours_worked = 5\n\n    base_pay = base_pay_per_hour * hours_worked\n    additional_pay = additional_pay_per_table * number_of_tables_served\n    result = base_pay + additional_pay\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 11582
+  },
+  {
+    "user": "Tina has $400. She bought 3 shirts at $30 each, 3 trousers at $50 each and 1 belt at $20. How much money did she spend?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Tina has $400. She bought 3 shirts at $30 each, 3 trousers at $50 each and 1 belt at $20. How much money did she spend?\n    \"\"\"\n    total_money = 400\n    shirts_count = 3\n    shirt_price = 30\n    trousers_count = 3\n    trouser_price = 50\n    belts_count = 1\n    belt_price = 20\n\n    shirts_total = shirts_count * shirt_price\n    trousers_total = trousers_count * trouser_price\n    belts_total = belts_count * belt_price\n\n    result = shirts_total + trousers_total + belts_total\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 72155
+  },
+  {
+    "user": "A store is having a 40% off sale. If a shirt originally costs $20, what is the final price of the shirt after the discount?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A store is having a 40% off sale. If a shirt originally costs $20, what is the final price of the shirt after the discount?\n    \"\"\"\n    original_price = 20\n    discount_rate = 0.40\n    discount_amount = original_price * discount_rate\n    final_price = original_price - discount_amount\n\n    result = final_price\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 42
+  },
+  {
+    "user": "Olivia baked two dozen chocolate chip cookies and two dozen oatmeal raisin cookies for a bake sale. She sold each cookie for 50 cents. She sold three quarters of the chocolate chip cookies and two thirds of the oatmeal raisin cookies. How much money did she make from the bake sale?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Olivia baked two dozen chocolate chip cookies and two dozen oatmeal raisin cookies for a bake sale. She sold each cookie for 50 cents. She sold three quarters of the chocolate chip cookies and two thirds of the oatmeal raisin cookies. How much money did she make from the bake sale?\n    \"\"\"\n    total_chocolate_chip = 24\n    total_oatmeal_raisin = 24\n    price_per_cookie = 0.50\n    \n    sold_chocolate_chip = (3/4) * total_chocolate_chip\n    sold_oatmeal_raisin = (2/3) * total_oatmeal_raisin\n    \n    total_sold = sold_chocolate_chip + sold_oatmeal_raisin\n    \n    result = total_sold * price_per_cookie\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 106345
+  },
+  {
+    "user": "A recipe calls for a mixture of sugar and flour in the ratio of 5:3. If there are 2 cups of sugar, how much flour is needed for the recipe?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for a mixture of sugar and flour in the ratio of 5:3. If there are 2 cups of sugar, how much flour is needed for the recipe?\n    \"\"\"\n    sugar_ratio = 5\n    flour_ratio = 3\n    sugar_cups = 2\n\n    # Find the unit ratio to determine how many times the sugar_ratio fits into the actual sugar amount\n    unit = sugar_cups / sugar_ratio\n\n    # Calculate the flour amount based on the same unit\n    flour_cups = flour_ratio * unit\n\n    result = flour_cups\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 77259
+  },
+  {
+    "user": "Student: If Susan has collected 20 cans and each can is worth $0.5, how much money does she have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If Susan has collected 20 cans and each can is worth $0.5, how much money does she have?\n    \"\"\"\n    number_of_cans = 20\n    value_per_can = 0.5\n    result = number_of_cans * value_per_can\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 82614
+  },
+  {
+    "user": "arah takes home 72% of her monthly salary of $4500 after taxes. How much money does she have left after taxes?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    arah takes home 72% of her monthly salary of $4500 after taxes. How much money does she have left after taxes?\n    \"\"\"\n    monthly_salary = 4500\n    take_home_percentage = 0.72\n\n    take_home_amount = monthly_salary * take_home_percentage\n\n    result = take_home_amount\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 2780
+  }
+]

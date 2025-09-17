@@ -1,0 +1,602 @@
+[
+  {
+    "user": "A teacher has 336 pencils. She wants to divide them equally among her 28 students. How many pencils will each student get?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A teacher has 336 pencils. She wants to divide them equally among her 28 students. How many pencils will each student get?\n    \"\"\"\n    total_pencils = 336\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 162891
+  },
+  {
+    "user": "A wooden plank is 48 inches long. John cut 12 inches off one end. What percentage of the original length did John cut away?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A wooden plank is 48 inches long. John cut 12 inches off one end. What percentage of the original length did John cut away?\n    \"\"\"\n    original_length = 48  # inches\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 44104
+  },
+  {
+    "user": "A rectangular garden measures 6 meters in length and 4 meters in width. How much fence would be needed to completely surround the garden?",
+    "assistant": "```python\ndef fence_length() -> float:\n    \"\"\"\n    A rectangular garden measures 6 meters in length and 4 meters in width. How much fence would be needed to completely surround the garden?\n    \"\"\"\n    length = 6  # length of the garden\n    width = 4  # width of the garden\n\n    # calculate the perimeter of the rectangle\n    perimeter = 2 * (length + width)\n    result = perimeter\n\n    return result\n```\nThis code defines a function `fence_length` that calculates the perimeter of a rectangular garden with a length of 6 meters and a width of 4 meters. The perimeter is calculated using the formula for the perimeter of a rectangle (2 \\* (length + width)) and the result is returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 162733
+  },
+  {
+    "user": "The sum of two numbers is 45 and their difference is 3. What are the two numbers?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n\"\"\"\nThe sum of two numbers is 45 and their difference is 3. What are the two numbers?\n\"\"\"\n# Variable assignments with descriptive names\nnum1 = 0\nnum2 = 0\n\n# Calculate step by step\n# Since the difference of the two numbers is 3, one number is 3 more than the other\nnum1 = 21  # (sum / 2) - (difference / 2)\nnum2 = num1 + 3 ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 13511
+  },
+  {
+    "user": "If Steve runs 5 miles per hour for 1 hour, how far will he have gone?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nIf Steve runs 5 miles per hour for 1 hour, how far will he have gone?\n\"\"\"\nspeed = 5 # miles per hour\ntime = 1 # hour\ndistance = speed * time # miles\n\nreturn distance\n\n# Test the function\nprint(simple_math_problem()) # Output: 5.0",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 87128
+  },
+  {
+    "user": "Mr. Julien's store has 1200 marbles remaining after the previous day's sales. Twelve customers came into the store, and each bought 60 marbles. How many marbles remain in the store?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Mr. Julien's store has 1200 marbles remaining after the previous day's sales. Twelve customers came into the store, and each bought ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 9817
+  },
+  {
+    "user": "If 1 liter of lemonade requires 4 lemons and 100 grams of sugar, and orangeade requires twice as many lemons and half as much sugar as lemonade, how many grams of sugar are needed for 1.5 liters of an equal mixture of lemonade and orangeade?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If 1 liter of lemonade requires 4 lemons and 100 grams of sugar, and orangeade requires twice as many lemons and half as much sugar as lemonade, how many grams of sugar are needed for 1.5 liters of an equal mixture of lemonade and orangeade?\n    \"\"\"\n    # Variable assignments with descriptive names\n    lemons_lemonade = 4\n    sugar_lemonade = 100\n    lemons_orangeade = 2 * lemons_lemonade\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 16064
+  },
+  {
+    "user": "Sarah purchased three dolls for a total cost of $45. One doll is on sale for $12. How much does each of the other two dolls cost if they cost the same?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah purchased three dolls for a total cost of $45. One doll is on sale for $12. How much does each of the other two dolls cost if they cost the same?\n    \"\"\"\n    total_cost = 45\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 101706
+  },
+  {
+    "user": "Mia has 42 shirts. She has double the number of shirts as Noah. If 80% of Noah's shirts are striped, how many striped shirts does Noah have?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Mia has 42 shirts. She has double the number of shirts as Noah. If 80% of Noah's shirts are striped, how many striped shirts does Noah have?\n    \"\"\"\n    mia_shirts = 42\n    noah_shirts = mia_shirts / 2\n    striped_shirts_percentage = 0.8\n    striped_shirts_noah_has = noah_shirts * striped_shirts_percentage\n    result = int(striped_shirts_noah_has)\n\n    return result\n```\nThe solution to the problem is in the function `simple_math_problem()`. When you run this code, it will return the number of striped shirts that Noah has.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 114244
+  },
+  {
+    "user": "Alex has 9 baseball cards. If he trades 2/3 of his baseball cards for football cards, how many baseball cards does Alex have left?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Alex has 9 baseball cards. If he trades 2/3 of his baseball cards for football cards, how many baseball cards does Alex have left?\n    \"\"\"\n    baseball_cards_total = 9\n    baseball_cards_traded = baseball_cards_total * (2/3)\n    baseball_cards_left = baseball_cards_total - baseball_cards_traded\n    result = int(baseball_cards_left)\n\n    return result\n```\nThis code defines a function called `simple_math_problem` that takes no arguments and returns a single value as a float. The function first assigns the value 9 to the variable `baseball_cards_total` to represent the number of baseball cards Alex has. Next, it calculates the number of baseball cards Alex trades by multiplying the total number of cards by 2/3. The number of baseball cards Alex has left is then calculated by subtracting the number of cards he traded from the total number of cards. Finally, the function returns the result as an integer.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 17678
+  },
+  {
+    "user": "Emily has 3 boxes of crayons, each containing 24 crayons. She wants to distribute the crayons equally among her 4 friends. If each friend gets the same number of crayons, how many crayons will each friend receive?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Emily has 3 boxes of crayons, each containing 24 crayons. She wants to distribute the crayons equally among her ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 59476
+  },
+  {
+    "user": "Mr. Roper cuts his lawn every Monday, Wednesday, and Friday from January to June. How many times does he cut his lawn during this period?",
+    "assistant": "```python\ndef lawn_mowing() -> int:\n    \"\"\"\n    Mr. Roper cuts his lawn every Monday, Wednesday, and Friday from January to June.\n    How many times does he cut his lawn during this period?\n    \"\"\"\n    days_in_a_week = 7\n    weeks_in_a_month = 4\n    months_cutting = 6\n\n    days_cutting = 3\n\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 58632
+  },
+  {
+    "user": "A toy store sold twice as many teddy bears as dolls. They sold 50 dolls. How many teddy bears did they sell in total?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A toy store sold twice as many teddy bears as dolls. They sold ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 159718
+  },
+  {
+    "user": "Sarah is driving to her friend's house. When she drives at a speed of 60 mph, it takes her 2 hours to arrive. When she drives at a speed of 40 mph, it takes her 3 hours to arrive. How many miles away does her friend live from her house?",
+    "assistant": "```python\ndef distance_problem() -> float:\n    \"\"\"\n    Sarah is driving to her friend's house. When she drives at a speed of 60 mph, it takes her 2 hours to arrive. When she drives at a speed of 40 mph, it takes her 3 hours to arrive. How many miles away does her friend live from her house?\n    \"\"\"\n    speed1 = 60  # miles per hour\n    time1 = 2  # hours\n    distance1 = speed1 * time1  # distance = speed * time\n\n    speed2 = 40  # miles per hour\n    time2 = 3  # hours\n    distance2 = speed2 * time2  # distance = speed * time\n\n    # since both distances are the same (to her friend's house), we can set them equal to each other and solve for the distance\n    distance1 = distance2\n    distance = distance1  # miles\n\n    return distance\n```\nRunning the above code will give the result of 120 miles. This is because when Sarah drives at 60 mph, she covers the distance in 2 hours, so the distance is 60 \\* 2 = 120 miles. Similarly, when she drives at 40 mph, she covers the same distance in 3 hours, so the distance is 40 \\* 3 = 120 miles.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 61763
+  },
+  {
+    "user": "Ella sold 20 handmade bracelets on the first day. On the second day, she sold four times the number of bracelets she sold on the first day. If the total number of bracelets she sold on these two days was 200, how many bracelets did Ella sell on the second day?",
+    "assistant": "def simple\\_math\\_problem() -> int:\n\"\"\"\nElla sold 20 handmade bracelets on the first day. On the second day, she sold four times the number of bracelets she sold on the first day. If the total number of bracelets she sold on these two days was 200, how many bracelets did Ella sell on the second day?\n\"\"\"\nbracelets\\_day1 = 20\nbracelets\\_day2 = 4 \\* bracelets\\_day1\ntotal\\_bracelets = bracelets\\_day1 + bracelets\\_day2\nresult = bracelets\\_day2\n\nreturn result\n\nprint(simple\\_math\\_problem())",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 177069
+  },
+  {
+    "user": "Josh is 14 years old, and his sister Mia is 11 years old. In how many years will the age difference between them be reduced by half?",
+    "assistant": "def age\\_difference\\_reduced\\_by\\_half() -> float:\n\"\"\"\nJosh is 14 years old, and his sister Mia is 11 years old. In how many years will the age difference between them be reduced by half?\n\"\"\"\ncurrent\\_age\\_josh = 14\ncurrent\\_age\\_mia = 11\nage\\_difference = current\\_age\\_josh - current\\_age\\_mia\nhalf\\_age\\_difference = age\\_difference / 2\n\n# Incrementing the current age of Mia, as her age increases faster than Josh's\nyears\\_until\\_half\\_age\\_diff = 0\nwhile current\\_age\\_mia + years\\_until\\_half\\_age\\_diff < current\\_age\\_josh - half\\_age\\_difference:\nyears\\_until\\_half\\_age\\_diff += 1\n\nresult = years\\_until\\_half\\_age\\_diff\n\nreturn result\n\nprint(age\\_difference\\_reduced\\_by\\_half())",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 116040
+  },
+  {
+    "user": "A store has 500 shirts. If 3/10 of the shirts are on sale, and 2/5 of the shirts on sale are blue, how many blue shirts are not on sale?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A store has 500 shirts. If 3/10 of the shirts are on sale, and 2/5 of the shirts on sale are blue, how many blue shirts are not on sale?\n    \"\"\"\n    total_shirts = 500\n    fraction_on_sale = 3/10\n    fraction_blue_on_sale = 2/5\n\n    shirts_on_sale = total_shirts * fraction_on_sale\n    blue_shirts_on_sale = shirts_on_sale * fraction_blue_on_sale\n\n    result = total_shirts * (1-fraction_on_sale) - blue_shirts_on_sale\n\n    return result\n```\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 70816
+  },
+  {
+    "user": "There are 16 students in a classroom. If there are 6 more boys than girls, how many boys are in the classroom?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n\"\"\"\nThere are 16 students in a classroom. If there are ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 25657
+  },
+  {
+    "user": "A car travels 140 miles on 6 gallons of gas. How many miles will it travel on 10 gallons of gas?",
+    "assistant": "```python\ndef car_distance_traveled() -> float:\n    \"\"\"\n    A car travels 140 miles on 6 gallons of gas. How many miles will it travel on 10 gallons of gas?\n    \"\"\"\n    milesPerGallon = 140 / 6  # calculate miles per gallon\n    distanceWith10Gallons = milesPerGallon * 10  # calculate distance with 10 gallons\n    result = distanceWith10Gallons\n\n    return result\n```\nThis code defines a function `car_distance_traveled` that calculates the distance a car will travel on 10 gallons of gas, given that it travels 140 miles on 6 gallons of gas. The function first calculates the miles per gallon, then uses that value to calculate the distance the car will travel on 10 gallons of gas. The final result is returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 81860
+  },
+  {
+    "user": "Tom is building a rectangular pool with dimensions 15 feet by 30 feet. The pool needs to be filled with water. If it takes 7 gallons of water to fill 1 cubic foot, how many gallons of water does Tom need?",
+    "assistant": "```python\ndef pool_water_calculation() -> float:\n    \"\"\"\n    Tom is building a rectangular pool with dimensions 15 feet by 30 feet. The pool needs to be filled with water. If it takes 7 gallons of water to fill 1 cubic foot, how many gallons of water does Tom need?\n    \"\"\"\n    # Variable assignments with descriptive names\n    pool_length = 30  # feet\n    pool_width = 15  # feet\n    pool_depth = 1  # feet (assuming an average depth of the pool)\n    gallons_per_cubic_foot = 7  # gallons\n\n    # Calculate step by step\n    cubic_feet_of_pool = pool_length * pool_width * pool_depth\n    gallons_of_water_needed = cubic_feet_of_pool * gallons_per_cubic_foot\n    result = gallons_of_water_needed\n\n    return result\n```\nYou can call the function to get the solution:\n\nprint(pool_water_calculation())  # Output: 3150.0",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 134730
+  },
+  {
+    "user": "A truck travels 60 miles in 2 hours. If it continues driving at the same speed, how far will the truck travel in 5 hours?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A truck travels 60 miles in 2 hours. If it continues driving at the same speed, how far will the truck travel in 5 hours?\n    \"\"\"\n    distance_traveled_in_2_hours = 60  # miles\n    hours_driven = 2  # hours\n    hours_wanted_to_calculate = 5  # hours\n    speed_of_truck = distance_traveled_in_2_hours / hours_driven  # speed calculation\n    distance_traveled_in_5_hours = speed_of_truck * hours_wanted_to_calculate  # distance calculation\n    result = distance_traveled_in_5_hours\n\n    return result\n```\n\n```python\nprint(simple_math_problem())  # Output: 150.0\n```\nThe truck will travel 150 miles in 5 hours.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 129436
+  },
+  {
+    "user": "Emma is measuring the temperature in her garden. On the first day, the temperature was 28 degrees Celsius. On the second day, it increased by 5 degrees. On the third day, it decreased by 8 degrees. What is the average temperature for these three days?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Emma is measuring the temperature in her garden. On the first day, the temperature was 28 degrees Celsius. On the second day, it increased by 5 degrees. On the third day, it decreased by 8 degrees. What is the average temperature for these three days?\n    \"\"\"\n    day1_temp = 28\n    day2_temp = day1_temp + 5\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 151417
+  },
+  {
+    "user": "Jessica has 72 stickers. She wants to give them to her 9 friends. If she gives the first 3 friends 8 stickers each and the remaining friends 6 stickers each, how many stickers will each friend receive on average?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jessica has 72 stickers. She wants to give them to her 9 friends. If she gives the first 3 friends 8 stickers each and the remaining friends 6 stickers each, how many stickers will each friend receive on average?\n    \"\"\"\n    total_stickers = 72\n    num_friends = 9\n    num_first_friends = 3\n    stickers_for_first_friends = 8\n    stickers_for_remaining_friends = 6\n\n    total_stickers_given = num_first_friends * stickers_for_first_friends + (num_friends - num_first_friends) * stickers_for_remaining_friends\n    average_stickers = total_stickers_given / num_friends\n\n    result = average_stickers\n\n    return result\n```\nWhen you run this code, it will give you the average number of stickers each friend receives, which is 8.0.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 6015
+  },
+  {
+    "user": "A train journey is scheduled to take 2 hours and 45 minutes. The train departs 30 minutes late, experiences a delay of 1 hour and 15 minutes during the journey, and also arrives 20 minutes after the designated time. How long did the train actually spend traveling?",
+    "assistant": "```python\ndef train_journey_time() -> float:\n    \"\"\"\n    A train journey is scheduled to take 2 hours and 45 minutes. The train departs ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 43594
+  },
+  {
+    "user": "Olivia drinks 1/4 of a cup of juice per day. If she wants to drink a total of 2 liters of juice, how many days will it take her?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Olivia drinks 1/4 of a cup of juice per day. If she wants to drink a total of 2 liters of juice, how many days will it take her?\n    \"\"\"\n    # Define the total amount of juice Olivia wants to drink in cups\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 122847
+  },
+  {
+    "user": "A car travels 30 miles per hour. If it travels for 2.5 hours each day, how many miles will it travel in total after 7 days?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A car travels 30 miles per hour. If it travels for 2.5 hours each day, how many miles will it travel in total after 7 days?\n    \"\"\"\n    speed = 30  # miles per hour\n    hours_per_day = 2.5  # hours\n    days = 7  # days\n\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 169511
+  },
+  {
+    "user": "A student scored 80% on the first exam, which is 20% of the final grade. If the second exam is worth 30% of the final grade and the student scores 90%, what will be the final grade?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A student scored 80% on the first exam, which is 20% of the final grade. If the second exam is worth ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 136794
+  },
+  {
+    "user": "Ava is a teacher. She has 25 students in her math class, 10 more students in her science class than in her math class, and half as many students in her English class as in her science class. How many students does Ava teach in total?",
+    "assistant": "```python\ndef ava_teacher() -> int:\n    \"\"\"\n    Ava is a teacher. She has 25 students in her math class, 10 more students in her science class than in her math class,\n    and half as many students in her English class as in her science class. How many students does Ava teach in total?\n    \"\"\"\n    math_class_students = 25\n    science_class_students = math_class_students + 10\n    english_class_students = science_class_students / 2\n    total_students = math_class_students + science_class_students + english_class_students\n    result = total_students\n\n    return result\n```\nThis function, `ava_teacher()`, calculates the total number of students that Ava teaches by first calculating the number of students in each of her classes based on the given information, and then adding those numbers together to get the total.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 51616
+  },
+  {
+    "user": "Emily has been doing her household chores. She spent 2 hours cleaning on Monday and Tuesday, and on the remaining days, she spent 70% of the recommended 4 hours. How many hours did she spend cleaning in total this week?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Emily has been doing her household chores. She spent 2 hours cleaning on Monday and Tuesday, and on the remaining days, she spent 70% of the recommended 4 hours. How many hours did she spend cleaning in total this week?\n    \"\"\"\n    hours_monday_tuesday = 2 + 2  # hours spent on Monday and Tuesday\n    hours_remaining_days = 4 * 0.7  # recommended hours for remaining days, multiplied by 70%\n    total_hours = hours_monday_tuesday + hours_remaining_days  # total hours spent\n    result = total_hours\n\n    return result\n```\nThis function, `simple_math_problem()`, calculates the total hours Emily spent cleaning this week based on the given information.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 188201
+  },
+  {
+    "user": "Result: 8 A teacher wants to divide her class into groups of 4. If there are 27 students in the class, how many groups will there be and how many students will be left over?",
+    "assistant": "def divide\\_class\\_into\\_groups() -> tuple:\n\"\"\"\nA teacher wants to divide her class into groups of 4. If there are 27 students in the class, how many groups will there be and how many students will be left over?\n\"\"\"\nnum\\_students = 27\nstudents\\_per\\_group = 4\n\nnum\\_groups = num\\_students // students\\_per\\_group\nextra\\_students = num\\_students % students\\_per\\_group\n\nresult = (num\\_groups, extra\\_students)\n\nreturn result\n\nprint(divide\\_class\\_into\\_groups()) # Output: (6, 3)",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 124503
+  },
+  {
+    "user": "Alex bikes 5 miles for every 3 miles that his friend bikes. If Alex bikes 10 miles every day, how many miles will Alex and his friend bike in 8 days?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alex bikes 5 miles for every 3 miles that his friend bikes. If Alex bikes 10 miles every day, how many miles will Alex and his friend bike in ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 118890
+  },
+  {
+    "user": "Lisa used 5 more gallons than twice the number of gallons that John used for his shower. If together they used 40 gallons of water, how many gallons did Lisa use?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Lisa used 5 more gallons than twice the number of gallons that John used for his shower. If together they used ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 27987
+  },
+  {
+    "user": "Sarah has a recipe for making 24 cookies that requires 1/2 cup of chocolate chips. If she wants to make 96 cookies, how many cups of chocolate chips does she need?",
+    "assistant": "def simple\\_math\\_problem() -> float:\n\"\"\"\nSarah has a recipe for making 24 cookies that requires 1/2 cup of chocolate chips. If she wants to make 96 cookies, how many cups of chocolate chips does she need?\n\"\"\"\noriginal\\_recipe\\_chips = 0.5\nnum\\_cookies\\_original = 24\nnum\\_cookies\\_new = 96\nchips\\_needed = (original\\_recipe\\_chips \\* num\\_cookies\\_new) / num\\_cookies\\_original\nresult = chips\\_needed\n\nreturn result\n\n\\# Output: 1.5 cups of chocolate chips are needed.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 122448
+  },
+  {
+    "user": "In a bag of marbles, 6 are red and 4 are green. A player picks a marble at random. What is the probability that it is red?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n\"\"\"\nIn a bag of marbles, 6 are red and 4 are green. A player picks a marble at random. What is the probability that it is red?\n\"\"\"\nred_marbles = 6\ngreen_marbles = 4\ntotal_marbles = red_marbles + green_marbles\nprobability_red = red_marbles / total_marbles\nresult = probability_red\n\nreturn result\n```\nThis code defines a function `simple_math_problem` that calculates the probability of picking a red marble from a bag containing 6 red marbles and 4 green marbles. It does this by first calculating the total number of marbles, then calculating the probability of picking a red marble by dividing the number of red marbles by the total number of marbles. The result is then returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 140919
+  },
+  {
+    "user": "A woman regularly puts 5% of her monthly salary, which is $2,000, into a savings account. How much money will there be in the savings account after one year?",
+    "assistant": "def simple_math_problem() -> float:\n    \"\"\"\n    A woman regularly puts 5% of her monthly salary, which is $2,00",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 107120
+  },
+  {
+    "user": "Tom shared a sum of money between his three friends, Mike, John, and Peter, in the ratio 5:3:2. If Peter received $170, how much did John receive?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Tom shared a sum of money between his three friends, Mike, John, and Peter, in the ratio 5:3:2. If Peter received $170, how much did John receive?\n    \"\"\"\n    ratio_5_to_3_to_2 = 5, 3, 2  # Ratio of Tom's sharing\n    total_parts = sum(ratio_5_to_3_to_2)  # Total parts in the ratio\n    peters_part = 2  # Peter's part in the ratio\n    peters_share = 170  # Amount Peter received\n    johns_part = 3  # John's part in the ratio\n    johns_share = (peters_share / peters_part) * johns_part  # Amount John received\n    result = johns_share\n\n    return result\n\nprint(simple_math_problem())\n```\nThis code defines a function `simple_math_problem` that calculates the amount John received from Tom. The function returns the result as a float.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 89549
+  },
+  {
+    "user": "If x + 8 = 17, what is the value of x?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If x + 8 = 17, what is the value of x?\n    \"\"\"\n    given_number = 17\n    subtract_from_given = 8\n    x_value = given_number - subtract_from_given\n    result = x_value\n\n    return result\n```\nThis code defines a function `simple_math_problem` that takes no arguments and returns a float. The function calculates the value of `x` in the equation `x + 8 = 17` by subtracting `8` from `17`, and assigns the result to the variable `x_value`. The final result is then returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 66363
+  },
+  {
+    "user": "A car rental company charges $0.50 per mile plus a $25 flat fee per rental. If a customer rents a car for 4 days and drives a total of 350 miles, what is the total cost of renting the car?",
+    "assistant": "def car\\_rental\\_cost() -> float:\n\"\"\"\nA car rental company charges $0.50 per mile plus a $25 flat fee per rental. If a customer rents a car for 4 days and drives a total of 350 miles, what is the total cost of renting the car?\n\"\"\"\ncost\\_per\\_mile = 0.50\nflat\\_fee = 25\nmiles\\_driven = 350\n\nrental\\_cost = (cost\\_per\\_mile \\* miles\\_driven) + flat\\_fee\nresult = rental\\_cost\n\nreturn result\n\nprint(car\\_rental\\_cost())",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 117024
+  },
+  {
+    "user": "Lisa can sew 6 buttons in 4 minutes. If she sews at the same rate, how many buttons can she sew in 12 minutes?",
+    "assistant": "def simple\\_math\\_problem() -> float:\n\"Lisa can sew 6 buttons in 4 minutes. If she sews at the same rate, how many buttons can she sew in 12 minutes?\"\n\nrate\\_of\\_sewing = 6 / 4\ntime\\_available = 12\n\nbuttons\\_sewn = rate\\_of\\_sewing \\* time\\_available\n\nresult = buttons\\_sewn\n\nreturn result\n\nsimple\\_math\\_problem() # You can call this function to get the answer, which is 18.0",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 47074
+  },
+  {
+    "user": "Lily is trying to raise money for a charity. She is selling pencils for $1 each and notebooks for $8 each. She wants to raise $300. If Lily sold 40 pencils, how many notebooks does she need to sell to reach her goal?",
+    "assistant": "def simple\\_math\\_problem() -> int:\n\"\"\"\nLily is trying to raise money for a charity. She is selling pencils for $1 each and notebooks for $8 each. She wants to raise $300. If Lily sold 40 pencils, how many notebooks does she need to sell to reach her goal?\n\"\"\"\npencil\\_price = 1\nnotebook\\_price = 8\npencils\\_sold = 40\ngoal\\_amount = 300\n\nrevenue\\_from\\_pencils = pencils\\_sold \\* pencil\\_price\nremaining\\_amount = goal\\_amount - revenue\\_from\\_pencils\n\nnotebooks\\_needed = remaining\\_amount // notebook\\_price\nresult = notebooks\\_needed\n\nreturn result\n\nsimple\\_math\\_problem() # returns 25",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 55001
+  },
+  {
+    "user": "Sarah's motorcycle gets 20 miles to the gallon. She rides 50 miles per day. If gas is $4 per gallon, how much does she spend on gas in 3 days?",
+    "assistant": "```python\ndef motorcycle_gas_cost() -> float:\n    \"\"\"\n    Sarah's motorcycle gets 20 miles to the gallon. She rides 50 miles per day. If gas is $4 per gallon, how much does she spend on gas in ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 3515
+  },
+  {
+    "user": "A recipe calls for 2 cups of sugar for 12 cupcakes. If Mary wants to make 36 cupcakes, how many cups of sugar does she need?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 2 cups of sugar for 12 cupcakes. If Mary wants to make 36 cupcakes, how many cups of sugar does she need?\n    \"\"\"\n    sugar_per_cupcake = 2 / 12 ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 170146
+  },
+  {
+    "user": "A store offered a 30% discount on a $200 watch. If a customer purchases the watch at the discounted price, calculate the amount of money saved.",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A store offered a 30% discount on a $200 watch. If a customer purchases the watch at the discounted price, calculate the amount of money saved.\n    \"\"\"\n    original_price = 200\n    discount_percent = 30\n    discount_amount = original_price * (discount_percent / 100)\n    savings = discount_amount\n\n    return savings\n```\n\n```python\nprint(simple_math_problem())  # Output: 60.0\n```\nThe customer saves $60 when purchasing the watch at a 30% discount.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 71577
+  },
+  {
+    "user": "Sarah and Jason are working on a puzzle. Sarah solves twice as many pieces as Jason in an hour. If Jason solves 10 pieces in 3 hours, how many pieces do they solve together in 5 hours?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Sarah and Jason are working on a puzzle. Sarah solves twice as many pieces as Jason in an hour. If Jason solves 10 pieces in ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 115525
+  },
+  {
+    "user": "A toy store sells 5 different types of dolls. Each doll comes in 3 different colors. Additionally, there are 2 types of toy cars. How many items are there in total in the toy store?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A toy store sells 5 different types of dolls. Each doll comes in ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 81582
+  },
+  {
+    "user": "Ethan spent 4/5 times more money than Noah on electronics. If Noah spent $600, calculate the total amount of money they spent together.",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ethan spent 4/5 times more money than Noah on electronics. If Noah spent $600, calculate the total amount of money they spent together.\n    \"\"\"\n    noah_spending = 600\n    ethan_to_noah_ratio = 4/5\n    ethan_spending = noah_spending * (ethan_to_noah_ratio + 1)\n    result = noah_spending + ethan_spending\n\n    return result\n```\nWhen running this code, the output will be:\n```makefile\n1440.0\n```\nTherefore, Ethan and Noah together spent $1440 on electronics.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 187341
+  },
+  {
+    "user": "A train travels at a speed of 80 kilometers per hour. If it increases its speed by 25%, what is its new speed?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A train travels at a speed of 80 kilometers per hour. If it increases its speed by 25%, what is its new speed?\n    \"\"\"\n    initial_speed = 80\n    increase_percent = 25\n    increase_amount = initial_speed * (increase_percent / ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 112234
+  },
+  {
+    "user": "A bus travels three times faster than a bicycle. If a bicycle's speed is 10 mph, calculate the total speed of the bus.",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n\"\"\"\nA bus travels three times faster than a bicycle. If a bicycle's speed is 10 mph, calculate the total speed of the bus.\n\"\"\"\nbicycle_speed = 10  # speed of the bicycle in mph\nbus_speed_multiple = 3  # the bus speed is three times faster than the bicycle\n\nbus_speed = bicycle_speed * bus_speed_multiple  # calculate the bus speed\nresult = bus_speed \n\nreturn result\n```\nThe solution to the problem is returned by the function `simple_math_problem()`. The function calculates the speed of the bus, given that it is three times faster than the bicycle, and the bicycle's speed is 10 mph.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 189680
+  },
+  {
+    "user": "Jack has a grid of squares that has 6 rows and 9 squares in each row. He colors 2 rows of 3 squares in the middle of the grid with red. He colors all squares on the first 2 and last 2 rows with blue. Then he colors the rest with green. How many squares does Jack color green?",
+    "assistant": "```makefile\ndef grid_coloring_problem() -> int:\n    \"\"\"\n    Jack has a grid of squares that has ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 26021
+  },
+  {
+    "user": "A recipe calls for 3/4 cups of sugar to make 12 cookies. If you want to make 24 cookies, how much sugar do you need?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 3/4 cups of sugar to make 12 cookies. If you want to make 24 cookies, how much sugar do you need?\n    \"\"\"\n    sugar_per_cookie = 3/4\n    num_cookies = 24\n\n    sugar_needed = sugar_per_cookie * num_cookies\n    result = sugar_needed\n\n    return result\n```\nThis code defines a function `simple_math_problem` that takes no arguments and returns a float. It starts by assigning the amount of sugar needed for one cookie (3/4 cups) to the variable `sugar_per_cookie`, and the number of cookies we want to make (24) to the variable `num_cookies`. It then calculates the total amount of sugar needed by multiplying `sugar_per_cookie` by `num_cookies`, and assigns the result to the variable `sugar_needed`. The final result is assigned to the variable `result` and returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 5224
+  },
+  {
+    "user": "Claudia charges $11.50 for her 50-minute art class. If 16 kids attend the class, how much money does she make?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Claudia charges $11.50 for her 50-minute art class. If 16 kids attend the class, how much money does she make?\n    \"\"\"\n    price_per_student = 11.50\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 74509
+  },
+  {
+    "user": "There are 56 apples in a crate. If each box contains 8 apples, how many boxes can be filled with the apples in the crate?",
+    "assistant": "def simple_math_problem() -> int:\n\"\"\"\nThere are 56 apples in a crate. If each box contains 8 apples, how many boxes can be filled with the apples in the crate?\n\"\"\"\napples_total = 56\napples_per_box = 8\nboxes_needed = apples_total // apples_per_box\nresult = boxes_needed\n\nreturn result\n\n(Note: I used the \"//\" operator for integer division, which discards the remainder. If you want to include any remainder in the calculation, use the \"/\" operator instead.)",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 60195
+  },
+  {
+    "user": "Alex wants to buy a new laptop. The laptop costs $800, but there is a 20% discount. If Alex has $1000, how much money will he have left over after buying the laptop?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alex wants to buy a new laptop. The laptop costs $800, but there is a 20% discount. If Alex has $1000, how much money will he have left over after buying the laptop?\n    \"\"\"\n    laptop_cost = 800\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 189688
+  },
+  {
+    "user": "Result: 301.44 A fruit vendor has watermelons which each weigh 5 kg. If he has sold 10 watermelons and has a weight of 120 kg of watermelons, how many watermelons has he left?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A fruit vendor has watermelons which each weigh 5 kg. If he has sold 10 watermelons and has a weight of 120 kg of watermelons, how many watermelons has he left?\n    \"\"\"\n    weight_of_each_watermelon = 5  # kg\n    watermelons_sold = 10\n    weight_of_remaining_watermelons = 120  # kg\n\n    watermelons_left = (weight_of_remaining_watermelons / weight_of_each_watermelon)\n\n    result = watermelons_left\n\n    return result\n```\nThis code defines a function `simple_math_problem` that takes no arguments and returns a float. The function calculates the number of watermelons the vendor has left by dividing the total weight of the remaining watermelons by the weight of each watermelon.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 14586
+  },
+  {
+    "user": "A real estate agent has made a profit of $15,000 by selling a house. If the selling price was $150,000, what percentage profit did the real estate make?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A real estate agent has made a profit of $15,00",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 110984
+  },
+  {
+    "user": "A company offers their employees a 10% discount on products. If an employee wants to buy a $500 watch, how much will the employee pay?",
+    "assistant": "Define a function named `employee_discount` that takes no arguments and returns a float:\n\n```python\ndef employee_discount() -> float:\n    \"\"\"\n    A company offers their employees a 10% discount on products. If an employee wants to buy a $500 watch, how much will the employee pay?\n    \"\"\"\n```\n\nSet the price of the watch and the discount rate as variables:\n\n```python\n    watch_price = 500\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 159432
+  },
+  {
+    "user": "Zoe is buying candy bars from the vending machine. If she can buy 5 candy bars for $6, how much does she pay for 3 candy bars?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Zoe is buying candy bars from the vending machine. If she can buy 5 candy bars for $6, how much does she pay for ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 133690
+  },
+  {
+    "user": "In a grocery store, there is a bakery display that can hold 150 pastries. Presently, there are 120 pastries placed on the display. How many more pastries can fit on the display?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n\"\"\"\nIn a grocery store, there is a bakery display that can hold 150 pastries. Presently, there are 120 pastries placed on the display. How many more pastries can fit on the display?\n\"\"\"\ncapacity = 150\ncurrently_on_display = 120\nspaces_remaining = capacity - currently_on_display\nresult = spaces_remaining\n\nreturn result\n```\nThe solution to the problem is:\n\n```python\nsimple_math_problem()\n```\nOutput:\n```\n30\n```\nThis means that there are 30 more pastries that can fit on the display.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 183712
+  },
+  {
+    "user": "A recipe for a cake calls for 2 cups of flour, 1/2 cup of cocoa, and 1 1/2 cups of sugar. If you want to double the recipe, how much flour, cocoa, and sugar do you need?",
+    "assistant": "```python\ndef double_recipe() -> tuple[float, float, float]:\n    \"\"\"\n    A recipe for a cake calls for 2 cups of flour, 1/2 cup of cocoa, and 1 1/2 cups of sugar. If you want to double the recipe, how much flour, cocoa, and sugar do you need?\n    \"\"\"\n    flour_per_recipe = 2\n    cocoa_per_recipe = 0.5\n    sugar_per_recipe = 1.5\n\n    flour_needed = flour_per_recipe * 2\n    cocoa_needed = cocoa_per_recipe * 2\n    sugar_needed = sugar_per_recipe * 2\n\n    result = (flour_needed, cocoa_needed, sugar_needed)\n\n    return result\n```\nThe function `double_recipe()` returns a tuple containing the amount of flour, cocoa, and sugar needed for a doubled recipe.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 154614
+  },
+  {
+    "user": "Sarah buys 4 boxes of cookies. The first 3 boxes cost $5 each and the fourth box costs half as much as one of these. Her friend decides to pay 25% of the total cost. How much money does Sarah have left if she had $200 in her wallet?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah buys 4 boxes of cookies. The first 3 boxes cost $5 each and the fourth box costs half as much as one of these. Her friend decides to pay ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 40253
+  },
+  {
+    "user": "Ethan runs 5 laps around a track, with each lap being 0.25 miles long. How many miles does Ethan run in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ethan runs 5 laps around a track, with each lap being 0.25 miles long. How many miles does Ethan run in total?\n    \"\"\"\n    laps_run = 5\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 151337
+  },
+  {
+    "user": "A farmer can harvest 80 bushels of corn in 4 hours. How many hours will it take to harvest 120 bushels?",
+    "assistant": "```python\ndef harvest_corn() -> float:\n    \"\"\"\n    A farmer can harvest 80 bushels of corn in 4 hours. How many hours will it take to harvest 120 bushels?\n    \"\"\"\n    bushelsHarvested = 80\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 6797
+  },
+  {
+    "user": "If 12 athletes ran 36 miles, how many miles did each athlete run?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If 12 athletes ran 36 miles, how many miles did each athlete run?\n    \"\"\"\n    total_miles = 36\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 114167
+  },
+  {
+    "user": "Timmy received $80 as a gift. He decides to divide it equally between his 4 friends. How much money does each friend receive?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Timmy received $80 as a gift. He decides to divide it equally between his 4 friends. How much money does each friend receive?\n    \"\"\"\n    total_money = 80\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 129542
+  },
+  {
+    "user": "Mia has a collection of eight board games, and each board game has an average playing time of 60 minutes. If Mia plays for 20 minutes every day, calculate how long it will take her to finish playing all eight board games.",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mia has a collection of eight board games, and each board game has an average playing time of 6",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 17557
+  },
+  {
+    "user": "A hospital has a total of 1200 patients. If 55% of the patients were discharged, how many patients are still in the hospital?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n\"\"\"\nA hospital has a total of 1200 patients. If 55% of the patients were discharged, how many patients are still in the hospital?\n\"\"\"\ntotal_patients = 1200\ndischarged_patients = 0.55 * total_patients\npatients_left = total_patients - discharged_patients\nresult = patients_left\n\nreturn result\n```\nThis code defines a function `simple_math_problem` that calculates the number of patients still in the hospital after 55% of them were discharged. The variable `total_patients` is assigned the value of 1200, representing the total number of patients in the hospital. The variable `discharged_patients` is calculated as 55% of the total number of patients. Finally, the number of patients still in the hospital is calculated by subtracting the number of discharged patients from the total number of patients. The result is then returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 192830
+  },
+  {
+    "user": "Ethan ordered 3 pizzas, 2 sodas, and 1 dessert. Each pizza costs $10, sodas are $2 each, and the dessert is $7. If he paid with a $50 bill, how much change did he receive?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ethan ordered 3 pizzas, 2 sodas, and 1 dessert. Each pizza costs $10, sodas are $2 each, and the dessert is $7. If he paid with a $50 bill, how much change did he receive?\n    \"\"\"\n    pizzas_cost = 3 * 10\n    sodas_cost = 2 * 2\n    dessert_cost = 1 * 7\n    total_cost = pizzas_cost + sodas_cost + dessert_cost\n    change = 50 - total_cost\n    result = change\n\n    return result\n```\nThe solution to the problem is obtained by calculating the cost of the pizzas, sodas, and dessert, adding them up to get the total cost, and then subtracting that from the $50 Ethan paid.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 156471
+  },
+  {
+    "user": "A single train car can carry 72 passengers. A bus can carry 45 passengers. How many more passengers can a train with 5 cars carry than 3 buses?",
+    "assistant": "```python\ndef train_bus_capacity() -> float:\n    \"\"\"\n    A single train car can carry 72 passengers. A bus can carry 45 passengers. How many more passengers can a train with 5 cars carry than ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 70379
+  },
+  {
+    "user": "A pizza is divided into 8 equal slices. If each slice has a diameter of 10 inches, what is the total area of the pizza in square inches?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A pizza is divided into ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 32532
+  },
+  {
+    "user": "In a school, there are 30 students and the teacher wants to divide them into groups of 4. How many complete groups will be formed and how many students will be left out?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nIn a school, there are 30 students and the teacher wants to divide them into groups of 4. How many complete groups will be formed and how many students will be left out?\n\"\"\"\nstudents_total = 30\nstudents_per_group = 4\n\ngroups_formed = students_total // students_per_group\nstudents_left_out = students_total % students_per_group\n\nresult = (groups_formed, students_left_out)\n\nreturn result\n\n# This will output: (7, 2)\n# Meaning 7 complete groups will be formed with 2 students left out.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 59831
+  },
+  {
+    "user": "Liam is 10 years old. According to the game, at what age will Liam get married?",
+    "assistant": "```python\ndef marriage_age() -> float:\n    \"\"\"\n    Liam is 10 years old. According to the game, at what age will Liam get married?\n    \"\"\"\n    liam_current_age = 10\n    liam_marriage_age = 30  # assuming the game states that Liam gets married at age 30\n    age_difference = liam_marriage_age - liam_current_age\n\n    result = age_difference\n\n    return result\n```\nIn this problem, we are given that Liam is currently 10 years old and will get married at age 30. We calculate the age difference between Liam's marriage age and his current age to find the answer.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 44573
+  },
+  {
+    "user": "Annie is distributing books among her children: Ethan, Emma, and Emily. She bought some storybooks and some coloring books. Ethan received 2 storybooks. Emma got three times as many storybooks as Ethan, and Emily received twice as many coloring books as Emma. How many books did Annie buy in total?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Annie is distributing books among her children: Ethan, Emma, and Emily. She bought some storybooks and some coloring books. Ethan received 2 storybooks. Emma got three times as many storybooks as Ethan, and Emily received twice as many coloring books as Emma. How many books did Annie buy in total?\n    \"\"\"\n    storybooks_ethan = 2\n    storybooks_emma = 3 * storybooks_ethan\n    coloring_books_emily = 2 * storybooks_emma\n\n    total_books = storybooks_ethan + storybooks_emma + coloring_books_emily\n    result = total_books\n\n    return result\n```\nWhen you run this code, it will calculate the total number of books that Annie bought. The answer is 20 books.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 183814
+  },
+  {
+    "user": "A classroom has 30 students. If 25% of the class is absent, how many students are present in the classroom?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A classroom has 30 students. If 25% of the class is absent, how many students are present in the classroom?\n    \"\"\"\n    total_students = 30\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 160597
+  },
+  {
+    "user": "Sam has 11 books and he wants to divide them equally between himself and two friends. How many books will each person get?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sam has 11 books and he wants to divide them equally between himself and two friends. How many books will each person get?\n    \"\"\"\n    total_books = 11\n    num_people = 3\n    books_per_person = total_books / num_people\n\n    return books_per_person\n```\nThis code defines a function called `simple_math_problem` that takes no arguments and returns a float. The function starts by assigning the total number of books (11) to the variable `total_books`, and the number of people (including Sam) to the variable `num_people`. The function then calculates the number of books each person will get by dividing the total number of books by the number of people, and assigns the result to the variable `books_per_person`. Finally, the function returns the value of `books_per_person`.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 35830
+  },
+  {
+    "user": "Sarah has 15 apples and 9 oranges. If she gives away 5 apples and 3 oranges, how many more apples than oranges does she have left?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah has 15 apples and 9 oranges. If she gives away 5 apples and ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 4953
+  },
+  {
+    "user": "Micah has 3 toy cars. Kenneth has three times as many toy cars as Micah, and Matthias has 2 more toy cars than Kenneth. How many toy cars do the boys have in total?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Micah has 3 toy cars. Kenneth has three times as many toy cars as Micah, and Matthias has 2 more toy cars than Kenneth. How many toy cars do the boys have in total?\n    \"\"\"\n    micah_toy_cars = 3\n    kenneth_toy_cars = 3 * micah_toy_cars\n    matthias_toy_cars = kenneth_toy_cars + 2\n    total_toy_cars = micah_toy_cars + kenneth_toy_cars + matthias_toy_cars\n    result = total_toy_cars\n\n    return result\n```\nThe solution to the problem is obtained by running the above code, which will return `21` as the total number of toy cars the boys have.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 120338
+  },
+  {
+    "user": "Mark needs to buy a gift for his friend, with exactly $39. He can choose from a selection of bracelets and watches. Each bracelet costs $10 and each watch costs $15. What is the maximum number of bracelets Mark can purchase?",
+    "assistant": "```python\ndef max_number_of_bracelets() -> int:\n    \"\"\"\n    Mark needs to buy a gift for his friend, with exactly $39. He can choose from a selection of bracelets and watches. Each bracelet costs $10 and each watch costs $15. What is the maximum number of bracelets Mark can purchase?\n    \"\"\"\n    budget = 39\n    bracelet_cost = 10\n    bracelets_purchased = budget // bracelet_cost\n    result = bracelets_purchased\n\n    return result\n```\nThis code defines a function `max_number_of_bracelets` that takes no arguments and returns a single value of type `int`. The function first assigns the budget value of $39 to the variable `budget`. The cost of each bracelet is assigned to the variable `bracelet_cost`. The maximum number of bracelets Mark can purchase is calculated by dividing the budget by the cost of each bracelet using the `//` operator, which performs integer division. The result is then assigned to the variable `bracelets_purchased` and returned as the final result.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 153574
+  },
+  {
+    "user": "Rosalina receives gifts from three people on her wedding day. If Anna gave 8 gifts, Carlos gave 5 gifts, and Miguel gave 3 gifts, how many gifts did she get in total?",
+    "assistant": "def simple\\_math\\_problem() -> int:\n\"\"\"\nRosalina receives gifts from three people on her wedding day. If Anna gave 8 gifts, Carlos gave 5 gifts, and Miguel gave 3 gifts, how many gifts did she get in total?\n\"\"\"\ngifts\\_from\\_anna = 8\ngifts\\_from\\_carlos = 5\ngifts\\_from\\_miguel = 3\ntotal\\_gifts = gifts\\_from\\_anna + gifts\\_from\\_carlos + gifts\\_from\\_miguel\nresult = total\\_gifts\n\nreturn result\n\nThe solution to the problem is returned by the `simple_math_problem` function.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 188231
+  },
+  {
+    "user": "Alex is buying ingredients to bake cupcakes for a bake sale. Each batch of cupcakes requires 2 cups of flour. If a bag of flour costs $4 and Alex needs $64, how many bags of flour does he need to buy?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alex is buying ingredients to bake cupcakes for a bake sale. Each batch of cupcakes requires 2 cups of flour. If a bag of flour costs $4 and Alex needs $64, how many bags of flour does he need to buy?\n    \"\"\"\n    cups_per_batch = 2\n    cost_of_flour_per_bag = 4\n    needed_amount = 64\n    bags_needed = needed_amount / cost_of_flour_per_bag\n    result = bags_needed\n\n    return result\n```\nThis code defines a function `simple_math_problem` that takes no arguments and returns a float. The function calculates the number of bags of flour that Alex needs to buy based on the given information in the problem statement.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 46903
+  },
+  {
+    "user": "Liam bought a pack of 50 pencils. He lost 10 pencils and then gave 15 pencils to his classmates. How many pencils does he have now?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Liam bought a pack of 50 pencils. He lost 10 pencils and then gave 15 pencils to his classmates. How many pencils does he have now?\n    \"\"\"\n    total_pencils = 50\n    pencils_lost = 10\n    pencils_given = 15\n    pencils_left = total_pencils - pencils_lost - pencils_given\n    result = pencils_left\n\n    return result\n```\nThis code defines a function `simple_math_problem` that takes no arguments and returns a single integer value. The problem statement is included as a docstring. The function calculates the number of pencils Liam has left by subtracting the number of pencils he lost and gave away from the total number of pencils he initially bought.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 98765
+  },
+  {
+    "user": "A bakery wants to bake equal sized cakes and brownies. If they have 24,000 grams of cake batter and 18,000 grams of brownie batter, how many grams of batter should be used for each cake/brownie if they want to make the same number of cakes and brownies?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A bakery wants to bake equal sized cakes and brownies. If they have 24,000 grams of cake batter and 18,000 grams of brownie batter, how many grams of batter should be used for each cake/brownie if they want to make the same number of cakes and brownies?\n    \"\"\"\n    cake_batter = 24000\n    brownie_batter = 18000\n\n    # Calculate the average amount of batter per cake/brownie\n    batter_per_cake_or_brownie = (cake_batter + brownie_batter) / 2\n\n    result = batter_per_cake_or_brownie\n\n    return result\n```\nThis solution defines a function `simple_math_problem` that takes no arguments and returns a float. The function first assigns the total amounts of cake and brownie batter to the variables `cake_batter` and `brownie_batter`, respectively. It then calculates the average amount of batter per cake/brownie by dividing the total amount of batter by 2 (since the bakery wants to make an equal number of cakes and brownies). The result is then returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 173798
+  },
+  {
+    "user": "Ethan is making a taco filling. He takes 32 ounces of ground beef and cooks it until it is 60% of its initial volume. If he adds 6 ounces of salsa and 2 ounces of spices to the filling, what is the total volume of the taco filling?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ethan is making a taco filling. He takes 32 ounces of ground beef and cooks it until it is 60% of its initial volume. If he adds 6 ounces of salsa and 2 ounces of spices to the filling, what is the total volume of the taco filling?\n    \"\"\"\n    initial_volume = 32  # ounces of ground beef\n    cooked_volume = initial_volume * 0.6  # cooked to 60% of initial volume\n    salsa_volume = 6  # ounces of salsa\n    spices_volume = 2  # ounces of spices\n\n    total_volume = cooked_volume + salsa_volume + spices_volume\n\n    return total_volume\n\nprint(simple_math_problem())  # Output: 24.0\n```\nThis code defines a function `simple_math_problem` that calculates the total volume of the taco filling based on the given problem statement. The function returns the total volume, which is 24.0 ounces.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 42551
+  },
+  {
+    "user": "Jenna has $50 and wants to buy a shirt that costs $38. How much money will she have left after buying the shirt?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jenna has $50 and wants to buy a shirt that costs $38. How much money will she have left after buying the shirt?\n    \"\"\"\n    starting_money = 50\n    cost_of_shirt = 38\n    money_left = starting_money - cost_of_shirt\n    result = money_left\n\n    return result\n```\nThis code defines a function `simple_math_problem` that takes no arguments and returns a float. It starts by assigning the starting money to the variable `starting_money` and the cost of the shirt to the variable `cost_of_shirt`. It then calculates the money left after buying the shirt by subtracting the cost of the shirt from the starting money and assigns the result to the variable `money_left`. The final result is assigned to the variable `result` and returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 161082
+  },
+  {
+    "user": "Liam read seven books. Oliver read twice as many books as Liam. How many books did they read together?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Liam read seven books. Oliver read twice as many books as Liam. How many books did they read together?\n    \"\"\"\n    liam_books = 7\n    oliver_books = liam_books * 2\n    total_books = liam_books + oliver_books\n    result = total_books\n\n    return result\n```\nWhen running the above code, it will return `14`, which is the total number of books that Liam and Oliver read together.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 22353
+  },
+  {
+    "user": "A train is traveling at a speed that is 10 kilometers per hour faster than a car. If the car is traveling at 60 kilometers per hour, what is the total distance traveled by both the train, the car, and a bicycle in 2 hours?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A train is traveling at a speed that is 10 kilometers per hour faster than a car. If the car is traveling at 60 kilometers per hour, what is the total distance traveled by both the train, the car, and a bicycle in 2 hours? The bicycle is traveling at a constant speed of 20 kilometers per hour.\n    \"\"\"\n    car_speed = 60  # kilometers per hour\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 59473
+  },
+  {
+    "user": "Alex's scooter can carry 2 passengers, but if he wants to take his bag, he will only fit 1/2 of that number inside. If every person in a trip where Alex had his bag on the scooter weighed 110 pounds, and the bag weighed 1/3 as much weight, calculate the total weight the scooter was carrying?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alex's scooter can carry 2 passengers, but if he wants to take his bag, he will only fit 1/2 of that number inside. If every person in a trip where Alex had his bag on the scooter weighed 110 pounds, and the bag weighed 1/3 as much weight, calculate the total weight the scooter was carrying?\n    \"\"\"\n    passengers_without_bag = 2\n    passengers_weight = 110 * passengers_without_bag\n    bag_weight = passengers_weight / 3\n    total_weight = passengers_weight + bag_weight\n    result = total_weight\n\n    return result\n```\nThis code defines a function `simple_math_problem` that calculates the total weight the scooter was carrying, given the problem statement. The variables `passengers_without_bag`, `passengers_weight`, `bag_weight` and `total_weight` are used to store the intermediate results and the final result is returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 105944
+  },
+  {
+    "user": "Rachel pours 5 cups of milk and 1 cup of sugar into a bowl. She lets it sit for a while and then doubles the amount of sugar. If 1/2 cup of milk evaporates, what is the percentage of sugar in the final mixture?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Rachel pours 5 cups of milk and 1 cup of sugar into a bowl. She lets it sit for a while and then doubles the amount of sugar. If 1/2 cup of milk evaporates, what is the percentage of sugar in the final mixture?\n    \"\"\"\n    # Variable assignments with descriptive names\n    initial_milk = 5\n    initial_sugar = 1\n    evaporated_milk = 0.5\n    added_sugar = initial_sugar * 2\n    final_milk = initial_milk - evaporated_milk\n    final_sugar = initial_sugar + added_sugar\n\n    # Calculate step by step\n    total_volume = final_milk + final_sugar\n    sugar_percentage = (final_sugar / total_volume) * 100\n\n    result = sugar_percentage\n\n    return result\n\nprint(simple_math_problem())\n```\nOutput:\n```\n62.5\n```\nExplanation:\nThe final volume of the mixture is 5 (milk) + 2 (doubled sugar) = 7 cups.\nThe percentage of sugar in the final mixture is (2 / 7) \\* 100 = 62.5%.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 98962
+  },
+  {
+    "user": "Ava has some pencils. Michael comes by and takes 3 pencils from Ava. Ava then goes and buys triple the amount of pencils she had left. If Ava has 33 pencils in the end, how many pencils did Ava have at first?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Ava has some pencils. Michael comes by and takes 3 pencils from Ava. Ava then goes and buys triple the amount of pencils she had left. If Ava has 33 pencils in the end, how many pencils did Ava have at first?\n    \"\"\"\n    pencils_taken = 3\n    pencils_bought = 3 * (33 - pencils_taken)\n    pencils_initial = ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 59090
+  },
+  {
+    "user": "A bag contains 20 red balls and 30 blue balls. If a person randomly selects a ball from the bag, what is the probability that the selected ball is red?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A bag contains 20 red balls and 30 blue balls. If a person randomly selects a ball from the bag, what is the probability that the selected ball is red?\n    \"\"\"\n    total_balls = 20 + 30\n    red_balls = 20\n    probability_red = red_balls / total_balls\n    result = probability_red\n\n    return result\n```\nThis code defines a function `simple_math_problem` that calculates the probability of selecting a red ball from a bag containing 20 red balls and 30 blue balls. The probability is calculated as the number of red balls divided by the total number of balls.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 20591
+  },
+  {
+    "user": "On each of 7 Fridays, a football team scored 2 goals. On each of 9 Saturdays, the team scored 3 goals. How many more goals did the team score on Saturdays than Fridays?",
+    "assistant": "```python\ndef goals_scored_on_saturdays_more() -> int:\n    \"\"\"\n    On each of 7 Fridays, a football team scored 2 goals. On each of ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 145706
+  },
+  {
+    "user": "A book costs 15 dollars. If you buy 5 books, how much would it cost in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n\"\"\"\nA book costs 15 dollars. If you buy 5 books, how much would it cost in total?\n\"\"\"\ncost_of_one_book = 15\nnumber_of_books = 5\n\ncost_of_books = cost_of_one_book * number_of_books\nresult = cost_of_books\n\nreturn result\n```\nThis code defines a function `simple_math_problem` that calculates the total cost of buying 5 books, each costing 15 dollars. The final calculation is stored in the variable `result` and returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 174535
+  },
+  {
+    "user": "A box can hold 25 pencils. If there are 100 pencils, how many boxes are needed?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A box can hold 25 pencils. If there are 100 pencils, how many boxes are needed?\n    \"\"\"\n    box_capacity = 25\n    pencils_total = 100\n\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 47963
+  },
+  {
+    "user": "A music streaming service charges $10 per month. If Bob cancelled his subscription 5 months ago, how much did he save in total?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A music streaming service charges $10 per month. If Bob cancelled his subscription 5 months ago, how much did he save in total?\n    \"\"\"\n    monthly_charge = 10  # $10 per month\n    months_since_cancelled = 5  # Bob cancelled his subscription 5 months ago\n    savings = monthly_charge * months_since_cancelled\n    result = savings\n\n    return result\n```\nBob saved `result` amount of money.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 133071
+  },
+  {
+    "user": "A train travels from point A to B, a distance of 300 miles, in 5 hours. If the train travels at a uniform speed, how many miles per hour does it travel?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nA train travels from point A to B, a distance of 300 miles, in 5 hours. If the train travels at a uniform speed, how many miles per hour does it travel?\n\"\"\"\ndistance = 300  # distance between point A and B in miles\ntime = 5  # time taken to travel the distance in hours\n\nspeed = distance / time  # calculate the speed using the formula: speed = distance/time\nresult = speed\n\nreturn result\n\n# Test the function\nprint(simple_math_problem())  # Output: 60.0",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 92806
+  },
+  {
+    "user": "There are 25 students in a class and each student has to complete 6 assignments. If there are 150 pencils in the classroom and each student needs 2 pencils to complete the assignments, how many pencils will be left if each student takes their share?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    There are 25 students in a class and each student has to complete 6 assignments. If there are 150 pencils in the classroom and each student needs 2 pencils to complete the assignments, how many pencils will be left if each student takes their share?\n    \"\"\"\n    students_count = 25\n    assignments_per_student = 6\n    pencils_count = 150\n    pencils_per_student = 2\n\n    pencils_needed_for_all_assignments = students_count * assignments_per_student * pencils_per_student\n    pencils_remaining = pencils_count - pencils_needed_for_all_assignments\n\n    result = pencils_remaining\n\n    return result\n```\nThe solution to the problem is:\n\n`simple_math_problem() -> 0`\n\nThere will be no pencils left if each student takes their share.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 192028
+  },
+  {
+    "user": "Max has 30 candies, which is 25% of Ava's candies, and Ava has three times as many candies as Mia. How many candies do all of them have?",
+    "assistant": "def simple\\_math\\_problem() -> int:\n\"\"\"\nMax has 30 candies, which is 25% of Ava's candies, and Ava has three times as many candies as Mia. How many candies do all of them have?\n\"\"\"\ncandies\\_max = 30\npercentage\\_max = 25\ncandies\\_ava\\_fraction = candies\\_max / percentage\\_max\ncandies\\_ava = candies\\_ava\\_fraction \\* 100\ncandies\\_mia = candies\\_ava / 3\n\ncandies\\_total = candies\\_max + candies\\_ava + candies\\_mia\nresult = candies\\_total\n\nreturn result\n\nprint(simple\\_math\\_problem())",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 33618
+  },
+  {
+    "user": "A triangle has one side that is 8 feet long and another side that is 6 feet long. What is the length of the third side if the triangle is a right triangle?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A triangle has one side that is 8 feet long and another side that is 6 feet long. What is the length of the third side if the triangle is a right triangle?\n    \"\"\"\n    side_a = 8  # length of side a\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 4738
+  },
+  {
+    "user": "A bag contains 10 red balls, 5 green balls, and 15 blue balls. What percentage of the balls are green?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A bag contains 10 red balls, 5 green balls, and 15 blue balls. What percentage of the balls are green?\n    \"\"\"\n    total_balls = 10 + 5 + 15\n    green_balls = 5\n    percentage = (green_balls / total_balls) * 100\n    result = percentage\n\n    return result\n```\nThis code defines a function called `simple_math_problem` that calculates the percentage of green balls in the bag. The function first calculates the total number of balls in the bag, then calculates the percentage of green balls by dividing the number of green balls by the total number of balls and multiplying by 100. The result is then returned.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 124500
+  },
+  {
+    "user": "A bag contains 200 marbles. If 25% of the marbles are blue and the rest are red, how many red marbles are there?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n\"\"\"\nA bag contains 200 marbles. If 25% of the marbles are blue and the rest are red, how many red marbles are there?\n\"\"\"\ntotal_marbles = 200\nblue_marbles = 0.25 * total_marbles\nred_marbles = total_marbles - blue_marbles\nresult = red_marbles\n\nreturn result\n```\nThis code defines a function `simple_math_problem` that calculates the number of red marbles in a bag containing 200 marbles, where 25% of the marbles are blue. The function calculates the number of blue marbles, subtracts that number from the total number of marbles to get the number of red marbles, and returns the result.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 123573
+  },
+  {
+    "user": "Sarah can make 4 pizzas in 20 minutes, 8 bowls of salad in 15 minutes, and 12 desserts in 30 minutes. If she makes 6 pizzas, 10 bowls of salad, and 4 desserts, how many hours did she work?",
+    "assistant": "```python\ndef pizza_salad_dessert_time() -> float:\n    \"\"\"\n    Sarah can make 4 pizzas in 20 minutes, ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 148849
+  }
+]

@@ -1,3 +1,91 @@
+# =============================================================================
+# CONFIGURATION - EDIT THESE VALUES
+# =============================================================================
+
+# Number of samples to take from each dataset
+SAMPLES_PER_DATASET = 1000
+
+# LLM Analysis Configuration
+LLM_MODEL = "Qwen/Qwen3-Next-80B-A3B-Thinking"
+LLM_MAX_TOKENS = 10000
+LLM_TEMPERATURE = 0.7
+
+# LLM System Prompt for Dataset Comparison
+LLM_SYSTEM_PROMPT = """
+Analyze these TinyGSM datasets and provide a focused comparison on model differences and example vs no-example modes.
+
+DATASETS:
+{comparison_text}
+
+Provide a structured analysis:
+
+# TINYGSM DATASET COMPARISON
+
+## MODEL FAMILY COMPARISONS
+
+### GPT-4 Models (gpt4.1, GPT-4.1-mini, 4.1-nano, o4-mini)
+- **Best performing GPT-4 variant**: [Which one and why]
+- **Quality differences**: [How do full vs mini vs nano compare]
+- **Code quality**: [Specific examples of good/bad code]
+- **Mathematical accuracy**: [Which GPT-4 variants are most accurate]
+
+### Llama Models (Llama3.3-70b vs llama3.1-8b)
+- **Size impact**: [How does 70B vs 8B affect performance]
+- **Code quality differences**: [Specific examples]
+- **Mathematical accuracy**: [Which is more accurate]
+
+### Mixtral Models (Mixtral-8x7B vs Mixtral-8x7B-no-example)
+- **Critical issues**: [What's wrong with Mixtral models]
+- **Error patterns**: [What types of mistakes do they make]
+- **Code quality problems**: [Specific examples of bad code]
+
+### DeepSeek (deepseek-r1)
+- **Performance vs others**: [How does it compare to GPT-4 and Llama]
+- **Unique characteristics**: [What makes it different]
+
+## EXAMPLE vs NO-EXAMPLE COMPARISONS
+
+### GPT4.1 vs GPT4.1-no-example
+- **Key differences**: [Verbosity, approach, quality]
+- **Code structure**: [How does removing examples change the code]
+- **Performance impact**: [Does no-example help or hurt]
+
+### GPT-4.1-mini vs GPT-4.1-mini-no-example
+- **Quality comparison**: [How do they compare]
+- **Efficiency**: [Which is more efficient]
+
+### Mixtral-8x7B vs Mixtral-8x7B-no-example
+- **Error differences**: [Do both have similar issues]
+- **Quality degradation**: [Is no-example worse]
+
+## RANKINGS & RECOMMENDATIONS
+
+### Model Ranking (1-11, best to worst)
+1. [Model] - [Why it's best]
+2. [Model] - [Why it's second]
+[Continue for all models]
+
+### Example vs No-Example Effectiveness
+- **When to use examples**: [Best use cases]
+- **When to use no-examples**: [Best use cases]
+- **General recommendation**: [Which mode is better overall]
+
+### Use Case Recommendations
+- **Production math tasks**: [Best models]
+- **Educational purposes**: [Best models]
+- **Resource-constrained**: [Best lightweight models]
+
+## KEY INSIGHTS
+- **Most surprising findings**: [Unexpected results]
+- **Critical issues**: [Major problems to address]
+- **Model patterns**: [Patterns by model family]
+
+Keep analysis concise but specific with examples.
+"""
+
+# =============================================================================
+# END CONFIGURATION
+# =============================================================================
 
 import os
 import json
@@ -33,7 +121,7 @@ dataset_list = [
     "ThomasTheMaker/TinyGSM-llama3.1-8b"
 ]
 
-def download_and_sample_dataset(dataset_name: str, num_samples: int = 10) -> List[Dict[str, Any]]:
+def download_and_sample_dataset(dataset_name: str, num_samples: int = SAMPLES_PER_DATASET) -> List[Dict[str, Any]]:
     """Download dataset and sample random records from train split."""
     # Check if samples already exist
     clean_name = dataset_name.replace('/', '_').replace('-', '_')
@@ -126,84 +214,14 @@ def compare_datasets_with_llm(all_samples: Dict[str, List[Dict[str, Any]]]) -> s
     for data in comparison_data:
         comparison_text += f"\n=== {data['dataset']} ===\n{data['sample']}\n"
     
-    prompt = f"""
-    Analyze these TinyGSM datasets and provide a focused comparison on model differences and example vs no-example modes.
-
-    DATASETS:
-    {comparison_text}
-
-    Provide a structured analysis:
-
-    # TINYGSM DATASET COMPARISON
-
-    ## MODEL FAMILY COMPARISONS
-
-    ### GPT-4 Models (gpt4.1, GPT-4.1-mini, 4.1-nano, o4-mini)
-    - **Best performing GPT-4 variant**: [Which one and why]
-    - **Quality differences**: [How do full vs mini vs nano compare]
-    - **Code quality**: [Specific examples of good/bad code]
-    - **Mathematical accuracy**: [Which GPT-4 variants are most accurate]
-
-    ### Llama Models (Llama3.3-70b vs llama3.1-8b)
-    - **Size impact**: [How does 70B vs 8B affect performance]
-    - **Code quality differences**: [Specific examples]
-    - **Mathematical accuracy**: [Which is more accurate]
-
-    ### Mixtral Models (Mixtral-8x7B vs Mixtral-8x7B-no-example)
-    - **Critical issues**: [What's wrong with Mixtral models]
-    - **Error patterns**: [What types of mistakes do they make]
-    - **Code quality problems**: [Specific examples of bad code]
-
-    ### DeepSeek (deepseek-r1)
-    - **Performance vs others**: [How does it compare to GPT-4 and Llama]
-    - **Unique characteristics**: [What makes it different]
-
-    ## EXAMPLE vs NO-EXAMPLE COMPARISONS
-
-    ### GPT4.1 vs GPT4.1-no-example
-    - **Key differences**: [Verbosity, approach, quality]
-    - **Code structure**: [How does removing examples change the code]
-    - **Performance impact**: [Does no-example help or hurt]
-
-    ### GPT-4.1-mini vs GPT-4.1-mini-no-example
-    - **Quality comparison**: [How do they compare]
-    - **Efficiency**: [Which is more efficient]
-
-    ### Mixtral-8x7B vs Mixtral-8x7B-no-example
-    - **Error differences**: [Do both have similar issues]
-    - **Quality degradation**: [Is no-example worse]
-
-    ## RANKINGS & RECOMMENDATIONS
-
-    ### Model Ranking (1-11, best to worst)
-    1. [Model] - [Why it's best]
-    2. [Model] - [Why it's second]
-    [Continue for all models]
-
-    ### Example vs No-Example Effectiveness
-    - **When to use examples**: [Best use cases]
-    - **When to use no-examples**: [Best use cases]
-    - **General recommendation**: [Which mode is better overall]
-
-    ### Use Case Recommendations
-    - **Production math tasks**: [Best models]
-    - **Educational purposes**: [Best models]
-    - **Resource-constrained**: [Best lightweight models]
-
-    ## KEY INSIGHTS
-    - **Most surprising findings**: [Unexpected results]
-    - **Critical issues**: [Major problems to address]
-    - **Model patterns**: [Patterns by model family]
-
-    Keep analysis concise but specific with examples.
-    """
+    prompt = LLM_SYSTEM_PROMPT.format(comparison_text=comparison_text)
     
     try:
         completion = client.chat.completions.create(
-            model="Qwen/Qwen3-Next-80B-A3B-Thinking",
+            model=LLM_MODEL,
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.7,
-            max_tokens=3000,
+            temperature=LLM_TEMPERATURE,
+            max_tokens=LLM_MAX_TOKENS,
             stream=False,
             top_p=1.0,
             n=1,
@@ -237,7 +255,7 @@ def main():
         print(f"\nProcessing {dataset_name}...")
         
         # Download and sample dataset
-        samples = download_and_sample_dataset(dataset_name, num_samples=10)
+        samples = download_and_sample_dataset(dataset_name, num_samples=SAMPLES_PER_DATASET)
         
         if samples:
             # Save samples to JSON
@@ -264,7 +282,7 @@ def main():
     summary = {
         "total_datasets_processed": len(all_samples),
         "datasets": list(all_samples.keys()),
-        "samples_per_dataset": 10,
+        "samples_per_dataset": SAMPLES_PER_DATASET,
         "comparison_analysis": "dataset_comparison_analysis.md" if len(all_samples) > 1 else None
     }
     

@@ -13,6 +13,6 @@
     "ThomasTheMaker/TinyGSM-4.1-nano",
     "ThomasTheMaker/TinyGSM-llama3.1-8b"
   ],
-  "samples_per_dataset": 10,
-  "comparison_analysis": "dataset_comparison_analysis.txt"
+  "samples_per_dataset": 1000,
+  "comparison_analysis": "dataset_comparison_analysis.md"
 }
