@@ -1,0 +1,602 @@
+[
+  {
+    "index": 0,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Jacob has 8 stickers. He wants to put them equally on 2 pages of his notebook. How many stickers will he put on each page?\n    \"\"\"\n    total_stickers = 8\n    total_pages = 2\n    stickers_per_page = total_stickers // total_pages\n    result = stickers_per_page\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Jacob has 8 stickers. He wants to put them equally on 2 pages of his notebook. How many stickers will he put on each page?\n    \"\"\"\n    total_stickers = 8\n    total_pages = 2\n    stickers_per_page = total_stickers // total_pages\n    result = stickers_per_page\n\n    return result",
+    "result": 4
+  },
+  {
+    "index": 1,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    There were 24 cats in the house and the owner adopted 5 more cats from the shelter. How many cats are there in the house now?\n    \"\"\"\n    catsInitially = 24\n    catsAdopted = 5\n    totalCats = catsInitially + catsAdopted\n    result = totalCats\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    There were 24 cats in the house and the owner adopted 5 more cats from the shelter. How many cats are there in the house now?\n    \"\"\"\n    catsInitially = 24\n    catsAdopted = 5\n    totalCats = catsInitially + catsAdopted\n    result = totalCats\n\n    return result",
+    "result": 29
+  },
+  {
+    "index": 2,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Julia spent $600 on a new tablet. She also purchased a monthly data plan that costs $80, a case that costs 30% of the cost of the tablet, and a stylus pen that costs one-fourth of the price of the case. How much money will Julia need to spend on her tablet in the first year?\n    \"\"\"\n    tablet_cost = 600\n    monthly_data_plan_cost = 80\n    case_cost = 0.30 * tablet_cost\n    stylus_pen_cost = 0.25 * case_cost\n    yearly_data_plan_cost = monthly_data_plan_cost * 12\n    \n    total_first_year_cost = tablet_cost + yearly_data_plan_cost + case_cost + stylus_pen_cost\n    result = total_first_year_cost\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Julia spent $600 on a new tablet. She also purchased a monthly data plan that costs $80, a case that costs 30% of the cost of the tablet, and a stylus pen that costs one-fourth of the price of the case. How much money will Julia need to spend on her tablet in the first year?\n    \"\"\"\n    tablet_cost = 600\n    monthly_data_plan_cost = 80\n    case_cost = 0.30 * tablet_cost\n    stylus_pen_cost = 0.25 * case_cost\n    yearly_data_plan_cost = monthly_data_plan_cost * 12\n    \n    total_first_year_cost = tablet_cost + yearly_data_plan_cost + case_cost + stylus_pen_cost\n    result = total_first_year_cost\n\n    return result",
+    "result": 1785.0
+  },
+  {
+    "index": 3,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A carpenter can cut a set of boards in 10 minutes. If he is asked to cut 5 sets of boards, how long will it take him to complete the task?\n    \"\"\"\n    time_per_set = 10  # minutes per set\n    number_of_sets = 5\n    total_time = time_per_set * number_of_sets\n    \n    result = total_time\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A carpenter can cut a set of boards in 10 minutes. If he is asked to cut 5 sets of boards, how long will it take him to complete the task?\n    \"\"\"\n    time_per_set = 10  # minutes per set\n    number_of_sets = 5\n    total_time = time_per_set * number_of_sets\n    \n    result = total_time\n\n    return result",
+    "result": 50
+  },
+  {
+    "index": 4,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Tyler has a paper due at the end of the week which needs to be 2000 words in length. Tyler can type 125 words in 5 minutes. If he has already written 500 words, how many more minutes will it take him to finish the paper?\n    \"\"\"\n    total_words_needed = 2000\n    words_already_written = 500\n    words_per_5_minutes = 125\n    \n    words_remaining = total_words_needed - words_already_written\n    # Calculate words per minute\n    words_per_minute = words_per_5_minutes / 5\n    # Calculate minutes remaining\n    minutes_remaining = words_remaining / words_per_minute\n    \n    result = minutes_remaining\n    \n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Tyler has a paper due at the end of the week which needs to be 2000 words in length. Tyler can type 125 words in 5 minutes. If he has already written 500 words, how many more minutes will it take him to finish the paper?\n    \"\"\"\n    total_words_needed = 2000\n    words_already_written = 500\n    words_per_5_minutes = 125\n    \n    words_remaining = total_words_needed - words_already_written\n    # Calculate words per minute\n    words_per_minute = words_per_5_minutes / 5\n    # Calculate minutes remaining\n    minutes_remaining = words_remaining / words_per_minute\n    \n    result = minutes_remaining\n    \n    return result",
+    "result": 60.0
+  },
+  {
+    "index": 5,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah is baking a cake and needs 2 cups of sugar. She only has a 1/2 cup measuring cup. How many times does Sarah have to fill up the 1/2 cup measuring cup to get 2 cups of sugar?\n    \"\"\"\n    cupsNeeded = 2\n    measuringCupSize = 1/2\n    timesToFill = cupsNeeded / measuringCupSize\n    result = timesToFill\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Sarah is baking a cake and needs 2 cups of sugar. She only has a 1/2 cup measuring cup. How many times does Sarah have to fill up the 1/2 cup measuring cup to get 2 cups of sugar?\n    \"\"\"\n    cupsNeeded = 2\n    measuringCupSize = 1/2\n    timesToFill = cupsNeeded / measuringCupSize\n    result = timesToFill\n\n    return result",
+    "result": 4.0
+  },
+  {
+    "index": 6,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A water tank can hold 250 gallons of water. If it is 40% full, how much water (in gallons) needs to be added to fill the tank completely?\n    \"\"\"\n    tank_capacity = 250\n    percent_full = 40 / 100\n    water_in_tank = tank_capacity * percent_full\n    water_needed = tank_capacity - water_in_tank\n    result = water_needed\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A water tank can hold 250 gallons of water. If it is 40% full, how much water (in gallons) needs to be added to fill the tank completely?\n    \"\"\"\n    tank_capacity = 250\n    percent_full = 40 / 100\n    water_in_tank = tank_capacity * percent_full\n    water_needed = tank_capacity - water_in_tank\n    result = water_needed\n\n    return result",
+    "result": 150.0
+  },
+  {
+    "index": 7,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    The ratio of the length to the width of a rectangle is 5:3. If the width of the rectangle is 9 meters, what is the length of the rectangle?\n    \"\"\"\n    ratio_length = 5\n    ratio_width = 3\n    width = 9\n\n    # Find length using the ratio\n    length = (ratio_length / ratio_width) * width\n    result = length\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    The ratio of the length to the width of a rectangle is 5:3. If the width of the rectangle is 9 meters, what is the length of the rectangle?\n    \"\"\"\n    ratio_length = 5\n    ratio_width = 3\n    width = 9\n\n    # Find length using the ratio\n    length = (ratio_length / ratio_width) * width\n    result = length\n\n    return result",
+    "result": 15.0
+  },
+  {
+    "index": 8,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A rectangular garden has a length of 12 feet and a width of 6 feet. What is its perimeter?\n    \"\"\"\n    length_feet = 12\n    width_feet = 6\n    perimeter = 2 * (length_feet + width_feet)\n    result = perimeter\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A rectangular garden has a length of 12 feet and a width of 6 feet. What is its perimeter?\n    \"\"\"\n    length_feet = 12\n    width_feet = 6\n    perimeter = 2 * (length_feet + width_feet)\n    result = perimeter\n\n    return result",
+    "result": 36
+  },
+  {
+    "index": 9,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Mark went to a store and bought 5 apples and 7 oranges. How many pieces of fruits did Mark buy in total?\n    \"\"\"\n    apples_bought = 5\n    oranges_bought = 7\n    total_fruits = apples_bought + oranges_bought\n    result = total_fruits\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Mark went to a store and bought 5 apples and 7 oranges. How many pieces of fruits did Mark buy in total?\n    \"\"\"\n    apples_bought = 5\n    oranges_bought = 7\n    total_fruits = apples_bought + oranges_bought\n    result = total_fruits\n\n    return result",
+    "result": 12
+  },
+  {
+    "index": 10,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A concert hall has two types of seats Section A offers a seat for $50 and Section B offers a seat for $25. Section A is less than half full and Section B is 80% full. Which section has a better value in terms of price per empty seat?\n    \"\"\"\n    price_section_a = 50\n    price_section_b = 25\n    \n    # Since Section A is less than half full, the fullness fraction is less than 0.5.\n    # To evaluate the value, let's take an example fullness at exactly half for comparison,\n    # then we know \"less than half full\" means slightly less than 50% full.\n    # Let's take fullness of Section A as exactly 49% full to illustrate \"less than half full\"\n    fullness_section_a = 0.49  # less than half full\n    fullness_section_b = 0.80  # 80% full\n    \n    # Assume total seats in each section are the same, say 100 seats (to compare price per empty seat ratio)\n    total_seats = 100\n    \n    empty_seats_a = total_seats * (1 - fullness_section_a)\n    empty_seats_b = total_seats * (1 - fullness_section_b)\n\n    # price per empty seat = total revenue / number of empty seats\n    # revenue from each section = seats sold * price per seat\n    sold_seats_a = total_seats * fullness_section_a\n    sold_seats_b = total_seats * fullness_section_b\n\n    revenue_a = sold_seats_a * price_section_a\n    revenue_b = sold_seats_b * price_section_b\n\n    # price per empty seat for each section\n    # If there are 0 empty seats, price per empty seat is infinite, but here empty seats > 0\n    price_per_empty_seat_a = revenue_a / empty_seats_a\n    price_per_empty_seat_b = revenue_b / empty_seats_b\n\n    # Determine which is better value (lower price per empty seat is better)\n    # Return the difference price_per_empty_seat_b - price_per_empty_seat_a; positive means A better \n    result = price_per_empty_seat_b - price_per_empty_seat_a\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A concert hall has two types of seats Section A offers a seat for $50 and Section B offers a seat for $25. Section A is less than half full and Section B is 80% full. Which section has a better value in terms of price per empty seat?\n    \"\"\"\n    price_section_a = 50\n    price_section_b = 25\n    \n    # Since Section A is less than half full, the fullness fraction is less than 0.5.\n    # To evaluate the value, let's take an example fullness at exactly half for comparison,\n    # then we know \"less than half full\" means slightly less than 50% full.\n    # Let's take fullness of Section A as exactly 49% full to illustrate \"less than half full\"\n    fullness_section_a = 0.49  # less than half full\n    fullness_section_b = 0.80  # 80% full\n    \n    # Assume total seats in each section are the same, say 100 seats (to compare price per empty seat ratio)\n    total_seats = 100\n    \n    empty_seats_a = total_seats * (1 - fullness_section_a)\n    empty_seats_b = total_seats * (1 - fullness_section_b)\n\n    # price per empty seat = total revenue / number of empty seats\n    # revenue from each section = seats sold * price per seat\n    sold_seats_a = total_seats * fullness_section_a\n    sold_seats_b = total_seats * fullness_section_b\n\n    revenue_a = sold_seats_a * price_section_a\n    revenue_b = sold_seats_b * price_section_b\n\n    # price per empty seat for each section\n    # If there are 0 empty seats, price per empty seat is infinite, but here empty seats > 0\n    price_per_empty_seat_a = revenue_a / empty_seats_a\n    price_per_empty_seat_b = revenue_b / empty_seats_b\n\n    # Determine which is better value (lower price per empty seat is better)\n    # Return the difference price_per_empty_seat_b - price_per_empty_seat_a; positive means A better \n    result = price_per_empty_seat_b - price_per_empty_seat_a\n\n    return result",
+    "result": 51.960784313725505
+  },
+  {
+    "index": 11,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If you buy more than 25 items, a store offers a 15% discount. Tom pays $680 for 30 items. What was the original price of a single item?\n    \"\"\"\n    items_bought = 30\n    total_paid = 680\n    discount_rate = 0.15\n\n    # Since Tom bought more than 25 items, he got a 15% discount on the total original price\n    # Let original_price_per_item be the original price of one item\n    # total_original_price = original_price_per_item * items_bought\n    # After discount, total_paid = total_original_price * (1 - discount_rate)\n    # => total_original_price = total_paid / (1 - discount_rate)\n    total_original_price = total_paid / (1 - discount_rate)\n\n    # original price per item\n    original_price_per_item = total_original_price / items_bought\n\n    result = original_price_per_item\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    If you buy more than 25 items, a store offers a 15% discount. Tom pays $680 for 30 items. What was the original price of a single item?\n    \"\"\"\n    items_bought = 30\n    total_paid = 680\n    discount_rate = 0.15\n\n    # Since Tom bought more than 25 items, he got a 15% discount on the total original price\n    # Let original_price_per_item be the original price of one item\n    # total_original_price = original_price_per_item * items_bought\n    # After discount, total_paid = total_original_price * (1 - discount_rate)\n    # => total_original_price = total_paid / (1 - discount_rate)\n    total_original_price = total_paid / (1 - discount_rate)\n\n    # original price per item\n    original_price_per_item = total_original_price / items_bought\n\n    result = original_price_per_item\n\n    return result",
+    "result": 26.666666666666668
+  },
+  {
+    "index": 12,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Jack has 28 pieces of candy. 9 of them are chocolate, and twice as many are fruity. He has two less bubblegum pieces than chocolate. How many bubblegum pieces does he have?\n    \"\"\"\n    total_candies = 28\n    chocolate = 9\n    fruity = 2 * chocolate\n    bubblegum = chocolate - 2\n    result = bubblegum\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Jack has 28 pieces of candy. 9 of them are chocolate, and twice as many are fruity. He has two less bubblegum pieces than chocolate. How many bubblegum pieces does he have?\n    \"\"\"\n    total_candies = 28\n    chocolate = 9\n    fruity = 2 * chocolate\n    bubblegum = chocolate - 2\n    result = bubblegum\n\n    return result",
+    "result": 7
+  },
+  {
+    "index": 13,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A triangle has a base of 6 cm and a height of 4 cm. What is the area of the triangle?\n    \"\"\"\n    base_cm = 6\n    height_cm = 4\n    area = 0.5 * base_cm * height_cm\n    result = area\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A triangle has a base of 6 cm and a height of 4 cm. What is the area of the triangle?\n    \"\"\"\n    base_cm = 6\n    height_cm = 4\n    area = 0.5 * base_cm * height_cm\n    result = area\n\n    return result",
+    "result": 12.0
+  },
+  {
+    "index": 14,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A movie theater has 200 seats. If 80% of them are sold, how many seats are still available?\n    \"\"\"\n    total_seats = 200\n    percent_sold = 0.80\n    seats_sold = total_seats * percent_sold\n    seats_available = total_seats - seats_sold\n    result = int(seats_available)\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A movie theater has 200 seats. If 80% of them are sold, how many seats are still available?\n    \"\"\"\n    total_seats = 200\n    percent_sold = 0.80\n    seats_sold = total_seats * percent_sold\n    seats_available = total_seats - seats_sold\n    result = int(seats_available)\n\n    return result",
+    "result": 40
+  },
+  {
+    "index": 15,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Anna likes to knit scarves for her family and to donate them to a local shelter. Once Anna knitted eight scarves with blue yarn and half as many scarves with green yarn. How many scarves did Anna knit?\n    \"\"\"\n    scarves_blue = 8\n    scarves_green = scarves_blue / 2\n    total_scarves = scarves_blue + scarves_green\n    result = int(total_scarves)\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Anna likes to knit scarves for her family and to donate them to a local shelter. Once Anna knitted eight scarves with blue yarn and half as many scarves with green yarn. How many scarves did Anna knit?\n    \"\"\"\n    scarves_blue = 8\n    scarves_green = scarves_blue / 2\n    total_scarves = scarves_blue + scarves_green\n    result = int(total_scarves)\n\n    return result",
+    "result": 12
+  },
+  {
+    "index": 16,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A class has 25 students. Each student was given 5 pencils. If 10% of the pencils were broken, how many unbroken pencils are left?\n    \"\"\"\n    number_of_students = 25\n    pencils_per_student = 5\n    percentage_broken = 10\n\n    total_pencils = number_of_students * pencils_per_student\n    broken_pencils = (percentage_broken / 100) * total_pencils\n    unbroken_pencils = total_pencils - broken_pencils\n\n    result = int(unbroken_pencils)\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A class has 25 students. Each student was given 5 pencils. If 10% of the pencils were broken, how many unbroken pencils are left?\n    \"\"\"\n    number_of_students = 25\n    pencils_per_student = 5\n    percentage_broken = 10\n\n    total_pencils = number_of_students * pencils_per_student\n    broken_pencils = (percentage_broken / 100) * total_pencils\n    unbroken_pencils = total_pencils - broken_pencils\n\n    result = int(unbroken_pencils)\n\n    return result",
+    "result": 112
+  },
+  {
+    "index": 17,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Juan has 45 candies and he gave 23 to Ana. How many candies does Juan have now?\n    \"\"\"\n    candiesTotal = 45\n    candiesGiven = 23\n    candiesLeft = candiesTotal - candiesGiven\n    result = candiesLeft\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Juan has 45 candies and he gave 23 to Ana. How many candies does Juan have now?\n    \"\"\"\n    candiesTotal = 45\n    candiesGiven = 23\n    candiesLeft = candiesTotal - candiesGiven\n    result = candiesLeft\n\n    return result",
+    "result": 22
+  },
+  {
+    "index": 18,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Samantha buys five books at $20 each and four pens at $5 each. She gets a 12% discount on all the items she purchased. How much does she pay in all?\n    \"\"\"\n    books_quantity = 5\n    book_price = 20\n    pens_quantity = 4\n    pen_price = 5\n    discount_percent = 12 / 100\n\n    total_books_price = books_quantity * book_price\n    total_pens_price = pens_quantity * pen_price\n    total_price = total_books_price + total_pens_price\n    discount_amount = total_price * discount_percent\n    amount_to_pay = total_price - discount_amount\n\n    result = amount_to_pay\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Samantha buys five books at $20 each and four pens at $5 each. She gets a 12% discount on all the items she purchased. How much does she pay in all?\n    \"\"\"\n    books_quantity = 5\n    book_price = 20\n    pens_quantity = 4\n    pen_price = 5\n    discount_percent = 12 / 100\n\n    total_books_price = books_quantity * book_price\n    total_pens_price = pens_quantity * pen_price\n    total_price = total_books_price + total_pens_price\n    discount_amount = total_price * discount_percent\n    amount_to_pay = total_price - discount_amount\n\n    result = amount_to_pay\n\n    return result",
+    "result": 105.6
+  },
+  {
+    "index": 19,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A triangular garden has a base of 12 feet and a height of 8 feet. If the garden is filled with mulch 2 feet deep, how many cubic feet of mulch are needed to fill the entire garden?\n    \"\"\"\n    base_length = 12\n    height_length = 8\n    mulch_depth = 2\n\n    # Calculate the area of the triangular base\n    base_area = 0.5 * base_length * height_length\n\n    # Calculate the volume by multiplying area by depth\n    volume_mulch = base_area * mulch_depth\n\n    result = volume_mulch\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A triangular garden has a base of 12 feet and a height of 8 feet. If the garden is filled with mulch 2 feet deep, how many cubic feet of mulch are needed to fill the entire garden?\n    \"\"\"\n    base_length = 12\n    height_length = 8\n    mulch_depth = 2\n\n    # Calculate the area of the triangular base\n    base_area = 0.5 * base_length * height_length\n\n    # Calculate the volume by multiplying area by depth\n    volume_mulch = base_area * mulch_depth\n\n    result = volume_mulch\n\n    return result",
+    "result": 96.0
+  },
+  {
+    "index": 20,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    2. A collector owns 4 sets of coins. Each set consists of 7 coins. How many coins does the collector have in total?\n    \"\"\"\n    number_of_sets = 4\n    coins_per_set = 7\n    total_coins = number_of_sets * coins_per_set\n    result = total_coins\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    2. A collector owns 4 sets of coins. Each set consists of 7 coins. How many coins does the collector have in total?\n    \"\"\"\n    number_of_sets = 4\n    coins_per_set = 7\n    total_coins = number_of_sets * coins_per_set\n    result = total_coins\n\n    return result",
+    "result": 28
+  },
+  {
+    "index": 21,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A store has 400 books. Half of the books are science fiction and a third of the books are biographies. How many science fiction books are there in the store?\n    \"\"\"\n    total_books = 400\n    fraction_science_fiction = 1 / 2\n    # Calculate number of science fiction books\n    science_fiction_books = total_books * fraction_science_fiction\n    result = science_fiction_books\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A store has 400 books. Half of the books are science fiction and a third of the books are biographies. How many science fiction books are there in the store?\n    \"\"\"\n    total_books = 400\n    fraction_science_fiction = 1 / 2\n    # Calculate number of science fiction books\n    science_fiction_books = total_books * fraction_science_fiction\n    result = science_fiction_books\n\n    return result",
+    "result": 200.0
+  },
+  {
+    "index": 22,
+    "response": "def simple_math_problem() -> float:\n    \"\"\"\n    Olivia shops for furniture online and spent a total of $3000. She paid $500 as an initial deposit, and wants to spread the rest out over 8 equal payments. How much, in dollars, does she need to pay each time?\n    \"\"\"\n    total_cost = 3000\n    initial_deposit = 500\n    remaining_balance = total_cost - initial_deposit\n    number_of_payments = 8\n    payment_per_time = remaining_balance / number_of_payments\n    result = payment_per_time\n\n    return result",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Olivia shops for furniture online and spent a total of $3000. She paid $500 as an initial deposit, and wants to spread the rest out over 8 equal payments. How much, in dollars, does she need to pay each time?\n    \"\"\"\n    total_cost = 3000\n    initial_deposit = 500\n    remaining_balance = total_cost - initial_deposit\n    number_of_payments = 8\n    payment_per_time = remaining_balance / number_of_payments\n    result = payment_per_time\n\n    return result",
+    "result": 312.5
+  },
+  {
+    "index": 23,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    John has 85 cups. He wants to put them into 5 boxes. How many cups will go into each box?\n    \"\"\"\n    total_cups = 85\n    number_of_boxes = 5\n    cups_per_box = total_cups / number_of_boxes\n    result = cups_per_box\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    John has 85 cups. He wants to put them into 5 boxes. How many cups will go into each box?\n    \"\"\"\n    total_cups = 85\n    number_of_boxes = 5\n    cups_per_box = total_cups / number_of_boxes\n    result = cups_per_box\n\n    return result",
+    "result": 17.0
+  },
+  {
+    "index": 24,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    David and Mike are in a weightlifting competition. The winner is whoever lifts the heaviest weight in 5 minutes. David lifts 6 dumbbells and each dumbbell weighs 25 pounds. Mike lifts 8 barbells and each barbell weighs 30 pounds. How many total pounds did the winner lift?\n    \"\"\"\n    david_dumbbells = 6\n    weight_per_dumbbell = 25\n    mike_barbells = 8\n    weight_per_barbell = 30\n\n    david_total = david_dumbbells * weight_per_dumbbell\n    mike_total = mike_barbells * weight_per_barbell\n\n    result = max(david_total, mike_total)\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    David and Mike are in a weightlifting competition. The winner is whoever lifts the heaviest weight in 5 minutes. David lifts 6 dumbbells and each dumbbell weighs 25 pounds. Mike lifts 8 barbells and each barbell weighs 30 pounds. How many total pounds did the winner lift?\n    \"\"\"\n    david_dumbbells = 6\n    weight_per_dumbbell = 25\n    mike_barbells = 8\n    weight_per_barbell = 30\n\n    david_total = david_dumbbells * weight_per_dumbbell\n    mike_total = mike_barbells * weight_per_barbell\n\n    result = max(david_total, mike_total)\n\n    return result",
+    "result": 240
+  },
+  {
+    "index": 25,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Noah, Olivia, and Parker sold some cookies and realized Noah sold 6 more cookies than Olivia and that Olivia sold 8 fewer cookies than Parker. If Parker sold 36 cookies, calculate the average number of cookies they sold.\n    \"\"\"\n    parker_cookies = 36\n    olivia_cookies = parker_cookies - 8\n    noah_cookies = olivia_cookies + 6\n    total_cookies = parker_cookies + olivia_cookies + noah_cookies\n    result = total_cookies / 3\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Noah, Olivia, and Parker sold some cookies and realized Noah sold 6 more cookies than Olivia and that Olivia sold 8 fewer cookies than Parker. If Parker sold 36 cookies, calculate the average number of cookies they sold.\n    \"\"\"\n    parker_cookies = 36\n    olivia_cookies = parker_cookies - 8\n    noah_cookies = olivia_cookies + 6\n    total_cookies = parker_cookies + olivia_cookies + noah_cookies\n    result = total_cookies / 3\n\n    return result",
+    "result": 32.666666666666664
+  },
+  {
+    "index": 26,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mary takes out a $5000 loan with a yearly interest rate of 8%. If the loan is to be paid off in 2 years with monthly payments, how much does Mary need to pay each month?\n    \"\"\"\n    principal = 5000  # loan amount in dollars\n    annual_interest_rate = 0.08  # 8% yearly interest rate\n    years = 2  # duration of loan in years\n    \n    monthly_interest_rate = annual_interest_rate / 12\n    total_payments = years * 12  # number of monthly payments\n    \n    # Calculate the monthly payment using the amortization formula:\n    # P = (r*PV) / (1 - (1 + r)^-n)\n    # where P = monthly payment, r = monthly interest rate,\n    # PV = principal (initial loan), n = total number of payments\n    numerator = monthly_interest_rate * principal\n    denominator = 1 - (1 + monthly_interest_rate) ** (-total_payments)\n    monthly_payment = numerator / denominator\n    \n    result = monthly_payment\n    \n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Mary takes out a $5000 loan with a yearly interest rate of 8%. If the loan is to be paid off in 2 years with monthly payments, how much does Mary need to pay each month?\n    \"\"\"\n    principal = 5000  # loan amount in dollars\n    annual_interest_rate = 0.08  # 8% yearly interest rate\n    years = 2  # duration of loan in years\n    \n    monthly_interest_rate = annual_interest_rate / 12\n    total_payments = years * 12  # number of monthly payments\n    \n    # Calculate the monthly payment using the amortization formula:\n    # P = (r*PV) / (1 - (1 + r)^-n)\n    # where P = monthly payment, r = monthly interest rate,\n    # PV = principal (initial loan), n = total number of payments\n    numerator = monthly_interest_rate * principal\n    denominator = 1 - (1 + monthly_interest_rate) ** (-total_payments)\n    monthly_payment = numerator / denominator\n    \n    result = monthly_payment\n    \n    return result",
+    "result": 226.13645728092285
+  },
+  {
+    "index": 27,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Jack has 74 pencils. He uses 4 pencils to create a pattern on the front page of his journal and 5 pencils each to 7 other pages. How many pencils does Jack have remaining?\n    \"\"\"\n    total_pencils = 74\n    pencils_used_front_page = 4\n    pencils_used_per_other_page = 5\n    number_of_other_pages = 7\n    \n    pencils_used_other_pages = pencils_used_per_other_page * number_of_other_pages\n    total_pencils_used = pencils_used_front_page + pencils_used_other_pages\n    pencils_remaining = total_pencils - total_pencils_used\n    \n    result = pencils_remaining\n    \n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Jack has 74 pencils. He uses 4 pencils to create a pattern on the front page of his journal and 5 pencils each to 7 other pages. How many pencils does Jack have remaining?\n    \"\"\"\n    total_pencils = 74\n    pencils_used_front_page = 4\n    pencils_used_per_other_page = 5\n    number_of_other_pages = 7\n    \n    pencils_used_other_pages = pencils_used_per_other_page * number_of_other_pages\n    total_pencils_used = pencils_used_front_page + pencils_used_other_pages\n    pencils_remaining = total_pencils - total_pencils_used\n    \n    result = pencils_remaining\n    \n    return result",
+    "result": 35
+  },
+  {
+    "index": 28,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Tony had 10 boxes, he got 6 times the amount he had before and then got 4 times the amount he had. How many boxes does he have now?\n    \"\"\"\n    initial_boxes = 10\n    boxes_after_first_gain = initial_boxes * 6\n    boxes_after_second_gain = boxes_after_first_gain * 4\n    result = boxes_after_second_gain\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Tony had 10 boxes, he got 6 times the amount he had before and then got 4 times the amount he had. How many boxes does he have now?\n    \"\"\"\n    initial_boxes = 10\n    boxes_after_first_gain = initial_boxes * 6\n    boxes_after_second_gain = boxes_after_first_gain * 4\n    result = boxes_after_second_gain\n\n    return result",
+    "result": 240
+  },
+  {
+    "index": 29,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A watermelon costs $2.75 each. If a customer buys 4 watermelons, how much did the customer spend?\n    \"\"\"\n    cost_per_watermelon = 2.75\n    number_of_watermelons = 4\n    total_cost = cost_per_watermelon * number_of_watermelons\n    result = total_cost\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A watermelon costs $2.75 each. If a customer buys 4 watermelons, how much did the customer spend?\n    \"\"\"\n    cost_per_watermelon = 2.75\n    number_of_watermelons = 4\n    total_cost = cost_per_watermelon * number_of_watermelons\n    result = total_cost\n\n    return result",
+    "result": 11.0
+  },
+  {
+    "index": 30,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ethan has a bag that can hold 2 liters of water. He needs to fill it with 4 liters of water. How much additional water does he need?\n    \"\"\"\n    bag_capacity_liters = 2\n    water_needed_liters = 4\n    \n    additional_water_needed = water_needed_liters - bag_capacity_liters\n    result = additional_water_needed\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Ethan has a bag that can hold 2 liters of water. He needs to fill it with 4 liters of water. How much additional water does he need?\n    \"\"\"\n    bag_capacity_liters = 2\n    water_needed_liters = 4\n    \n    additional_water_needed = water_needed_liters - bag_capacity_liters\n    result = additional_water_needed\n\n    return result",
+    "result": 2
+  },
+  {
+    "index": 31,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah has two jobs. At her first job, she earns $12 per hour. At her second job, she earns $14 per hour. If she works 20 hours at her first job and 25 hours at her second job, how much money did she earn in total?\n    \"\"\"\n    first_job_hourly_wage = 12\n    second_job_hourly_wage = 14\n    first_job_hours_worked = 20\n    second_job_hours_worked = 25\n\n    first_job_earnings = first_job_hourly_wage * first_job_hours_worked\n    second_job_earnings = second_job_hourly_wage * second_job_hours_worked\n\n    total_earnings = first_job_earnings + second_job_earnings\n    result = total_earnings\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Sarah has two jobs. At her first job, she earns $12 per hour. At her second job, she earns $14 per hour. If she works 20 hours at her first job and 25 hours at her second job, how much money did she earn in total?\n    \"\"\"\n    first_job_hourly_wage = 12\n    second_job_hourly_wage = 14\n    first_job_hours_worked = 20\n    second_job_hours_worked = 25\n\n    first_job_earnings = first_job_hourly_wage * first_job_hours_worked\n    second_job_earnings = second_job_hourly_wage * second_job_hours_worked\n\n    total_earnings = first_job_earnings + second_job_earnings\n    result = total_earnings\n\n    return result",
+    "result": 590
+  },
+  {
+    "index": 32,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A store is having a 25% discount on all items. If the original price of an item is $80, what is the discounted price?\n    \"\"\"\n    original_price = 80\n    discount_percentage = 25\n    discount_amount = original_price * discount_percentage / 100\n    discounted_price = original_price - discount_amount\n    result = discounted_price\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A store is having a 25% discount on all items. If the original price of an item is $80, what is the discounted price?\n    \"\"\"\n    original_price = 80\n    discount_percentage = 25\n    discount_amount = original_price * discount_percentage / 100\n    discounted_price = original_price - discount_amount\n    result = discounted_price\n\n    return result",
+    "result": 60.0
+  },
+  {
+    "index": 33,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    John has 30 pencils, and his sister has 10 pencils. If they share their pencils evenly, and then John gives his sister 3 more pencils, how many pencils does John have left?\n    \"\"\"\n    john_pencils = 30\n    sister_pencils = 10\n    \n    total_pencils = john_pencils + sister_pencils\n    each_share = total_pencils // 2  # They share evenly\n    \n    john_pencils_after_sharing = each_share\n    # John gives his sister 3 more pencils\n    john_pencils_after_giving = john_pencils_after_sharing - 3\n    \n    result = john_pencils_after_giving\n    \n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    John has 30 pencils, and his sister has 10 pencils. If they share their pencils evenly, and then John gives his sister 3 more pencils, how many pencils does John have left?\n    \"\"\"\n    john_pencils = 30\n    sister_pencils = 10\n    \n    total_pencils = john_pencils + sister_pencils\n    each_share = total_pencils // 2  # They share evenly\n    \n    john_pencils_after_sharing = each_share\n    # John gives his sister 3 more pencils\n    john_pencils_after_giving = john_pencils_after_sharing - 3\n    \n    result = john_pencils_after_giving\n    \n    return result",
+    "result": 17
+  },
+  {
+    "index": 34,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A group of friends went out for dinner. They ordered 4 entrees for $15 each and split 2 appetizers for $8.50 each. They also got 3 desserts for $6 each. What was their total bill?\n    \"\"\"\n    entrees_count = 4\n    entree_price = 15.0\n\n    appetizers_count = 2\n    appetizer_price = 8.50\n\n    desserts_count = 3\n    dessert_price = 6.0\n\n    total_entrees = entrees_count * entree_price\n    total_appetizers = appetizers_count * appetizer_price\n    total_desserts = desserts_count * dessert_price\n\n    result = total_entrees + total_appetizers + total_desserts\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A group of friends went out for dinner. They ordered 4 entrees for $15 each and split 2 appetizers for $8.50 each. They also got 3 desserts for $6 each. What was their total bill?\n    \"\"\"\n    entrees_count = 4\n    entree_price = 15.0\n\n    appetizers_count = 2\n    appetizer_price = 8.50\n\n    desserts_count = 3\n    dessert_price = 6.0\n\n    total_entrees = entrees_count * entree_price\n    total_appetizers = appetizers_count * appetizer_price\n    total_desserts = desserts_count * dessert_price\n\n    result = total_entrees + total_appetizers + total_desserts\n\n    return result",
+    "result": 95.0
+  },
+  {
+    "index": 35,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A plane travels at a speed of 400 miles per hour. It starts at point A, travels to point B, and then returns to point A. If the distance between point A and point B is 1000 miles, how long does the entire journey take?\n    \"\"\"\n    speed_mph = 400\n    distance_one_way_miles = 1000\n    distance_round_trip = distance_one_way_miles * 2\n    time_hours = distance_round_trip / speed_mph\n    result = time_hours\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A plane travels at a speed of 400 miles per hour. It starts at point A, travels to point B, and then returns to point A. If the distance between point A and point B is 1000 miles, how long does the entire journey take?\n    \"\"\"\n    speed_mph = 400\n    distance_one_way_miles = 1000\n    distance_round_trip = distance_one_way_miles * 2\n    time_hours = distance_round_trip / speed_mph\n    result = time_hours\n\n    return result",
+    "result": 5.0
+  },
+  {
+    "index": 36,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If I invest $1000 at an annual interest rate of 5%, how much money will I have after 5 years if the interest is compounded annually?\n    \"\"\"\n    principal = 1000\n    annual_interest_rate = 0.05\n    years = 5\n\n    # compound interest formula: A = P * (1 + r)^t\n    amount = principal * (1 + annual_interest_rate) ** years\n    result = amount\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    If I invest $1000 at an annual interest rate of 5%, how much money will I have after 5 years if the interest is compounded annually?\n    \"\"\"\n    principal = 1000\n    annual_interest_rate = 0.05\n    years = 5\n\n    # compound interest formula: A = P * (1 + r)^t\n    amount = principal * (1 + annual_interest_rate) ** years\n    result = amount\n\n    return result",
+    "result": 1276.2815625000003
+  },
+  {
+    "index": 37,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Olivia and Peter are basketball players practicing jump shots. Olivia made 24 shots, while Peter made a third of the shots as Olivia. How many shots did Peter make?\n    \"\"\"\n    olivia_shots = 24\n    peter_shots = olivia_shots / 3\n    result = peter_shots\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Olivia and Peter are basketball players practicing jump shots. Olivia made 24 shots, while Peter made a third of the shots as Olivia. How many shots did Peter make?\n    \"\"\"\n    olivia_shots = 24\n    peter_shots = olivia_shots / 3\n    result = peter_shots\n\n    return result",
+    "result": 8.0
+  },
+  {
+    "index": 38,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If the area of a square is 121 square meters, what is the perimeter of the square?\n    \"\"\"\n    area_square_meters = 121\n    side_length = area_square_meters ** 0.5\n    perimeter = 4 * side_length\n    result = perimeter\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    If the area of a square is 121 square meters, what is the perimeter of the square?\n    \"\"\"\n    area_square_meters = 121\n    side_length = area_square_meters ** 0.5\n    perimeter = 4 * side_length\n    result = perimeter\n\n    return result",
+    "result": 44.0
+  },
+  {
+    "index": 39,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Oliver and Olivia started a bike rental business. Oliver invested $4000, while Olivia invested 1/4 more than him. If they made a profit of 15 percent and equally split it, how much did each of them earn?\n    \"\"\"\n    oliver_investment = 4000\n    olivia_investment = oliver_investment + (1/4) * oliver_investment\n    total_investment = oliver_investment + olivia_investment\n    \n    profit_percent = 15 / 100\n    total_profit = total_investment * profit_percent\n    \n    # They split the profit equally\n    profit_each = total_profit / 2\n    \n    result = profit_each\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Oliver and Olivia started a bike rental business. Oliver invested $4000, while Olivia invested 1/4 more than him. If they made a profit of 15 percent and equally split it, how much did each of them earn?\n    \"\"\"\n    oliver_investment = 4000\n    olivia_investment = oliver_investment + (1/4) * oliver_investment\n    total_investment = oliver_investment + olivia_investment\n    \n    profit_percent = 15 / 100\n    total_profit = total_investment * profit_percent\n    \n    # They split the profit equally\n    profit_each = total_profit / 2\n    \n    result = profit_each\n    return result",
+    "result": 675.0
+  },
+  {
+    "index": 40,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Emma has 200 pages to read for her English class. She decides to read 30 pages a day but gets 8 new pages to read every day. How many days will it take her to finish reading all of her pages?\n    \"\"\"\n    pages_to_read = 200\n    pages_read_per_day = 30\n    new_pages_per_day = 8\n    days = 0\n\n    # Each day, pages left is reduced by (30 - 8) = 22 pages read net\n    # If pages_to_read <= 0, she is done\n    # But first day starts with 200 pages\n    \n    while pages_to_read > 0:\n        days += 1\n        pages_to_read -= (pages_read_per_day - new_pages_per_day)\n    \n    result = days\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Emma has 200 pages to read for her English class. She decides to read 30 pages a day but gets 8 new pages to read every day. How many days will it take her to finish reading all of her pages?\n    \"\"\"\n    pages_to_read = 200\n    pages_read_per_day = 30\n    new_pages_per_day = 8\n    days = 0\n\n    # Each day, pages left is reduced by (30 - 8) = 22 pages read net\n    # If pages_to_read <= 0, she is done\n    # But first day starts with 200 pages\n    \n    while pages_to_read > 0:\n        days += 1\n        pages_to_read -= (pages_read_per_day - new_pages_per_day)\n    \n    result = days\n    return result",
+    "result": 10
+  },
+  {
+    "index": 41,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A basketball player scores an average of 28 points per game. In his first 7 games he scored a total of 175 points. How many points does he need to score in his 8th game to increase his average to 30 points per game?\n    \"\"\"\n    games_played_before = 7\n    total_points_before = 175\n    desired_average = 30\n    total_games_after = games_played_before + 1\n    \n    # total points needed after 8 games to have 30 average\n    total_points_needed = desired_average * total_games_after\n    \n    # points needed in the 8th game\n    points_needed_8th_game = total_points_needed - total_points_before\n    \n    result = points_needed_8th_game\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A basketball player scores an average of 28 points per game. In his first 7 games he scored a total of 175 points. How many points does he need to score in his 8th game to increase his average to 30 points per game?\n    \"\"\"\n    games_played_before = 7\n    total_points_before = 175\n    desired_average = 30\n    total_games_after = games_played_before + 1\n    \n    # total points needed after 8 games to have 30 average\n    total_points_needed = desired_average * total_games_after\n    \n    # points needed in the 8th game\n    points_needed_8th_game = total_points_needed - total_points_before\n    \n    result = points_needed_8th_game\n    return result",
+    "result": 65
+  },
+  {
+    "index": 42,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Max the trainer prepared 20 bottles of energy drink for his athletes. If each athlete drinks 1 bottle of drink during training, how many athletes can he train with those 20 bottles of drink?\n    \"\"\"\n    bottles_prepared = 20\n    bottles_per_athlete = 1\n    athletes_trained = bottles_prepared // bottles_per_athlete\n    result = athletes_trained\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Max the trainer prepared 20 bottles of energy drink for his athletes. If each athlete drinks 1 bottle of drink during training, how many athletes can he train with those 20 bottles of drink?\n    \"\"\"\n    bottles_prepared = 20\n    bottles_per_athlete = 1\n    athletes_trained = bottles_prepared // bottles_per_athlete\n    result = athletes_trained\n\n    return result",
+    "result": 20
+  },
+  {
+    "index": 43,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    In a class of 40 students, 60% are on the honor roll and 80% of the students on the honor roll are girls. If there are 12 boys on the honor roll, how many students are girls who are on the honor roll?\n    \"\"\"\n    total_students = 40\n    percent_on_honor_roll = 0.60\n    percent_girls_on_honor_roll = 0.80\n    boys_on_honor_roll = 12\n\n    honor_roll_students = total_students * percent_on_honor_roll\n    girls_on_honor_roll = honor_roll_students - boys_on_honor_roll\n    # Alternatively, using percent_girls_on_honor_roll:\n    # girls_on_honor_roll = honor_roll_students * percent_girls_on_honor_roll\n\n    result = int(girls_on_honor_roll)\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    In a class of 40 students, 60% are on the honor roll and 80% of the students on the honor roll are girls. If there are 12 boys on the honor roll, how many students are girls who are on the honor roll?\n    \"\"\"\n    total_students = 40\n    percent_on_honor_roll = 0.60\n    percent_girls_on_honor_roll = 0.80\n    boys_on_honor_roll = 12\n\n    honor_roll_students = total_students * percent_on_honor_roll\n    girls_on_honor_roll = honor_roll_students - boys_on_honor_roll\n    # Alternatively, using percent_girls_on_honor_roll:\n    # girls_on_honor_roll = honor_roll_students * percent_girls_on_honor_roll\n\n    result = int(girls_on_honor_roll)\n\n    return result",
+    "result": 12
+  },
+  {
+    "index": 44,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A car could travel 600 km on a full tank of gas without air conditioning. If the air conditioning was turned on, the car could travel 50 km less on the same tank. If the car used half a tank of gas with the air conditioning on and then switched it off, how many kilometers could it travel in total?\n    \"\"\"\n    full_tank_no_ac_distance = 600  # km\n    distance_reduction_with_ac = 50  # km less when AC is on\n    \n    full_tank_with_ac_distance = full_tank_no_ac_distance - distance_reduction_with_ac  # distance with AC on\n    \n    half_tank_used_with_ac_distance = full_tank_with_ac_distance / 2  # distance traveled with half tank and AC on\n    \n    half_tank_remaining_no_ac_distance = full_tank_no_ac_distance / 2  # distance possible with remaining half tank and AC off\n    \n    result = half_tank_used_with_ac_distance + half_tank_remaining_no_ac_distance\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A car could travel 600 km on a full tank of gas without air conditioning. If the air conditioning was turned on, the car could travel 50 km less on the same tank. If the car used half a tank of gas with the air conditioning on and then switched it off, how many kilometers could it travel in total?\n    \"\"\"\n    full_tank_no_ac_distance = 600  # km\n    distance_reduction_with_ac = 50  # km less when AC is on\n    \n    full_tank_with_ac_distance = full_tank_no_ac_distance - distance_reduction_with_ac  # distance with AC on\n    \n    half_tank_used_with_ac_distance = full_tank_with_ac_distance / 2  # distance traveled with half tank and AC on\n    \n    half_tank_remaining_no_ac_distance = full_tank_no_ac_distance / 2  # distance possible with remaining half tank and AC off\n    \n    result = half_tank_used_with_ac_distance + half_tank_remaining_no_ac_distance\n\n    return result",
+    "result": 575.0
+  },
+  {
+    "index": 45,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 2 cups of sugar to make 24 cookies. If you want to make 60 cookies, how much sugar do you need?\n    \"\"\"\n    sugar_per_24_cookies = 2\n    cookies_original = 24\n    cookies_desired = 60\n\n    sugar_per_cookie = sugar_per_24_cookies / cookies_original\n    sugar_needed = sugar_per_cookie * cookies_desired\n\n    result = sugar_needed\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 2 cups of sugar to make 24 cookies. If you want to make 60 cookies, how much sugar do you need?\n    \"\"\"\n    sugar_per_24_cookies = 2\n    cookies_original = 24\n    cookies_desired = 60\n\n    sugar_per_cookie = sugar_per_24_cookies / cookies_original\n    sugar_needed = sugar_per_cookie * cookies_desired\n\n    result = sugar_needed\n\n    return result",
+    "result": 5.0
+  },
+  {
+    "index": 46,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Tim has 4 jars of marbles. Each jar has 12 marbles of different colors. He gives away 3 marbles from each jar to his friends. Then he sells the remaining marbles for $0.25 each. How much money does he make from selling the marbles?\n    \"\"\"\n    jars = 4\n    marbles_per_jar = 12\n    marbles_given_away_per_jar = 3\n    price_per_marble = 0.25\n\n    remaining_marbles_per_jar = marbles_per_jar - marbles_given_away_per_jar\n    total_remaining_marbles = jars * remaining_marbles_per_jar\n    result = total_remaining_marbles * price_per_marble\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Tim has 4 jars of marbles. Each jar has 12 marbles of different colors. He gives away 3 marbles from each jar to his friends. Then he sells the remaining marbles for $0.25 each. How much money does he make from selling the marbles?\n    \"\"\"\n    jars = 4\n    marbles_per_jar = 12\n    marbles_given_away_per_jar = 3\n    price_per_marble = 0.25\n\n    remaining_marbles_per_jar = marbles_per_jar - marbles_given_away_per_jar\n    total_remaining_marbles = jars * remaining_marbles_per_jar\n    result = total_remaining_marbles * price_per_marble\n\n    return result",
+    "result": 9.0
+  },
+  {
+    "index": 47,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A bookstore earns two-fifths of its income from selling novels, one-fourth from selling textbooks, and the remaining from selling magazines. If the bookstore earns a total income of $12,000, how much income was earned from selling magazines?\n    \"\"\"\n    total_income = 12000\n    fraction_from_novels = 2 / 5\n    fraction_from_textbooks = 1 / 4\n\n    income_from_novels = total_income * fraction_from_novels\n    income_from_textbooks = total_income * fraction_from_textbooks\n\n    income_from_magazines = total_income - (income_from_novels + income_from_textbooks)\n    result = income_from_magazines\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A bookstore earns two-fifths of its income from selling novels, one-fourth from selling textbooks, and the remaining from selling magazines. If the bookstore earns a total income of $12,000, how much income was earned from selling magazines?\n    \"\"\"\n    total_income = 12000\n    fraction_from_novels = 2 / 5\n    fraction_from_textbooks = 1 / 4\n\n    income_from_novels = total_income * fraction_from_novels\n    income_from_textbooks = total_income * fraction_from_textbooks\n\n    income_from_magazines = total_income - (income_from_novels + income_from_textbooks)\n    result = income_from_magazines\n\n    return result",
+    "result": 4200.0
+  },
+  {
+    "index": 48,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Sabrina, Max and Sam gathered cups for their lemonade stand. Sabrina bought 6 boxes of cups. Max purchased 4 more boxes than Sabrina. Sam bought 1 less box than Max. If each box contains 25 cups, how many cups did they collect in total?\n    \"\"\"\n    sabrina_boxes = 6\n    max_boxes = sabrina_boxes + 4\n    sam_boxes = max_boxes - 1\n\n    cups_per_box = 25\n\n    total_boxes = sabrina_boxes + max_boxes + sam_boxes\n    result = total_boxes * cups_per_box\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Sabrina, Max and Sam gathered cups for their lemonade stand. Sabrina bought 6 boxes of cups. Max purchased 4 more boxes than Sabrina. Sam bought 1 less box than Max. If each box contains 25 cups, how many cups did they collect in total?\n    \"\"\"\n    sabrina_boxes = 6\n    max_boxes = sabrina_boxes + 4\n    sam_boxes = max_boxes - 1\n\n    cups_per_box = 25\n\n    total_boxes = sabrina_boxes + max_boxes + sam_boxes\n    result = total_boxes * cups_per_box\n\n    return result",
+    "result": 625
+  },
+  {
+    "index": 49,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Alice has a collection of 150 stamps. She wants to arrange them in a rectangular album with 10 rows. How many columns does she need to make the album 75% full?\n    \"\"\"\n    total_stamps = 150\n    rows = 10\n    fill_percentage = 0.75\n\n    # The album with 10 rows and c columns has total capacity = 10 * c\n    # To be 75% full means total stamps = 0.75 * capacity\n    # So, capacity = total_stamps / 0.75\n    capacity = total_stamps / fill_percentage\n\n    # capacity = rows * columns -> columns = capacity / rows\n    columns = capacity / rows\n\n    result = columns\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Alice has a collection of 150 stamps. She wants to arrange them in a rectangular album with 10 rows. How many columns does she need to make the album 75% full?\n    \"\"\"\n    total_stamps = 150\n    rows = 10\n    fill_percentage = 0.75\n\n    # The album with 10 rows and c columns has total capacity = 10 * c\n    # To be 75% full means total stamps = 0.75 * capacity\n    # So, capacity = total_stamps / 0.75\n    capacity = total_stamps / fill_percentage\n\n    # capacity = rows * columns -> columns = capacity / rows\n    columns = capacity / rows\n\n    result = columns\n\n    return result",
+    "result": 20.0
+  },
+  {
+    "index": 50,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A charity collected 2400 toys in a toy drive. They want to make gift bags, each containing 6 toys. How many gift bags can they make?\n    \"\"\"\n    total_toys = 2400\n    toys_per_bag = 6\n    gift_bags = total_toys // toys_per_bag\n    result = gift_bags\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A charity collected 2400 toys in a toy drive. They want to make gift bags, each containing 6 toys. How many gift bags can they make?\n    \"\"\"\n    total_toys = 2400\n    toys_per_bag = 6\n    gift_bags = total_toys // toys_per_bag\n    result = gift_bags\n\n    return result",
+    "result": 400
+  },
+  {
+    "index": 51,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A bag has 120 marbles. If three fifths of the marbles are blue and one quarter of the blue marbles have a stripe, how many marbles are blue with a stripe?\n    \"\"\"\n    total_marbles = 120\n    fraction_blue = 3 / 5\n    fraction_blue_with_stripe = 1 / 4\n\n    blue_marbles = total_marbles * fraction_blue\n    blue_with_stripe = blue_marbles * fraction_blue_with_stripe\n    result = blue_with_stripe\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A bag has 120 marbles. If three fifths of the marbles are blue and one quarter of the blue marbles have a stripe, how many marbles are blue with a stripe?\n    \"\"\"\n    total_marbles = 120\n    fraction_blue = 3 / 5\n    fraction_blue_with_stripe = 1 / 4\n\n    blue_marbles = total_marbles * fraction_blue\n    blue_with_stripe = blue_marbles * fraction_blue_with_stripe\n    result = blue_with_stripe\n\n    return result",
+    "result": 18.0
+  },
+  {
+    "index": 52,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    George sells carrots on the side of the road. He sells bags of 2 carrots for $3 each and bags of 5 carrots for $6 each. He started the day with 14 bags of 2 carrots and 17 bags of 5 carrots. He also sold 4 single carrots for $1 each. At the end of the day he had 9 bags of 2 carrots and 11 bags of 5 carrots left. How much money did he make?\n    \"\"\"\n    price_per_bag_2 = 3\n    price_per_bag_5 = 6\n    price_per_single_carrot = 1\n\n    bags_2_started = 14\n    bags_5_started = 17\n\n    bags_2_left = 9\n    bags_5_left = 11\n\n    single_carrots_sold = 4\n\n    bags_2_sold = bags_2_started - bags_2_left\n    bags_5_sold = bags_5_started - bags_5_left\n\n    total_money_from_bags_2 = bags_2_sold * price_per_bag_2\n    total_money_from_bags_5 = bags_5_sold * price_per_bag_5\n    total_money_from_singles = single_carrots_sold * price_per_single_carrot\n\n    result = total_money_from_bags_2 + total_money_from_bags_5 + total_money_from_singles\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    George sells carrots on the side of the road. He sells bags of 2 carrots for $3 each and bags of 5 carrots for $6 each. He started the day with 14 bags of 2 carrots and 17 bags of 5 carrots. He also sold 4 single carrots for $1 each. At the end of the day he had 9 bags of 2 carrots and 11 bags of 5 carrots left. How much money did he make?\n    \"\"\"\n    price_per_bag_2 = 3\n    price_per_bag_5 = 6\n    price_per_single_carrot = 1\n\n    bags_2_started = 14\n    bags_5_started = 17\n\n    bags_2_left = 9\n    bags_5_left = 11\n\n    single_carrots_sold = 4\n\n    bags_2_sold = bags_2_started - bags_2_left\n    bags_5_sold = bags_5_started - bags_5_left\n\n    total_money_from_bags_2 = bags_2_sold * price_per_bag_2\n    total_money_from_bags_5 = bags_5_sold * price_per_bag_5\n    total_money_from_singles = single_carrots_sold * price_per_single_carrot\n\n    result = total_money_from_bags_2 + total_money_from_bags_5 + total_money_from_singles\n\n    return result",
+    "result": 55
+  },
+  {
+    "index": 53,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ava baked a cake in 1 hour while Max baked it in 1.5 hours. How many minutes faster did Ava bake the cake than Max?\n    \"\"\"\n    ava_time_hours = 1\n    max_time_hours = 1.5\n\n    # Convert hours to minutes\n    ava_time_minutes = ava_time_hours * 60\n    max_time_minutes = max_time_hours * 60\n\n    # Calculate how many minutes faster Ava baked than Max\n    result = max_time_minutes - ava_time_minutes\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Ava baked a cake in 1 hour while Max baked it in 1.5 hours. How many minutes faster did Ava bake the cake than Max?\n    \"\"\"\n    ava_time_hours = 1\n    max_time_hours = 1.5\n\n    # Convert hours to minutes\n    ava_time_minutes = ava_time_hours * 60\n    max_time_minutes = max_time_hours * 60\n\n    # Calculate how many minutes faster Ava baked than Max\n    result = max_time_minutes - ava_time_minutes\n\n    return result",
+    "result": 30.0
+  },
+  {
+    "index": 54,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A laptop is sold at a 20% loss for $720. What was the original price of the laptop?\n    \"\"\"\n    selling_price = 720\n    loss_percent = 20\n\n    # Loss percent means selling price is 80% of cost price\n    cost_price_percent = 100 - loss_percent\n\n    # Calculate original cost price\n    cost_price = (selling_price * 100) / cost_price_percent\n\n    result = cost_price\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A laptop is sold at a 20% loss for $720. What was the original price of the laptop?\n    \"\"\"\n    selling_price = 720\n    loss_percent = 20\n\n    # Loss percent means selling price is 80% of cost price\n    cost_price_percent = 100 - loss_percent\n\n    # Calculate original cost price\n    cost_price = (selling_price * 100) / cost_price_percent\n\n    result = cost_price\n\n    return result",
+    "result": 900.0
+  },
+  {
+    "index": 55,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Student: Sarah orders 2 books online that cost $20 each, but she has a 10% discount code. How much does Sarah pay?\n    \"\"\"\n    number_of_books = 2\n    cost_per_book = 20\n    discount_rate = 0.10\n    \n    total_cost = number_of_books * cost_per_book\n    discount_amount = total_cost * discount_rate\n    result = total_cost - discount_amount\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Student: Sarah orders 2 books online that cost $20 each, but she has a 10% discount code. How much does Sarah pay?\n    \"\"\"\n    number_of_books = 2\n    cost_per_book = 20\n    discount_rate = 0.10\n    \n    total_cost = number_of_books * cost_per_book\n    discount_amount = total_cost * discount_rate\n    result = total_cost - discount_amount\n\n    return result",
+    "result": 36.0
+  },
+  {
+    "index": 56,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Radhika is painting a wall which is 18 feet by 10 feet. She can cover 150 square feet with 1 gallon of paint. How many gallons of paint will she need?\n    \"\"\"\n    wall_length = 18\n    wall_height = 10\n    coverage_per_gallon = 150\n    \n    wall_area = wall_length * wall_height\n    gallons_needed = wall_area / coverage_per_gallon\n    result = gallons_needed\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Radhika is painting a wall which is 18 feet by 10 feet. She can cover 150 square feet with 1 gallon of paint. How many gallons of paint will she need?\n    \"\"\"\n    wall_length = 18\n    wall_height = 10\n    coverage_per_gallon = 150\n    \n    wall_area = wall_length * wall_height\n    gallons_needed = wall_area / coverage_per_gallon\n    result = gallons_needed\n\n    return result",
+    "result": 1.2
+  },
+  {
+    "index": 57,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If a bag contains 5 red balls, 3 blue balls, and 6 green balls, what is the probability of drawing a blue ball if one ball is drawn at random from the bag?\n    \"\"\"\n    red_balls = 5\n    blue_balls = 3\n    green_balls = 6\n\n    total_balls = red_balls + blue_balls + green_balls\n    probability_blue = blue_balls / total_balls\n    result = probability_blue\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    If a bag contains 5 red balls, 3 blue balls, and 6 green balls, what is the probability of drawing a blue ball if one ball is drawn at random from the bag?\n    \"\"\"\n    red_balls = 5\n    blue_balls = 3\n    green_balls = 6\n\n    total_balls = red_balls + blue_balls + green_balls\n    probability_blue = blue_balls / total_balls\n    result = probability_blue\n\n    return result",
+    "result": 0.21428571428571427
+  },
+  {
+    "index": 58,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    There are 20 pens on a desk. If 4 pens are removed from the desk and then 6 more pens are added to the desk, how many pens are on the desk?\n    \"\"\"\n    pensOnDeskInitially = 20\n    pensRemoved = 4\n    pensAdded = 6\n    pensAfterRemoval = pensOnDeskInitially - pensRemoved\n    result = pensAfterRemoval + pensAdded\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    There are 20 pens on a desk. If 4 pens are removed from the desk and then 6 more pens are added to the desk, how many pens are on the desk?\n    \"\"\"\n    pensOnDeskInitially = 20\n    pensRemoved = 4\n    pensAdded = 6\n    pensAfterRemoval = pensOnDeskInitially - pensRemoved\n    result = pensAfterRemoval + pensAdded\n\n    return result",
+    "result": 22
+  },
+  {
+    "index": 59,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    During 3 hours, a group of racoons can eat 8 apples. How many apples would the racoons eat in 24 hours?\n    \"\"\"\n    hours_eating = 3\n    apples_eaten_in_hours = 8\n    total_hours = 24\n\n    apples_per_hour = apples_eaten_in_hours / hours_eating\n    total_apples_in_24_hours = apples_per_hour * total_hours\n\n    result = total_apples_in_24_hours\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    During 3 hours, a group of racoons can eat 8 apples. How many apples would the racoons eat in 24 hours?\n    \"\"\"\n    hours_eating = 3\n    apples_eaten_in_hours = 8\n    total_hours = 24\n\n    apples_per_hour = apples_eaten_in_hours / hours_eating\n    total_apples_in_24_hours = apples_per_hour * total_hours\n\n    result = total_apples_in_24_hours\n\n    return result",
+    "result": 64.0
+  },
+  {
+    "index": 60,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Martina has 12 pieces of fruit. She ate half of them and gave the other half to her dad. How many pieces of fruit did Martina and her dad have between them?\n    \"\"\"\n    total_fruits = 12\n    fruits_ate = total_fruits / 2\n    fruits_given_to_dad = total_fruits / 2\n    fruits_martina_has_now = 0  # Because she ate her half\n    fruits_dad_has = fruits_given_to_dad\n    total_fruits_together = fruits_martina_has_now + fruits_dad_has\n    result = int(total_fruits_together)\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Martina has 12 pieces of fruit. She ate half of them and gave the other half to her dad. How many pieces of fruit did Martina and her dad have between them?\n    \"\"\"\n    total_fruits = 12\n    fruits_ate = total_fruits / 2\n    fruits_given_to_dad = total_fruits / 2\n    fruits_martina_has_now = 0  # Because she ate her half\n    fruits_dad_has = fruits_given_to_dad\n    total_fruits_together = fruits_martina_has_now + fruits_dad_has\n    result = int(total_fruits_together)\n\n    return result",
+    "result": 6
+  },
+  {
+    "index": 61,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mia and Aria bought 7 lollipops and shared them equally. How many lollipops does each one have?\n    \"\"\"\n    lollipops_total = 7\n    number_of_people = 2\n    lollipops_each = lollipops_total / number_of_people\n    result = lollipops_each\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Mia and Aria bought 7 lollipops and shared them equally. How many lollipops does each one have?\n    \"\"\"\n    lollipops_total = 7\n    number_of_people = 2\n    lollipops_each = lollipops_total / number_of_people\n    result = lollipops_each\n\n    return result",
+    "result": 3.5
+  },
+  {
+    "index": 62,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If Maria drives 200 miles every week to and from work and her car gets 28 miles per gallon, how much does she spend on gas in 4 weeks?\n    \"\"\"\n    miles_per_week = 200\n    weeks = 4\n    miles_per_gallon = 28\n\n    # Calculate total miles driven in 4 weeks\n    total_miles = miles_per_week * weeks\n\n    # Calculate total gallons of gas needed\n    total_gallons = total_miles / miles_per_gallon\n\n    # Assume gas price per gallon (not given in problem, so we cannot calculate cost exactly)\n    # The problem as stated is incomplete to calculate money spent without gas price.\n    # However, since the problem asks \"how much does she spend on gas\", \n    # gas price per gallon must be known or assumed. Since it's missing, it cannot be solved as is.\n    # To strictly solve the given problem as stated, we need an additional input the price per gallon.\n    # Since no price given, let's assume price per gallon = 1 (for a format)\n    price_per_gallon = 1  # placeholder value, since not given\n\n    cost = total_gallons * price_per_gallon\n    result = cost\n\n    return result\n```\n\n---\n\nNote: The problem as stated does not specify the price per gallon of gas, so it is impossible to calculate the total cost Maria spends on gas exactly. If a price per gallon is provided, multiply total gallons needed by that price to get the cost. If you want me to write the code assuming a price or ask for a price, please let me know.",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    If Maria drives 200 miles every week to and from work and her car gets 28 miles per gallon, how much does she spend on gas in 4 weeks?\n    \"\"\"\n    miles_per_week = 200\n    weeks = 4\n    miles_per_gallon = 28\n\n    # Calculate total miles driven in 4 weeks\n    total_miles = miles_per_week * weeks\n\n    # Calculate total gallons of gas needed\n    total_gallons = total_miles / miles_per_gallon\n\n    # Assume gas price per gallon (not given in problem, so we cannot calculate cost exactly)\n    # The problem as stated is incomplete to calculate money spent without gas price.\n    # However, since the problem asks \"how much does she spend on gas\", \n    # gas price per gallon must be known or assumed. Since it's missing, it cannot be solved as is.\n    # To strictly solve the given problem as stated, we need an additional input the price per gallon.\n    # Since no price given, let's assume price per gallon = 1 (for a format)\n    price_per_gallon = 1  # placeholder value, since not given\n\n    cost = total_gallons * price_per_gallon\n    result = cost\n\n    return result",
+    "result": 28.571428571428573
+  },
+  {
+    "index": 63,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A librarian bought a set of books. She kept 1/2 of the books for the library and divided the rest equally among her 4 colleagues. If one colleague received 7 books, how many books were in the set?\n    \"\"\"\n    books_per_colleague = 7\n    number_of_colleagues = 4\n    fraction_kept_for_library = 1/2\n\n    # The rest of the books after keeping half\n    books_for_colleagues = books_per_colleague * number_of_colleagues\n\n    # Total books correspond to books kept + books given out\n    # books kept = 1/2 of total books\n    # books_for_colleagues = total_books - books_kept = total_books - 1/2 * total_books = 1/2 * total_books\n    # So, books_for_colleagues = 1/2 * total_books\n    # total_books = 2 * books_for_colleagues\n\n    total_books = 2 * books_for_colleagues\n\n    result = total_books\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A librarian bought a set of books. She kept 1/2 of the books for the library and divided the rest equally among her 4 colleagues. If one colleague received 7 books, how many books were in the set?\n    \"\"\"\n    books_per_colleague = 7\n    number_of_colleagues = 4\n    fraction_kept_for_library = 1/2\n\n    # The rest of the books after keeping half\n    books_for_colleagues = books_per_colleague * number_of_colleagues\n\n    # Total books correspond to books kept + books given out\n    # books kept = 1/2 of total books\n    # books_for_colleagues = total_books - books_kept = total_books - 1/2 * total_books = 1/2 * total_books\n    # So, books_for_colleagues = 1/2 * total_books\n    # total_books = 2 * books_for_colleagues\n\n    total_books = 2 * books_for_colleagues\n\n    result = total_books\n\n    return result",
+    "result": 56
+  },
+  {
+    "index": 64,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    An amusement park charges $10 per person for entrance and an additional $5 for each ride. \n    If a group of 5 people go to the park, and each person goes on 3 different rides, \n    what is the total cost for the group?\n    \"\"\"\n    entrance_fee_per_person = 10\n    ride_fee_per_ride = 5\n    number_of_people = 5\n    rides_per_person = 3\n\n    total_entrance_fee = number_of_people * entrance_fee_per_person\n    total_ride_fee = number_of_people * rides_per_person * ride_fee_per_ride\n\n    result = total_entrance_fee + total_ride_fee\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    An amusement park charges $10 per person for entrance and an additional $5 for each ride. \n    If a group of 5 people go to the park, and each person goes on 3 different rides, \n    what is the total cost for the group?\n    \"\"\"\n    entrance_fee_per_person = 10\n    ride_fee_per_ride = 5\n    number_of_people = 5\n    rides_per_person = 3\n\n    total_entrance_fee = number_of_people * entrance_fee_per_person\n    total_ride_fee = number_of_people * rides_per_person * ride_fee_per_ride\n\n    result = total_entrance_fee + total_ride_fee\n\n    return result",
+    "result": 125
+  },
+  {
+    "index": 65,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    John has 36 marbles. He has 5 times as many blue marbles as red marbles. How many blue marbles does John have?\n    \"\"\"\n    total_marbles = 36\n    blue_to_red_ratio = 5\n    # Let red_marbles = x\n    # Then blue_marbles = 5 * x\n    # total_marbles = red_marbles + blue_marbles = x + 5x = 6x\n    red_marbles = total_marbles / (blue_to_red_ratio + 1)\n    blue_marbles = blue_to_red_ratio * red_marbles\n    result = int(blue_marbles)\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    John has 36 marbles. He has 5 times as many blue marbles as red marbles. How many blue marbles does John have?\n    \"\"\"\n    total_marbles = 36\n    blue_to_red_ratio = 5\n    # Let red_marbles = x\n    # Then blue_marbles = 5 * x\n    # total_marbles = red_marbles + blue_marbles = x + 5x = 6x\n    red_marbles = total_marbles / (blue_to_red_ratio + 1)\n    blue_marbles = blue_to_red_ratio * red_marbles\n    result = int(blue_marbles)\n\n    return result",
+    "result": 30
+  },
+  {
+    "index": 66,
+    "response": "def simple_math_problem() -> float:\n    \"\"\"\n    Maria is an insurance agent and makes a 4% commission for each policy sold. In a day, she sold three policies worth $1,000, $2,500 and $5,000. What was Maria's total commission for that day?\n    \"\"\"\n    commission_rate = 0.04\n    policy1 = 1000\n    policy2 = 2500\n    policy3 = 5000\n    total_sales = policy1 + policy2 + policy3\n    total_commission = commission_rate * total_sales\n    result = total_commission\n\n    return result",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Maria is an insurance agent and makes a 4% commission for each policy sold. In a day, she sold three policies worth $1,000, $2,500 and $5,000. What was Maria's total commission for that day?\n    \"\"\"\n    commission_rate = 0.04\n    policy1 = 1000\n    policy2 = 2500\n    policy3 = 5000\n    total_sales = policy1 + policy2 + policy3\n    total_commission = commission_rate * total_sales\n    result = total_commission\n\n    return result",
+    "result": 340.0
+  },
+  {
+    "index": 67,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A rectangular piece of wood measures 4 feet by 8 feet. Lisa wants to cut the wood into 32 one-foot-long pieces. What is the maximum width of the pieces she can cut?\n    \"\"\"\n    length_of_wood = 8  # feet\n    width_of_wood = 4   # feet\n    number_of_pieces = 32\n    length_of_each_piece = 1  # foot\n\n    # Since each piece is one-foot long, the length dimension of the wood is cut into 1-foot segments\n    # Number of pieces along the length: length_of_wood / length_of_each_piece\n    pieces_along_length = length_of_wood // length_of_each_piece  # 8 pieces along length\n\n    # Total pieces = pieces_along_length * number_of_pieces_along_width\n    # So number_of_pieces_along_width = total pieces / pieces_along_length\n    pieces_along_width = number_of_pieces / pieces_along_length  # 32 / 8 = 4\n\n    # The width of each piece = width_of_wood / pieces_along_width\n    width_of_each_piece = width_of_wood / pieces_along_width\n\n    result = width_of_each_piece\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A rectangular piece of wood measures 4 feet by 8 feet. Lisa wants to cut the wood into 32 one-foot-long pieces. What is the maximum width of the pieces she can cut?\n    \"\"\"\n    length_of_wood = 8  # feet\n    width_of_wood = 4   # feet\n    number_of_pieces = 32\n    length_of_each_piece = 1  # foot\n\n    # Since each piece is one-foot long, the length dimension of the wood is cut into 1-foot segments\n    # Number of pieces along the length: length_of_wood / length_of_each_piece\n    pieces_along_length = length_of_wood // length_of_each_piece  # 8 pieces along length\n\n    # Total pieces = pieces_along_length * number_of_pieces_along_width\n    # So number_of_pieces_along_width = total pieces / pieces_along_length\n    pieces_along_width = number_of_pieces / pieces_along_length  # 32 / 8 = 4\n\n    # The width of each piece = width_of_wood / pieces_along_width\n    width_of_each_piece = width_of_wood / pieces_along_width\n\n    result = width_of_each_piece\n\n    return result",
+    "result": 1.0
+  },
+  {
+    "index": 68,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jack runs for 40 minutes on a track that has a circumference of 400 meters. He also does a marathon on Saturday that has a length of 42.195 kilometers. If he runs at 5 meters per second, how much time does he spend running in a week?\n    \"\"\"\n    # Jack runs for 40 minutes on the track\n    time_track_minutes = 40\n    time_track_seconds = time_track_minutes * 60  # convert minutes to seconds\n\n    # Jack does a marathon on Saturday of length 42.195 km\n    marathon_km = 42.195\n    marathon_meters = marathon_km * 1000  # convert km to meters\n\n    # Jack runs at 5 meters per second\n    running_speed_mps = 5\n\n    # Calculate time for marathon in seconds\n    marathon_time_seconds = marathon_meters / running_speed_mps\n\n    # Total time running in a week in seconds\n    total_time_seconds = time_track_seconds + marathon_time_seconds\n\n    # Convert total time to minutes\n    total_time_minutes = total_time_seconds / 60\n\n    result = total_time_minutes\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Jack runs for 40 minutes on a track that has a circumference of 400 meters. He also does a marathon on Saturday that has a length of 42.195 kilometers. If he runs at 5 meters per second, how much time does he spend running in a week?\n    \"\"\"\n    # Jack runs for 40 minutes on the track\n    time_track_minutes = 40\n    time_track_seconds = time_track_minutes * 60  # convert minutes to seconds\n\n    # Jack does a marathon on Saturday of length 42.195 km\n    marathon_km = 42.195\n    marathon_meters = marathon_km * 1000  # convert km to meters\n\n    # Jack runs at 5 meters per second\n    running_speed_mps = 5\n\n    # Calculate time for marathon in seconds\n    marathon_time_seconds = marathon_meters / running_speed_mps\n\n    # Total time running in a week in seconds\n    total_time_seconds = time_track_seconds + marathon_time_seconds\n\n    # Convert total time to minutes\n    total_time_minutes = total_time_seconds / 60\n\n    result = total_time_minutes\n\n    return result",
+    "result": 180.65
+  },
+  {
+    "index": 69,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If 4 pencils cost 3 dollars, how much would 11 pencils cost?\n    \"\"\"\n    pencilsCost = 3\n    pencilsCount = 4\n    pencilsWanted = 11\n\n    costPerPencil = pencilsCost / pencilsCount\n    result = costPerPencil * pencilsWanted\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    If 4 pencils cost 3 dollars, how much would 11 pencils cost?\n    \"\"\"\n    pencilsCost = 3\n    pencilsCount = 4\n    pencilsWanted = 11\n\n    costPerPencil = pencilsCost / pencilsCount\n    result = costPerPencil * pencilsWanted\n\n    return result",
+    "result": 8.25
+  },
+  {
+    "index": 70,
+    "response": "def simple_math_problem() -> int:\n    \"\"\"\n    Leo can make 5 jars of jam before he runs out of ingredients. Each jar of jam takes 45 minutes to prepare. If Leo wants to make jam for 12 hours, how many jars of ingredients does he need to buy given that he already used 2 jars?\n    \"\"\"\n    jars_can_make_with_current_ingredients = 5\n    time_per_jar_minutes = 45\n    total_time_hours = 12\n    jars_already_used = 2\n\n    total_time_minutes = total_time_hours * 60\n    jars_needed_to_make = total_time_minutes // time_per_jar_minutes  # integer division, jars needed in 12 hours\n    \n    # Calculate extra jars needed beyond what he can already make\n    jars_to_buy = jars_needed_to_make - jars_can_make_with_current_ingredients + jars_already_used\n    \n    # If the result is negative, it means he does not need to buy any more jars\n    if jars_to_buy < 0:\n        jars_to_buy = 0\n    \n    result = jars_to_buy\n\n    return result",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Leo can make 5 jars of jam before he runs out of ingredients. Each jar of jam takes 45 minutes to prepare. If Leo wants to make jam for 12 hours, how many jars of ingredients does he need to buy given that he already used 2 jars?\n    \"\"\"\n    jars_can_make_with_current_ingredients = 5\n    time_per_jar_minutes = 45\n    total_time_hours = 12\n    jars_already_used = 2\n\n    total_time_minutes = total_time_hours * 60\n    jars_needed_to_make = total_time_minutes // time_per_jar_minutes  # integer division, jars needed in 12 hours\n    \n    # Calculate extra jars needed beyond what he can already make\n    jars_to_buy = jars_needed_to_make - jars_can_make_with_current_ingredients + jars_already_used\n    \n    # If the result is negative, it means he does not need to buy any more jars\n    if jars_to_buy < 0:\n        jars_to_buy = 0\n    \n    result = jars_to_buy\n\n    return result",
+    "result": 13
+  },
+  {
+    "index": 71,
+    "response": "def simple_math_problem() -> float:\n    \"\"\"\n    Tom is saving up for a new bike. The bike he wants costs $600. If he saves $30 every week, how long will it take him to afford the new bike?\n    \"\"\"\n    bike_cost = 600\n    weekly_savings = 30\n    weeks_needed = bike_cost / weekly_savings\n    \n    result = weeks_needed\n\n    return result",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Tom is saving up for a new bike. The bike he wants costs $600. If he saves $30 every week, how long will it take him to afford the new bike?\n    \"\"\"\n    bike_cost = 600\n    weekly_savings = 30\n    weeks_needed = bike_cost / weekly_savings\n    \n    result = weeks_needed\n\n    return result",
+    "result": 20.0
+  },
+  {
+    "index": 72,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    On Saturday Trey is doing some baking for his family. He needs to make a batch of cupcakes, for each cupcake he needs to add 15g of flour, 10g of sugar, and 10ml of milk. If Trey wants to make 6 cupcakes, how many grams of sugar will he need in total?\n    \"\"\"\n    sugar_per_cupcake = 10  # grams\n    number_of_cupcakes = 6\n    total_sugar = sugar_per_cupcake * number_of_cupcakes\n    result = total_sugar\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    On Saturday Trey is doing some baking for his family. He needs to make a batch of cupcakes, for each cupcake he needs to add 15g of flour, 10g of sugar, and 10ml of milk. If Trey wants to make 6 cupcakes, how many grams of sugar will he need in total?\n    \"\"\"\n    sugar_per_cupcake = 10  # grams\n    number_of_cupcakes = 6\n    total_sugar = sugar_per_cupcake * number_of_cupcakes\n    result = total_sugar\n\n    return result",
+    "result": 60
+  },
+  {
+    "index": 73,
+    "response": "def simple_math_problem() -> int:\n    \"\"\"\n    A grocery store bought 20 boxes of eggs; each box contains 12 eggs. How many eggs did the store buy in total?\n    \"\"\"\n    boxes_bought = 20\n    eggs_per_box = 12\n    total_eggs = boxes_bought * eggs_per_box\n    result = total_eggs\n\n    return result",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A grocery store bought 20 boxes of eggs; each box contains 12 eggs. How many eggs did the store buy in total?\n    \"\"\"\n    boxes_bought = 20\n    eggs_per_box = 12\n    total_eggs = boxes_bought * eggs_per_box\n    result = total_eggs\n\n    return result",
+    "result": 240
+  },
+  {
+    "index": 74,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A box of crayons has 10 red crayons, 2 more blue crayons, and 4 less yellow crayons than blue crayons. How many crayons are there in the box?\n    \"\"\"\n    red_crayons = 10\n    blue_crayons = red_crayons + 2\n    yellow_crayons = blue_crayons - 4\n    total_crayons = red_crayons + blue_crayons + yellow_crayons\n    result = total_crayons\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A box of crayons has 10 red crayons, 2 more blue crayons, and 4 less yellow crayons than blue crayons. How many crayons are there in the box?\n    \"\"\"\n    red_crayons = 10\n    blue_crayons = red_crayons + 2\n    yellow_crayons = blue_crayons - 4\n    total_crayons = red_crayons + blue_crayons + yellow_crayons\n    result = total_crayons\n\n    return result",
+    "result": 30
+  },
+  {
+    "index": 75,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Lily wanted to make a fruit salad for her picnic with 6 friends. She bought 4 apples, 3 oranges, 2 bananas, and a bunch of grapes. She decided to cut each apple and orange into 8 pieces, each banana into 6 pieces, and use half of the grapes. How many pieces of fruit did she have in total?\n    \"\"\"\n    apples = 4\n    oranges = 3\n    bananas = 2\n    # Number of pieces per fruit\n    pieces_per_apple = 8\n    pieces_per_orange = 8\n    pieces_per_banana = 6\n\n    # Calculate pieces for apples, oranges, bananas\n    apple_pieces = apples * pieces_per_apple\n    orange_pieces = oranges * pieces_per_orange\n    banana_pieces = bananas * pieces_per_banana\n\n    # Grapes are counted as bunch; use half of the bunch. \n    # The problem doesn't specify how many grapes or pieces.\n    # So we treat half the grapes as 0.5 bunch (counted as 1 piece), since bunch is not quantified.\n    grape_pieces = 1 * 0.5  # half a bunch counted as 0.5 piece\n\n    result = apple_pieces + orange_pieces + banana_pieces + grape_pieces\n\n    return int(result)\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Lily wanted to make a fruit salad for her picnic with 6 friends. She bought 4 apples, 3 oranges, 2 bananas, and a bunch of grapes. She decided to cut each apple and orange into 8 pieces, each banana into 6 pieces, and use half of the grapes. How many pieces of fruit did she have in total?\n    \"\"\"\n    apples = 4\n    oranges = 3\n    bananas = 2\n    # Number of pieces per fruit\n    pieces_per_apple = 8\n    pieces_per_orange = 8\n    pieces_per_banana = 6\n\n    # Calculate pieces for apples, oranges, bananas\n    apple_pieces = apples * pieces_per_apple\n    orange_pieces = oranges * pieces_per_orange\n    banana_pieces = bananas * pieces_per_banana\n\n    # Grapes are counted as bunch; use half of the bunch. \n    # The problem doesn't specify how many grapes or pieces.\n    # So we treat half the grapes as 0.5 bunch (counted as 1 piece), since bunch is not quantified.\n    grape_pieces = 1 * 0.5  # half a bunch counted as 0.5 piece\n\n    result = apple_pieces + orange_pieces + banana_pieces + grape_pieces\n\n    return int(result)",
+    "result": 68
+  },
+  {
+    "index": 76,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sam drove at a speed of 90 km an hour for 4 hours. How many kilometers did Sam drive in total?\n    \"\"\"\n    speed_kmh = 90\n    time_hours = 4\n    distance_km = speed_kmh * time_hours\n    result = distance_km\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Sam drove at a speed of 90 km an hour for 4 hours. How many kilometers did Sam drive in total?\n    \"\"\"\n    speed_kmh = 90\n    time_hours = 4\n    distance_km = speed_kmh * time_hours\n    result = distance_km\n\n    return result",
+    "result": 360
+  },
+  {
+    "index": 77,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    The probability that a card drawn from a deck of cards is a spade is 1/4. If two cards are drawn at random, what is the probability that both are not spades?\n    \"\"\"\n    prob_spade = 1/4\n    prob_not_spade = 1 - prob_spade\n    # Probability both cards are not spades when drawn without replacement:\n    # For first card: prob_not_spade\n    # For second card: since one not spade card is removed, still number of non-spades is reduced by one,\n    # but total cards reduce by one as well.\n    # However, since the problem just states \"the probability that a card drawn is spade is 1/4\",\n    # we approximate considering independence or exact without replacement?\n    #\n    # The problem states probability of spade = 1/4, which exactly matches 13 spades out of 52 cards.\n    # So exact calculation:\n    #\n    # P(both not spades) = (39/52) * (38/51)\n    prob_both_not_spades = (39/52) * (38/51)\n    \n    result = prob_both_not_spades\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    The probability that a card drawn from a deck of cards is a spade is 1/4. If two cards are drawn at random, what is the probability that both are not spades?\n    \"\"\"\n    prob_spade = 1/4\n    prob_not_spade = 1 - prob_spade\n    # Probability both cards are not spades when drawn without replacement:\n    # For first card: prob_not_spade\n    # For second card: since one not spade card is removed, still number of non-spades is reduced by one,\n    # but total cards reduce by one as well.\n    # However, since the problem just states \"the probability that a card drawn is spade is 1/4\",\n    # we approximate considering independence or exact without replacement?\n    #\n    # The problem states probability of spade = 1/4, which exactly matches 13 spades out of 52 cards.\n    # So exact calculation:\n    #\n    # P(both not spades) = (39/52) * (38/51)\n    prob_both_not_spades = (39/52) * (38/51)\n    \n    result = prob_both_not_spades\n\n    return result",
+    "result": 0.5588235294117647
+  },
+  {
+    "index": 78,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah buys a wand. At the lowest setting, it sparks at 200 sparks per minute. At the highest setting, it sparks 80% faster. Sarah uses it for 2 minutes at the highest setting. How many sparks does it make?\n    \"\"\"\n    sparks_per_minute_lowest = 200\n    increase_percentage = 0.80  # 80% faster\n    sparks_per_minute_highest = sparks_per_minute_lowest * (1 + increase_percentage)\n    minutes_used = 2\n    total_sparks = sparks_per_minute_highest * minutes_used\n\n    result = total_sparks\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Sarah buys a wand. At the lowest setting, it sparks at 200 sparks per minute. At the highest setting, it sparks 80% faster. Sarah uses it for 2 minutes at the highest setting. How many sparks does it make?\n    \"\"\"\n    sparks_per_minute_lowest = 200\n    increase_percentage = 0.80  # 80% faster\n    sparks_per_minute_highest = sparks_per_minute_lowest * (1 + increase_percentage)\n    minutes_used = 2\n    total_sparks = sparks_per_minute_highest * minutes_used\n\n    result = total_sparks\n\n    return result",
+    "result": 720.0
+  },
+  {
+    "index": 79,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A shop had 200 pens in stock. The shopkeeper sold 50 pens and then ordered some more. After that, there were 300 pens in the stock. How many pens did the shopkeeper order?\n    \"\"\"\n    initial_pens = 200\n    pens_sold = 50\n    pens_after_order = 300\n\n    pens_left_after_sale = initial_pens - pens_sold\n    pens_ordered = pens_after_order - pens_left_after_sale\n    result = pens_ordered\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A shop had 200 pens in stock. The shopkeeper sold 50 pens and then ordered some more. After that, there were 300 pens in the stock. How many pens did the shopkeeper order?\n    \"\"\"\n    initial_pens = 200\n    pens_sold = 50\n    pens_after_order = 300\n\n    pens_left_after_sale = initial_pens - pens_sold\n    pens_ordered = pens_after_order - pens_left_after_sale\n    result = pens_ordered\n\n    return result",
+    "result": 150
+  },
+  {
+    "index": 80,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A pair of shoes costs $45. Sita needs 5 pairs of shoes. How much money does she need in total?\n    \"\"\"\n    cost_per_pair = 45\n    number_of_pairs = 5\n    total_cost = cost_per_pair * number_of_pairs\n    result = total_cost\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A pair of shoes costs $45. Sita needs 5 pairs of shoes. How much money does she need in total?\n    \"\"\"\n    cost_per_pair = 45\n    number_of_pairs = 5\n    total_cost = cost_per_pair * number_of_pairs\n    result = total_cost\n\n    return result",
+    "result": 225
+  },
+  {
+    "index": 81,
+    "response": "def simple_math_problem() -> int:\n    \"\"\"\n    Erin, the painter, has 16 paint brushes. She lends 6 paint brushes to her friend and 4 paint brushes to her sister. Then she receives 3 paint brushes as a gift from her brother. However, she breaks 2 paint brushes while cleaning them. How many paint brushes does Erin have left?\n    \"\"\"\n    paintBrushesTotal = 16\n    paintBrushesLentToFriend = 6\n    paintBrushesLentToSister = 4\n    paintBrushesReceived = 3\n    paintBrushesBroken = 2\n\n    paintBrushesLeft = paintBrushesTotal - paintBrushesLentToFriend - paintBrushesLentToSister + paintBrushesReceived - paintBrushesBroken\n    result = paintBrushesLeft\n\n    return result",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Erin, the painter, has 16 paint brushes. She lends 6 paint brushes to her friend and 4 paint brushes to her sister. Then she receives 3 paint brushes as a gift from her brother. However, she breaks 2 paint brushes while cleaning them. How many paint brushes does Erin have left?\n    \"\"\"\n    paintBrushesTotal = 16\n    paintBrushesLentToFriend = 6\n    paintBrushesLentToSister = 4\n    paintBrushesReceived = 3\n    paintBrushesBroken = 2\n\n    paintBrushesLeft = paintBrushesTotal - paintBrushesLentToFriend - paintBrushesLentToSister + paintBrushesReceived - paintBrushesBroken\n    result = paintBrushesLeft\n\n    return result",
+    "result": 7
+  },
+  {
+    "index": 82,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A truck traveled for 2.5 hours at a speed of 50 mph, then for another 0.5 hours at a speed of 70 mph. Find the average speed of the truck for the entire trip.\n    \"\"\"\n    time_first_leg = 2.5  # hours\n    speed_first_leg = 50  # mph\n\n    time_second_leg = 0.5  # hours\n    speed_second_leg = 70  # mph\n\n    distance_first_leg = time_first_leg * speed_first_leg\n    distance_second_leg = time_second_leg * speed_second_leg\n\n    total_distance = distance_first_leg + distance_second_leg\n    total_time = time_first_leg + time_second_leg\n\n    average_speed = total_distance / total_time\n    result = average_speed\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A truck traveled for 2.5 hours at a speed of 50 mph, then for another 0.5 hours at a speed of 70 mph. Find the average speed of the truck for the entire trip.\n    \"\"\"\n    time_first_leg = 2.5  # hours\n    speed_first_leg = 50  # mph\n\n    time_second_leg = 0.5  # hours\n    speed_second_leg = 70  # mph\n\n    distance_first_leg = time_first_leg * speed_first_leg\n    distance_second_leg = time_second_leg * speed_second_leg\n\n    total_distance = distance_first_leg + distance_second_leg\n    total_time = time_first_leg + time_second_leg\n\n    average_speed = total_distance / total_time\n    result = average_speed\n\n    return result",
+    "result": 53.333333333333336
+  },
+  {
+    "index": 83,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    John owes $3000 in credit card debt with an interest rate of 18%. If he pays $500 every month, how many months will it take him to pay off his debt?\n    \"\"\"\n    principal = 3000.0\n    annual_interest_rate = 0.18\n    monthly_interest_rate = annual_interest_rate / 12\n    monthly_payment = 500.0\n\n    months = 0\n    balance = principal\n\n    # Loop until debt is paid off\n    while balance > 0:\n        interest = balance * monthly_interest_rate\n        balance = balance + interest - monthly_payment\n        months += 1\n        # If balance goes negative, it's paid off this month\n        if balance <= 0:\n            break\n\n    result = months\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    John owes $3000 in credit card debt with an interest rate of 18%. If he pays $500 every month, how many months will it take him to pay off his debt?\n    \"\"\"\n    principal = 3000.0\n    annual_interest_rate = 0.18\n    monthly_interest_rate = annual_interest_rate / 12\n    monthly_payment = 500.0\n\n    months = 0\n    balance = principal\n\n    # Loop until debt is paid off\n    while balance > 0:\n        interest = balance * monthly_interest_rate\n        balance = balance + interest - monthly_payment\n        months += 1\n        # If balance goes negative, it's paid off this month\n        if balance <= 0:\n            break\n\n    result = months\n    return result",
+    "result": 7
+  },
+  {
+    "index": 84,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A sound system is $2500. The installment plan includes a $1000 deposit and nine monthly payments of $200. How much is saved when paying the full cost upfront?\n    \"\"\"\n    full_cost = 2500\n    deposit = 1000\n    monthly_payment = 200\n    number_of_payments = 9\n\n    total_installment_cost = deposit + (monthly_payment * number_of_payments)\n    amount_saved = total_installment_cost - full_cost\n\n    result = amount_saved\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A sound system is $2500. The installment plan includes a $1000 deposit and nine monthly payments of $200. How much is saved when paying the full cost upfront?\n    \"\"\"\n    full_cost = 2500\n    deposit = 1000\n    monthly_payment = 200\n    number_of_payments = 9\n\n    total_installment_cost = deposit + (monthly_payment * number_of_payments)\n    amount_saved = total_installment_cost - full_cost\n\n    result = amount_saved\n\n    return result",
+    "result": 300
+  },
+  {
+    "index": 85,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Sarah is planning to buy a laptop that costs $1000. If she has saved $600, how much more money does she need to save?\n    \"\"\"\n    laptop_cost = 1000\n    amount_saved = 600\n    amount_needed = laptop_cost - amount_saved\n    result = amount_needed\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Sarah is planning to buy a laptop that costs $1000. If she has saved $600, how much more money does she need to save?\n    \"\"\"\n    laptop_cost = 1000\n    amount_saved = 600\n    amount_needed = laptop_cost - amount_saved\n    result = amount_needed\n\n    return result",
+    "result": 400
+  },
+  {
+    "index": 86,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jake earns $12 per hour for his part-time job. He works 20 hours a week for 4 weeks. He spends 10% of his income on taxes, 20% on rent, and 15% on food. How much money does he have left after paying for his expenses?\n    \"\"\"\n    hourly_wage = 12\n    hours_per_week = 20\n    number_of_weeks = 4\n\n    total_income = hourly_wage * hours_per_week * number_of_weeks\n\n    taxes = 0.10 * total_income\n    rent = 0.20 * total_income\n    food = 0.15 * total_income\n\n    expenses = taxes + rent + food\n\n    result = total_income - expenses\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Jake earns $12 per hour for his part-time job. He works 20 hours a week for 4 weeks. He spends 10% of his income on taxes, 20% on rent, and 15% on food. How much money does he have left after paying for his expenses?\n    \"\"\"\n    hourly_wage = 12\n    hours_per_week = 20\n    number_of_weeks = 4\n\n    total_income = hourly_wage * hours_per_week * number_of_weeks\n\n    taxes = 0.10 * total_income\n    rent = 0.20 * total_income\n    food = 0.15 * total_income\n\n    expenses = taxes + rent + food\n\n    result = total_income - expenses\n\n    return result",
+    "result": 528.0
+  },
+  {
+    "index": 87,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Andrew got a discount of 20% when he went to the grocery store. He paid $40 for his groceries, how much did he originally have to pay before the discount?\n    \"\"\"\n    discount_percent = 20\n    amount_paid = 40\n    discount_rate = discount_percent / 100\n    original_price = amount_paid / (1 - discount_rate)\n    result = original_price\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Andrew got a discount of 20% when he went to the grocery store. He paid $40 for his groceries, how much did he originally have to pay before the discount?\n    \"\"\"\n    discount_percent = 20\n    amount_paid = 40\n    discount_rate = discount_percent / 100\n    original_price = amount_paid / (1 - discount_rate)\n    result = original_price\n\n    return result",
+    "result": 50.0
+  },
+  {
+    "index": 88,
+    "response": "def simple_math_problem() -> int:\n    \"\"\"\n    A bookshelf is 80 inches long. If each book is 1 inch thick, how many books can the bookshelf hold?\n    \"\"\"\n    bookshelf_length_inches = 80\n    book_thickness_inches = 1\n    number_of_books = bookshelf_length_inches // book_thickness_inches\n    result = number_of_books\n\n    return result",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A bookshelf is 80 inches long. If each book is 1 inch thick, how many books can the bookshelf hold?\n    \"\"\"\n    bookshelf_length_inches = 80\n    book_thickness_inches = 1\n    number_of_books = bookshelf_length_inches // book_thickness_inches\n    result = number_of_books\n\n    return result",
+    "result": 80
+  },
+  {
+    "index": 89,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A car is driving at a constant speed of 50 miles per hour. If the trip is 200 miles long, how long will it take to complete the trip (in hours)?\n    \"\"\"\n    speed_mph = 50\n    distance_miles = 200\n    time_hours = distance_miles / speed_mph\n    result = time_hours\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A car is driving at a constant speed of 50 miles per hour. If the trip is 200 miles long, how long will it take to complete the trip (in hours)?\n    \"\"\"\n    speed_mph = 50\n    distance_miles = 200\n    time_hours = distance_miles / speed_mph\n    result = time_hours\n\n    return result",
+    "result": 4.0
+  },
+  {
+    "index": 90,
+    "response": "def simple_math_problem() -> int:\n    \"\"\"\n    A team can have either a male or a female coach, but not both. There are 9 times as many male coaches as female coaches. If there are a total of 10 coaches, how many of them are female?\n    \"\"\"\n    total_coaches = 10\n    # Let number of female coaches be f\n    # Then male coaches = 9 * f\n    # total_coaches = f + 9*f = 10*f\n    female_coaches = total_coaches // 10\n    result = female_coaches\n\n    return result",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A team can have either a male or a female coach, but not both. There are 9 times as many male coaches as female coaches. If there are a total of 10 coaches, how many of them are female?\n    \"\"\"\n    total_coaches = 10\n    # Let number of female coaches be f\n    # Then male coaches = 9 * f\n    # total_coaches = f + 9*f = 10*f\n    female_coaches = total_coaches // 10\n    result = female_coaches\n\n    return result",
+    "result": 1
+  },
+  {
+    "index": 91,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 3/4 cup of sugar to make 12 cookies. If you want to make 30 cookies, how much sugar do you need?\n    \"\"\"\n    sugar_per_12_cookies = 3/4  # cups\n    cookies_desired = 30\n    \n    # Calculate sugar needed per 1 cookie\n    sugar_per_cookie = sugar_per_12_cookies / 12\n    \n    # Calculate sugar needed for 30 cookies\n    sugar_needed = sugar_per_cookie * cookies_desired\n    \n    result = sugar_needed\n    \n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    A recipe calls for 3/4 cup of sugar to make 12 cookies. If you want to make 30 cookies, how much sugar do you need?\n    \"\"\"\n    sugar_per_12_cookies = 3/4  # cups\n    cookies_desired = 30\n    \n    # Calculate sugar needed per 1 cookie\n    sugar_per_cookie = sugar_per_12_cookies / 12\n    \n    # Calculate sugar needed for 30 cookies\n    sugar_needed = sugar_per_cookie * cookies_desired\n    \n    result = sugar_needed\n    \n    return result",
+    "result": 1.875
+  },
+  {
+    "index": 92,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A toy store has 15 toy trucks and 23 toy cars in stock. What is the total number of toys in the store?\n    \"\"\"\n    toy_trucks = 15\n    toy_cars = 23\n    total_toys = toy_trucks + toy_cars\n    result = total_toys\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A toy store has 15 toy trucks and 23 toy cars in stock. What is the total number of toys in the store?\n    \"\"\"\n    toy_trucks = 15\n    toy_cars = 23\n    total_toys = toy_trucks + toy_cars\n    result = total_toys\n\n    return result",
+    "result": 38
+  },
+  {
+    "index": 93,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    A company sells 10 products per day. If the company has been operating for 5 days, how many products have they sold so far?\n    \"\"\"\n    products_sold_per_day = 10\n    number_of_days = 5\n    total_products_sold = products_sold_per_day * number_of_days\n    result = total_products_sold\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    A company sells 10 products per day. If the company has been operating for 5 days, how many products have they sold so far?\n    \"\"\"\n    products_sold_per_day = 10\n    number_of_days = 5\n    total_products_sold = products_sold_per_day * number_of_days\n    result = total_products_sold\n\n    return result",
+    "result": 50
+  },
+  {
+    "index": 94,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Jeremy's honey farm produces 50 liters of honey from 5 hives in a year. However, he has managed to increase his production by 60% by incorporating a new technology in honey harvesting. Now he has 12 hives in his honey farm. What will be the total honey produced in 4 years?\n    \"\"\"\n    honey_per_year_original = 50\n    hives_original = 5\n    increase_percentage = 0.60\n    hives_new = 12\n    years = 4\n\n    # Calculate honey per hive per year originally\n    honey_per_hive_per_year = honey_per_year_original / hives_original\n\n    # Increased honey per hive per year after technology\n    honey_per_hive_per_year_new = honey_per_hive_per_year * (1 + increase_percentage)\n\n    # Total honey per year with new hives and new technology\n    total_honey_per_year_new = honey_per_hive_per_year_new * hives_new\n\n    # Total honey in 4 years\n    result = total_honey_per_year_new * years\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Jeremy's honey farm produces 50 liters of honey from 5 hives in a year. However, he has managed to increase his production by 60% by incorporating a new technology in honey harvesting. Now he has 12 hives in his honey farm. What will be the total honey produced in 4 years?\n    \"\"\"\n    honey_per_year_original = 50\n    hives_original = 5\n    increase_percentage = 0.60\n    hives_new = 12\n    years = 4\n\n    # Calculate honey per hive per year originally\n    honey_per_hive_per_year = honey_per_year_original / hives_original\n\n    # Increased honey per hive per year after technology\n    honey_per_hive_per_year_new = honey_per_hive_per_year * (1 + increase_percentage)\n\n    # Total honey per year with new hives and new technology\n    total_honey_per_year_new = honey_per_hive_per_year_new * hives_new\n\n    # Total honey in 4 years\n    result = total_honey_per_year_new * years\n\n    return result",
+    "result": 768.0
+  },
+  {
+    "index": 95,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If a box of cereal contains 1 kg of rice and 2 kg of oats, how much cereal does the box contain?\n    \"\"\"\n    rice_kg = 1\n    oats_kg = 2\n    total_cereal_kg = rice_kg + oats_kg\n    result = total_cereal_kg\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    If a box of cereal contains 1 kg of rice and 2 kg of oats, how much cereal does the box contain?\n    \"\"\"\n    rice_kg = 1\n    oats_kg = 2\n    total_cereal_kg = rice_kg + oats_kg\n    result = total_cereal_kg\n\n    return result",
+    "result": 3
+  },
+  {
+    "index": 96,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Tom bought a new book, a pencil, and a backpack for school. The book was for $12, the pencil for $1.50, and the backpack was four times more expensive than the pencil. How much did Tom pay for his items?\n    \"\"\"\n    book_price = 12\n    pencil_price = 1.50\n    backpack_price = 4 * pencil_price\n    total_price = book_price + pencil_price + backpack_price\n    result = total_price\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Tom bought a new book, a pencil, and a backpack for school. The book was for $12, the pencil for $1.50, and the backpack was four times more expensive than the pencil. How much did Tom pay for his items?\n    \"\"\"\n    book_price = 12\n    pencil_price = 1.50\n    backpack_price = 4 * pencil_price\n    total_price = book_price + pencil_price + backpack_price\n    result = total_price\n\n    return result",
+    "result": 19.5
+  },
+  {
+    "index": 97,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Anna has $240 to buy clothes for her family. She decided to spend 45% of her budget on her daughter's clothes, and 2 times more on her son's clothes than her daughter's, and the rest on her own clothes. How much money will she spend on her son's clothes?\n    \"\"\"\n    total_budget = 240\n    daughters_percentage = 0.45\n    daughters_clothes = total_budget * daughters_percentage\n    sons_clothes = 2 * daughters_clothes\n    result = sons_clothes\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Anna has $240 to buy clothes for her family. She decided to spend 45% of her budget on her daughter's clothes, and 2 times more on her son's clothes than her daughter's, and the rest on her own clothes. How much money will she spend on her son's clothes?\n    \"\"\"\n    total_budget = 240\n    daughters_percentage = 0.45\n    daughters_clothes = total_budget * daughters_percentage\n    sons_clothes = 2 * daughters_clothes\n    result = sons_clothes\n\n    return result",
+    "result": 216.0
+  },
+  {
+    "index": 98,
+    "response": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Gina can finish 25 questions a day. If she has 90 questions to finish and she works for 3 days, how many questions does she still need to complete?\n    \"\"\"\n    questions_per_day = 25\n    total_questions = 90\n    days_worked = 3\n    questions_finished = questions_per_day * days_worked\n    questions_remaining = total_questions - questions_finished\n    result = questions_remaining\n\n    return result\n```",
+    "code": "def simple_math_problem() -> int:\n    \"\"\"\n    Gina can finish 25 questions a day. If she has 90 questions to finish and she works for 3 days, how many questions does she still need to complete?\n    \"\"\"\n    questions_per_day = 25\n    total_questions = 90\n    days_worked = 3\n    questions_finished = questions_per_day * days_worked\n    questions_remaining = total_questions - questions_finished\n    result = questions_remaining\n\n    return result",
+    "result": 15
+  },
+  {
+    "index": 99,
+    "response": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Mike biked a total of 10 miles today. If he biked twice as much in the afternoon than the morning, how many miles did he bike in the morning?\n    \"\"\"\n    total_miles = 10\n    # Let morning miles be x\n    # Afternoon miles = 2 * morning miles = 2x\n    # total = morning + afternoon = x + 2x = 3x\n    morning_miles = total_miles / 3\n    result = morning_miles\n\n    return result\n```",
+    "code": "def simple_math_problem() -> float:\n    \"\"\"\n    Mike biked a total of 10 miles today. If he biked twice as much in the afternoon than the morning, how many miles did he bike in the morning?\n    \"\"\"\n    total_miles = 10\n    # Let morning miles be x\n    # Afternoon miles = 2 * morning miles = 2x\n    # total = morning + afternoon = x + 2x = 3x\n    morning_miles = total_miles / 3\n    result = morning_miles\n\n    return result",
+    "result": 3.3333333333333335
+  }
+]
