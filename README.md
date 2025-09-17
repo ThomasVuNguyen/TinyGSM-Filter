@@ -1,6 +1,8 @@
-# TinyGSM-Filter
-
-A comprehensive analysis and filtering tool for the TinyGSM (Tiny Grade School Math) dataset, designed to evaluate and compare different language models' mathematical reasoning capabilities.
+<div align="center">
+  <img src="assets/icon.png" alt="TinyGSM-Filter Logo" width="200" height="200">
+  <h1>TinyGSM-Filter</h1>
+  <p>A comprehensive analysis and filtering tool for the TinyGSM (Tiny Grade School Math) dataset, designed to evaluate and compare different language models' mathematical reasoning capabilities.</p>
+</div>
 
 ## Overview
 
