@@ -1,0 +1,62 @@
+[
+  {
+    "user": "A museum has 50 exhibits that need to be set up for a new exhibit. Each exhibit takes 15 minutes to set up and they have 6 employees working. How many hours will it take to set up all of the exhibits?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A museum has 50 exhibits that need to be set up for a new exhibit. Each exhibit takes 15 minutes to set up and they have 6 employees working. How many hours will it take to set up all of the exhibits?\n    \"\"\"\n    number_of_exhibits = 50\n    time_per_exhibit_minutes = 15\n    number_of_employees = 6\n\n    total_time_minutes = number_of_exhibits * time_per_exhibit_minutes\n    total_time_hours = total_time_minutes / 60\n    time_per_employee_hours = total_time_hours / number_of_employees\n\n    result = time_per_employee_hours\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 92525
+  },
+  {
+    "user": "A store offers a 20% discount on an item that costs $50. What is the final cost?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A store offers a 20% discount on an item that costs $50. What is the final cost?\n    \"\"\"\n    original_price = 50\n    discount_rate = 0.20\n\n    discount_amount = original_price * discount_rate\n    final_cost = original_price - discount_amount\n\n    result = final_cost\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 111547
+  },
+  {
+    "user": "Student: Kevin borrows $2000 from a friend who charges him 8% simple interest per year. How much interest will he pay in total if he repays the loan in 4 years?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Kevin borrows $2000 from a friend who charges him 8% simple interest per year. How much interest will he pay in total if he repays the loan in 4 years?\n    \"\"\"\n    principal_amount = 2000\n    annual_interest_rate = 0.08  # 8%\n    number_of_years = 4\n\n    interest_per_year = principal_amount * annual_interest_rate\n    total_interest = interest_per_year * number_of_years\n\n    result = total_interest\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 10186
+  },
+  {
+    "user": "If Sarah donates $600 annually to a foundation where 1/8 goes to human rights advocacy, 1/3 goes to education, 1/4 of the remaining goes to disabilities support, and the rest is allocated to the disaster relief fund. How much is allocated to the disaster relief fund?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    If Sarah donates $600 annually to a foundation where 1/8 goes to human rights advocacy, 1/3 goes to education, 1/4 of the remaining goes to disabilities support, and the rest is allocated to the disaster relief fund. How much is allocated to the disaster relief fund?\n    \"\"\"\n    total_donation = 600\n    human_rights_advocacy = (1/8) * total_donation\n    education = (1/3) * total_donation\n    \n    remaining_after_hr_edu = total_donation - human_rights_advocacy - education\n    \n    disabilities_support = (1/4) * remaining_after_hr_edu\n    \n    disaster_relief_fund = remaining_after_hr_edu - disabilities_support\n    \n    result = disaster_relief_fund\n    \n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 37743
+  },
+  {
+    "user": "Possible questions and programs are: Omar wants to buy a book that costs $12. He has $4 in his piggy bank and can earn $2 for each hour of chores he does. How many hours of chores does he need to do to buy the book?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Omar wants to buy a book that costs $12. He has $4 in his piggy bank and can earn $2 for each hour of chores he does. How many hours of chores does he need to do to buy the book?\n    \"\"\"\n    book_cost = 12\n    money_in_piggy_bank = 4\n    earnings_per_hour = 2\n\n    amount_needed = book_cost - money_in_piggy_bank\n    hours_needed = amount_needed / earnings_per_hour\n\n    return hours_needed\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 38687
+  },
+  {
+    "user": "You are driving a car that gets 25 miles per gallon of gas. If you have traveled 150 miles, how many gallons of gas have you used?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    You are driving a car that gets 25 miles per gallon of gas. If you have traveled 150 miles, how many gallons of gas have you used?\n    \"\"\"\n    miles_per_gallon = 25\n    miles_traveled = 150\n    gallons_used = miles_traveled / miles_per_gallon\n\n    result = gallons_used\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 69406
+  },
+  {
+    "user": "The cost of 8 pens and 5 pencils is $50. If the cost of a pen is $3 more than that of a pencil, what is the cost of a pen and a pencil individually?",
+    "assistant": "```python\ndef simple_math_problem() -> tuple:\n    \"\"\"\n    The cost of 8 pens and 5 pencils is $50. If the cost of a pen is $3 more than that of a pencil, what is the cost of a pen and a pencil individually?\n    \"\"\"\n    # Let the cost of a pencil be x\n    # Then the cost of a pen is x + 3\n    # Given: 8 pens and 5 pencils cost $50\n    # Equation: 8 * (x + 3) + 5 * x = 50\n    \n    from sympy import symbols, Eq, solve\n    \n    pencil_cost = symbols('pencil_cost')\n    pen_cost = pencil_cost + 3\n    \n    equation = Eq(8 * pen_cost + 5 * pencil_cost, 50)\n    solution = solve(equation, pencil_cost)\n    \n    # solution will be a list, take the first value as cost of pencil\n    pencil_price = solution[0]\n    pen_price = pencil_price + 3\n    \n    return pen_price, pencil_price\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 13910
+  },
+  {
+    "user": "Tom watches 1/4 hour of TV in the morning and 1/2 hour in the evening. He watches 3 hours of TV throughout the day. If each TV series episode is 1 hour, how many episodes can he watch in 29 days?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Tom watches 1/4 hour of TV in the morning and 1/2 hour in the evening. He watches 3 hours of TV throughout the day. If each TV series episode is 1 hour, how many episodes can he watch in 29 days?\n    \"\"\"\n    morning_watch = 1/4  # hours\n    evening_watch = 1/2  # hours\n    total_daily_watch = 3  # hours per day\n    days = 29\n    episode_length = 1  # hour per episode\n\n    # total hours Tom watches TV in 29 days\n    total_hours = total_daily_watch * days\n\n    # total episodes watched\n    result = total_hours / episode_length\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 8886
+  },
+  {
+    "user": "Student: Amanda ran 2 miles every Monday, Wednesday, and Friday for 4 weeks in October. She ran 3 miles every Tuesday and Thursday for 4 weeks in October. What is the average number of miles Amanda ran per week in October?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Amanda ran 2 miles every Monday, Wednesday, and Friday for 4 weeks in October. \n    She ran 3 miles every Tuesday and Thursday for 4 weeks in October. \n    What is the average number of miles Amanda ran per week in October?\n    \"\"\"\n    miles_per_day_MWF = 2\n    days_MWF_per_week = 3\n    miles_per_day_TTh = 3\n    days_TTh_per_week = 2\n    weeks_in_october = 4\n\n    # Total miles per week for MWF\n    total_miles_MWF_per_week = miles_per_day_MWF * days_MWF_per_week\n    # Total miles per week for TTh\n    total_miles_TTh_per_week = miles_per_day_TTh * days_TTh_per_week\n\n    # Total miles per week\n    total_miles_per_week = total_miles_MWF_per_week + total_miles_TTh_per_week\n\n    # Average miles per week is total miles per week (since consistent every week)\n    result = total_miles_per_week\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 108117
+  },
+  {
+    "user": "A car travels at a speed of 60 km/h for a total of 4 hours. Calculate the total distance travelled.",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A car travels at a speed of 60 km/h for a total of 4 hours. Calculate the total distance travelled.\n    \"\"\"\n    speed_kmh = 60\n    time_hours = 4\n    distance_km = speed_kmh * time_hours\n\n    result = distance_km\n\n    return result\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "original_index": 6277
+  }
+]

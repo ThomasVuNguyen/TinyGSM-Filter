@@ -53,7 +53,7 @@ def judge(question: str, code: str, result: str) -> dict:
         """
         
         completion = client.chat.completions.create(
-            model="meta-llama/Meta-Llama-3.1-70B-Instruct-FP8",
+            model="Qwen/Qwen3-Next-80B-A3B-Thinking",
             messages=[{"role": "user", "content": prompt}],
             max_tokens=200,
             temperature=0.1

@@ -1,0 +1,18 @@
+{
+  "total_datasets_processed": 11,
+  "datasets": [
+    "ThomasTheMaker/TinyGSM-gpt4.1",
+    "ThomasTheMaker/TinyGSM-GPT4.1-no-example",
+    "ThomasTheMaker/TinyGSM-o4-mini",
+    "ThomasTheMaker/TinyGSM-GPT-4.1-mini",
+    "ThomasTheMaker/TinyGSM-GPT-4.1-mini-no-example",
+    "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "ThomasTheMaker/TinyGSM-deepseek-r1",
+    "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "ThomasTheMaker/TinyGSM-Mixtral-8x7B-no-example",
+    "ThomasTheMaker/TinyGSM-4.1-nano",
+    "ThomasTheMaker/TinyGSM-llama3.1-8b"
+  ],
+  "samples_per_dataset": 10,
+  "comparison_analysis": "dataset_comparison_analysis.txt"
+}

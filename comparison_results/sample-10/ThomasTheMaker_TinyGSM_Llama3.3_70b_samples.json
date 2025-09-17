@@ -1,0 +1,62 @@
+[
+  {
+    "user": "A pound of ground beef that usually costs $6 is now sold at $4. A package of buns is sold at a discount of $1. How much will you save via discounts if you buy 10 pounds of ground beef and 6 packages of buns?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A pound of ground beef that usually costs $6 is now sold at $4. A package of buns is sold at a discount of $1. How much will you save via discounts if you buy 10 pounds of ground beef and 6 packages of buns?\n    \"\"\"\n    original_price_ground_beef_per_pound = 6\n    discounted_price_ground_beef_per_pound = 4\n    discount_per_pound_ground_beef = original_price_ground_beef_per_pound - discounted_price_ground_beef_per_pound\n    pounds_of_ground_beef = 10\n    total_discount_ground_beef = discount_per_pound_ground_beef * pounds_of_ground_beef\n    \n    discount_per_package_buns = 1\n    packages_of_buns = 6\n    total_discount_buns = discount_per_package_buns * packages_of_buns\n    \n    result = total_discount_ground_beef + total_discount_buns\n\n    return result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 96519
+  },
+  {
+    "user": "A toy store sells stuffed animals at $5 each and toy cars at $3 each. In the morning they sold an average of 10 stuffed animals and 20 toy cars. In the afternoon, they sold 20 stuffed animals and 30 toy cars. How much are their total sales for the day?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A toy store sells stuffed animals at $5 each and toy cars at $3 each. In the morning they sold an average of 10 stuffed animals and 20 toy cars. In the afternoon, they sold 20 stuffed animals and 30 toy cars. How much are their total sales for the day?\n    \"\"\"\n    price_of_stuffed_animal = 5\n    price_of_toy_car = 3\n    morning_stuffed_animals_sold = 10\n    morning_toy_cars_sold = 20\n    afternoon_stuffed_animals_sold = 20\n    afternoon_toy_cars_sold = 30\n    \n    morning_stuffed_animals_revenue = price_of_stuffed_animal * morning_stuffed_animals_sold\n    morning_toy_cars_revenue = price_of_toy_car * morning_toy_cars_sold\n    afternoon_stuffed_animals_revenue = price_of_stuffed_animal * afternoon_stuffed_animals_sold\n    afternoon_toy_cars_revenue = price_of_toy_car * afternoon_toy_cars_sold\n    \n    morning_revenue = morning_stuffed_animals_revenue + morning_toy_cars_revenue\n    afternoon_revenue = afternoon_stuffed_animals_revenue + afternoon_toy_cars_revenue\n    \n    result = morning_revenue + afternoon_revenue\n\n    return result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 143682
+  },
+  {
+    "user": "Jennifer is renovating her living room. She currently has 4 sofas and no armchairs. She decides to install 3 times as many armchairs than sofas. She then installs 7 more armchairs. How many total armchairs does she have in her living room now?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    Jennifer is renovating her living room. She currently has 4 sofas and no armchairs. She decides to install 3 times as many armchairs than sofas. She then installs 7 more armchairs. How many total armchairs does she have in her living room now?\n    \"\"\"\n    initial_sofas = 4\n    initial_armchairs = 0\n    armchairs_installed_initially = 3 * initial_sofas\n    additional_armchairs_installed = 7\n    total_armchairs = initial_armchairs + armchairs_installed_initially + additional_armchairs_installed\n    result = total_armchairs\n\n    return result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 146017
+  },
+  {
+    "user": "A company sells a product for $25, which costs $12 to produce. If the company sells 150 products, what is the total profit?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A company sells a product for $25, which costs $12 to produce. If the company sells 150 products, what is the total profit?\n    \"\"\"\n    product_price = 25\n    production_cost = 12\n    number_of_products = 150\n    total_revenue = product_price * number_of_products\n    total_production_cost = production_cost * number_of_products\n    result = total_revenue - total_production_cost\n\n    return result\n\n# Example usage:\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 36580
+  },
+  {
+    "user": "Ken has 24 bars of soap and wants to share them evenly between his five coworkers. How many bars of soap will each coworker receive?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Ken has 24 bars of soap and wants to share them evenly between his five coworkers. How many bars of soap will each coworker receive?\n    \"\"\"\n    total_bars_of_soap = 24\n    number_of_coworkers = 5\n    bars_per_coworker = total_bars_of_soap / number_of_coworkers\n    result = bars_per_coworker\n\n    return result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 55803
+  },
+  {
+    "user": "Rachel worked as a pharmacist for 7 years, took a break for a year and 3 months, and then worked for 4 years and 9 months as a pharmaceutical sales representative. How many months of work experience does Rachel have?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Rachel worked as a pharmacist for 7 years, took a break for a year and 3 months, and then worked for 4 years and 9 months as a pharmaceutical sales representative. How many months of work experience does Rachel have?\n    \"\"\"\n    years_as_pharmacist = 7\n    months_as_pharmacist = years_as_pharmacist * 12\n    \n    break_years = 1\n    break_months = 3\n    total_break_months = (break_years * 12) + break_months\n    \n    years_as_sales_representative = 4\n    months_as_sales_representative = years_as_sales_representative * 12\n    additional_months_as_sales_representative = 9\n    \n    total_months_as_sales_representative = months_as_sales_representative + additional_months_as_sales_representative\n    \n    total_work_experience = months_as_pharmacist + total_months_as_sales_representative\n    result = total_work_experience\n\n    return result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 150145
+  },
+  {
+    "user": "A bag of candies has 72 pieces and 1/3 of the candies are green. How many green candies are there in the bag?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n\"\"\"\nA bag of candies has 72 pieces and 1/3 of the candies are green. How many green candies are there in the bag?\n\"\"\"\ntotal_candies = 72\nfraction_green_candies = 1/3\ngreen_candies = total_candies * fraction_green_candies\nresult = green_candies\n\nreturn result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 115487
+  },
+  {
+    "user": "The volume of a cube is 125 cm^3. What is the length of each side of the cube?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n\"\"\"\nThe volume of a cube is 125 cm^3. What is the length of each side of the cube?\n\"\"\"\nvolume_of_cube = 125  # Volume of the cube in cm^3\nside_length_cubed = volume_of_cube  # Volume of a cube is side_length^3\nside_length = round(side_length_cubed ** (1/3))  # Calculate the side length by taking the cube root\n\nresult = side_length\n\nreturn result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 51633
+  },
+  {
+    "user": "A clothing store has 80 customers. Half of them are women, and one-third of the women bought dresses. If 16 men bought shirts, how many women bought dresses?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A clothing store has 80 customers. Half of them are women, and one-third of the women bought dresses. If 16 men bought shirts, how many women bought dresses?\n    \"\"\"\n    total_customers = 80\n    proportion_of_women = 0.5\n    number_of_women = total_customers * proportion_of_women\n    proportion_of_women_who_bought_dresses = 1/3\n    number_of_women_who_bought_dresses = number_of_women * proportion_of_women_who_bought_dresses\n    result = number_of_women_who_bought_dresses\n\n    return result\n\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 108941
+  },
+  {
+    "user": "In a company, there are 30 managers and 50 employees. If 5 more managers are hired, what percentage of the company are employees?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    In a company, there are 30 managers and 50 employees. If 5 more managers are hired, what percentage of the company are employees?\n    \"\"\"\n    initial_managers = 30\n    initial_employees = 50\n    additional_managers = 5\n    total_managers = initial_managers + additional_managers\n    total_employees_and_managers = total_managers + initial_employees\n    percentage_of_employees = (initial_employees / total_employees_and_managers) * 100\n    result = percentage_of_employees\n\n    return result\n\n# Example usage:\nprint(simple_math_problem())\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Llama3.3-70b",
+    "original_index": 142588
+  }
+]

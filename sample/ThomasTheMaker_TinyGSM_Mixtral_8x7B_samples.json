@@ -1,0 +1,62 @@
+[
+  {
+    "user": "Emma had $50. She spent $25 on a new book and gave $10 to charity. How much money does Emma have now?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    Emma had $50. She spent $25 on a new book and gave $10 to charity. How much money does Emma have now?\n    \"\"\"\n    starting_amount = 50\n    amount_spent = 25\n    amount_donated = 10\n    remaining_amount = starting_amount - amount_spent - amount_donated\n    result = remaining_amount\n\n    return result\n```\nThis code defines a function `simple_math_problem` that takes no arguments and returns a float. The function starts by assigning the initial amount of money Emma has to the variable `starting_amount`. It then assigns the amount Emma spent on a new book to `amount_spent` and the amount she donated to charity to `amount_donated`.\n\nNext, it calculates how much money Emma has left by subtracting the amount she spent and donated from her starting amount and assigns the result to `remaining_amount`. Finally, it assigns the value of `remaining_amount` to the variable `result` and returns it.\n\nYou can call this function to get the solution to the problem:\n```python\nprint(simple_math_problem())  # Output: 15.0\n```\nThis will print `15.0`, which is the amount of money Emma has left after spending $25 on a new book and donating $10 to charity.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 83858
+  },
+  {
+    "user": "Mary has 30 marbles. She has 1/3 as many marbles as her sister. Her sister gave her some marbles and now they each have the same amount of marbles. How many marbles did Mary's sister give her?",
+    "assistant": "def simple\\_math\\_problem() -> int:\n\"\"\"\nMary has 30 marbles. She has 1/3 as many marbles as her sister. Her sister gave her some marbles and now they each have the same amount of marbles. How many marbles did Mary's sister give her?\n\"\"\"\nmarbles\\_mary = 30\nmarbles\\_sister = marbles\\_mary \\* 3\nmarbles\\_given = marbles\\_sister - marbles\\_mary\n\nresult = marbles\\_given\n\nreturn result\n\nThis code first calculates the number of marbles Mary's sister has (marbles\\_sister), which is three times the number of marbles Mary has (marbles\\_mary). Then it calculates the number of marbles Mary's sister gave to Mary (marbles\\_given), which is the difference between the number of marbles Mary's sister has and the number of marbles Mary has. The result is the number of marbles Mary's sister gave to Mary.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 70386
+  },
+  {
+    "user": "A pizza restaurant has 20 tables and each table can seat 4 people. If each person orders 2 slices of pizza, how many slices of pizza need to be made for all the tables to be full?",
+    "assistant": "```python\ndef pizza_needed_for_full_restaurant() -> int:\n    \"\"\"\n    A pizza restaurant has 20 tables and each table can seat 4 people. If each person orders 2 slices of pizza, how many slices of pizza need to be made for all the tables to be full?\n    \"\"\"\n    tables_in_restaurant = 20\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 36447
+  },
+  {
+    "user": "Ben wants to buy a LEGO set for $45. He has saved up $30 and can earn up to $20 per week from his allowance. How long will it take Ben to save up for the LEGO set?",
+    "assistant": "```python\ndef time_to_buy_lego_set() -> float:\n    \"\"\"\n    Ben wants to buy a LEGO set for $45. He has saved up $30 and can earn up to $20 per week from his allowance. How long will it take Ben to save up for the LEGO set?\n    \"\"\"\n    money_saved = 30\n    money_needed = 45\n    weekly_earnings = 20\n\n    time_to_save = (money_needed - money_saved) / weekly_earnings\n\n    return time_to_save\n```",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 2844
+  },
+  {
+    "user": "Tom wants to buy pens for all his friends. There are 15 friends, including Tom. Tom wants to give each friend 4 pens. Each pack of pens contains 8 pens. How many packs of pens should Tom buy?",
+    "assistant": "def simple_math_problem() -> int:\n\"\"\"\nTom wants to buy pens for all his friends. There are 15 friends, including Tom. Tom wants to give each friend 4 pens. Each pack of pens contains 8 pens. How many packs of pens should Tom buy?\n\"\"\"\nfriends = 15\npensPerFriend = 4\npensPerPack = 8\n\npacksNeeded = (friends * pensPerFriend) // pensPerPack\nresult = packsNeeded\n\nreturn result\n\nNote: I've used the `//` operator for integer division, which may not be supported in older versions of Python. If you're using Python 2.x, you can replace `(friends * pensPerFriend) // pensPerPack` with `(float(friends * pensPerFriend) / pensPerPack)`.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 122539
+  },
+  {
+    "user": "A phone case manufacturer produces 1000 phone cases per day, however, 9% of the cases produced are faulty. If they are able to sell 80% of their non-faulty cases, how many phone cases will they sell in a day?",
+    "assistant": "```python\ndef phone_cases_sold_per_day() -> float:\n    \"\"\"\n    A phone case manufacturer produces 1000 phone cases per day, however, ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 174837
+  },
+  {
+    "user": "A company sold 500 products for a total revenue of $1500. What was the average price per product?",
+    "assistant": "```python\ndef simple_math_problem() -> float:\n    \"\"\"\n    A company sold 500 products for a total revenue of $1",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 24015
+  },
+  {
+    "user": "In a candy store, the number of red candies is three times the number of blue candies. There are 20 more yellow candies than red candies. If there are 30 blue candies, calculate the total number of candies in the store.",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    In a candy store, the number of red candies is three times the number of blue candies. There are 20 more yellow candies than red candies. If there are 30 blue candies, calculate the total number of candies in the store.\n    \"\"\"\n    # Number of blue candies\n    blue_candies = 30\n\n    # Number of red candies is three times the number of blue candies\n",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 33152
+  },
+  {
+    "user": "There are 24 cupcakes in a box. Mary takes 6 cupcakes out of the box and gives 3 cupcakes to her friend. How many cupcakes are left in the box?",
+    "assistant": "```python\ndef simple_math_problem() -> int:\n    \"\"\"\n    There are 24 cupcakes in a box. Mary takes 6 cupcakes out of the box and gives ",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 180972
+  },
+  {
+    "user": "Result: seats_needed = 20 A movie theater has three times as many comedy movies as action movies. The number of drama movies is 5 more than the number of action movies. If there are 10 action movies, how many seats are needed in the theater?",
+    "assistant": "```python\ndef seats_needed() -> float:\n    \"\"\"\n    A movie theater has three times as many comedy movies as action movies. The number of drama movies is 5 more than the number of action movies. If there are 10 action movies, how many seats are needed in the theater?\n    \"\"\"\n    # Variable assignments with descriptive names\n    num_action_movies = 10\n    num_comedy_movies = 3 * num_action_movies\n    num_drama_movies = num_action_movies + 5\n\n    # Calculate step by step\n    total_movies = num_action_movies + num_comedy_movies + num_drama_movies\n    seats_needed = 100 * total_movies  # assuming 100 seats per movie\n\n    result = seats_needed\n\n    return result\n```\nNote: The problem statement does not provide information on how many seats are needed per movie, so I assumed 100 seats per movie for the calculation.",
+    "dataset": "ThomasTheMaker/TinyGSM-Mixtral-8x7B",
+    "original_index": 57980
+  }
+]

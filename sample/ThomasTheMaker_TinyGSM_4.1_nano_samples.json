@@ -1,0 +1,62 @@
+[
+  {
+    "user": "Sarah runs 2.5 miles every day for a week. How many total miles does she run in that week?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nSarah runs 2.5 miles every day for a week. How many total miles does she run in that week?\n\"\"\"\nmilesPerDay = 2.5\ndaysInWeek = 7\ntotalMiles = milesPerDay * daysInWeek\nresult = totalMiles\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 150341
+  },
+  {
+    "user": "Emma bought 6 bottles of orange juice, 4 bottles of apple juice, and 7 bottles of cranberry juice. There were 8 cups of juice in each bottle. How many cups of juice did Emma buy in all?",
+    "assistant": "def simple_math_problem() -> int:\n\"\"\"\nEmma bought 6 bottles of orange juice, 4 bottles of apple juice, and 7 bottles of cranberry juice. There were 8 cups of juice in each bottle. How many cups of juice did Emma buy in all?\n\"\"\"\norange_bottles = 6\napple_bottles = 4\ncranberry_bottles = 7\ncups_per_bottle = 8\n\ntotal_bottles = orange_bottles + apple_bottles + cranberry_bottles\ntotal_cups = total_bottles * cups_per_bottle\n\nresult = total_cups\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 122400
+  },
+  {
+    "user": "Student: Cheetah and Leopard together have 20 pieces of jewelry: 7 rings and 13 necklaces. Cheetah has 2/5 of the rings and 1/2 of the necklaces. How many pieces of jewelry does Cheetah have?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nStudent: Cheetah and Leopard together have 20 pieces of jewelry: 7 rings and 13 necklaces. Cheetah has 2/5 of the rings and 1/2 of the necklaces. How many pieces of jewelry does Cheetah have?\n\"\"\"\n# Total jewelry pieces\ntotalJewelry = 20\n\n# Total rings and necklaces\ntotalRings = 7\ntotalNecklaces = 13\n\n# Cheetah's rings: 2/5 of total rings\ncheetahRings = (2/5) * totalRings\n\n# Cheetah's necklaces: 1/2 of total necklaces\ncheetahNecklaces = (1/2) * totalNecklaces\n\n# Total jewelry Cheetah has\ncheetahTotalJewelry = cheetahRings + cheetahNecklaces\n\nresult = cheetahTotalJewelry\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 57906
+  },
+  {
+    "user": "Alex needs to fill a water tank. The tank can hold 500 gallons of water and he has already filled it up to 200 gallons. If he fills 80 gallons each day, how many more days will Alex need to fill the tank to its maximum capacity?",
+    "assistant": "def simple_math_problem() -> int:\n\"\"\"\nAlex needs to fill a water tank. The tank can hold 500 gallons of water and he has already filled it up to 200 gallons. If he fills 80 gallons each day, how many more days will Alex need to fill the tank to its maximum capacity?\n\"\"\"\ntotal_capacity = 500  # total capacity of the tank in gallons\ncurrent_level = 200   # current level of water in gallons\ndaily_fill = 80       # gallons filled each day\n\nremaining_capacity = total_capacity - current_level\ndays_needed = remaining_capacity / daily_fill\nresult = int(days_needed)\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 46347
+  },
+  {
+    "user": "Zoe aims to bake an average of 2 cakes per day over the next week. On Monday she baked 3 cakes, on Tuesday she baked 1 cake, on Wednesday she baked 2 cakes, on Thursday she baked 1 cake. How many cakes does she need to bake on Friday and Saturday to meet her goal?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nZoe aims to bake an average of 2 cakes per day over the next week. On Monday she baked 3 cakes, on Tuesday she baked 1 cake, on Wednesday she baked 2 cakes, on Thursday she baked 1 cake. How many cakes does she need to bake on Friday and Saturday to meet her goal?\n\"\"\"\n# Known cakes baked each day\nmondayCakes = 3\ntuesdayCakes = 1\nwednesdayCakes = 2\nthursdayCakes = 1\n\n# Total cakes baked so far\ntotalCakesSoFar = mondayCakes + tuesdayCakes + wednesdayCakes + thursdayCakes\n\n# Total days in the week\ntotalDays = 7\n# Zoe wants an average of 2 cakes per day over the week\ntotalCakesGoal = 2 * totalDays\n\n# Cakes needed on Friday and Saturday combined\ncakesNeeded = totalCakesGoal - totalCakesSoFar\n\n# Analyzing the problem, it asks for cakes on Friday and Saturday\ncakesOnFriday = None\ncakesOnSaturday = None\n\n# Since the question is to find how many she needs to bake on both days combined,\n# and it doesn't specify distributing equally, we just provide the total needed for both days.\nresult = cakesNeeded\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 66185
+  },
+  {
+    "user": "Student: Camille's parents agreed to pay her $400 per month for tutoring math to her neighbor. If she tutors for 10 hours each week, how much does Camille earn for each hour spent tutoring?",
+    "assistant": "def simple_math_problem() -> float:\n    \"\"\"\n    Student: Camille's parents agreed to pay her $400 per month for tutoring math to her neighbor. If she tutors for 10 hours each week, how much does Camille earn for each hour spent tutoring?\n    \"\"\"\n    monthly_payment = 400  # dollars\n    hours_per_week = 10\n    weeks_per_month = 4  # assuming 4 weeks in a month\n    \n    total_hours_per_month = hours_per_week * weeks_per_month\n    earnings_per_hour = monthly_payment / total_hours_per_month\n    \n    return earnings_per_hour",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 105105
+  },
+  {
+    "user": "A factory produces 2000 widgets per day. If the factory operates for 8 hours per day, how many widgets does it produce per hour?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nA factory produces 2000 widgets per day. If the factory operates for 8 hours per day, how many widgets does it produce per hour?\n\"\"\"\nwidgets_per_day = 2000\nhours_per_day = 8\nwidgets_per_hour = widgets_per_day / hours_per_day\nresult = widgets_per_hour\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 129743
+  },
+  {
+    "user": "A restaurant bill came to $85.50. If three friends split the bill equally and left a 20% tip, how much did each person pay in total?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nA restaurant bill came to $85.50. If three friends split the bill equally and left a 20% tip, how much did each person pay in total?\n\"\"\"\n# Total bill amount\nbill_amount = 85.50\n\n# Number of friends splitting the bill\nnumber_of_friends = 3\n\n# Calculate the tip amount (20% of the bill)\ntip_percentage = 20\ntip_amount = bill_amount * (tip_percentage / 100)\n\n# Calculate total amount to be paid (bill + tip)\ntotal_amount = bill_amount + tip_amount\n\n# Calculate how much each person pays\namount_per_person = total_amount / number_of_friends\n\nresult = amount_per_person\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 105548
+  },
+  {
+    "user": "Jack collected 70 seashells from the beach and twice as many clams from the ocean. What is the difference between the number of seashells and clams?",
+    "assistant": "def simple_math_problem() -> int:\n\"\"\"\nJack collected 70 seashells from the beach and twice as many clams from the ocean. What is the difference between the number of seashells and clams?\n\"\"\"\nseashells = 70\nclams = 2 * seashells\ndifference = abs(seashells - clams)\n\nresult = difference\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 165006
+  },
+  {
+    "user": "Mark and Lily are splitting the cost of a wedding. For the first 3 months, the cost is $10,000 per month and then $15,000 per month for the next 3 months. How much will each of them pay for the wedding?",
+    "assistant": "def simple_math_problem() -> float:\n\"\"\"\nMark and Lily are splitting the cost of a wedding. For the first 3 months, the cost is $10,000 per month and then $15,000 per month for the next 3 months. How much will each of them pay for the wedding?\n\"\"\"\n# Monthly costs for the first 3 months\ncost_first_three_months = 10000\n# Number of months at first rate\nmonths_first_period = 3\n# Total cost for the first 3 months\ntotal_first_period = cost_first_three_months * months_first_period\n\n# Monthly costs for the next 3 months\ncost_next_three_months = 15000\n# Number of months at second rate\nmonths_second_period = 3\n# Total cost for the next 3 months\ntotal_second_period = cost_next_three_months * months_second_period\n\n# Total wedding cost\ntotal_wedding_cost = total_first_period + total_second_period\n\n# Since Mark and Lily split the cost equally\neach_payment = total_wedding_cost / 2\n\nresult = each_payment\n\nreturn result",
+    "dataset": "ThomasTheMaker/TinyGSM-4.1-nano",
+    "original_index": 124782
+  }
+]
